@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vpet"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vpet.elf">
+				<Option output="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/vpet.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/App"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 vpet.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vpet.elf/fast">
+				<Option output="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/vpet.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/App"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 vpet.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/display.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/gpio.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/i2c.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/i2s.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/main.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/spi.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Inc/stm32f4xx_it.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/Vec2d/Vec2d.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/Vec2d/Vec2d.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/Display.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/PixelColor.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/Drawable.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/pixel/Pixel.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/pixel/Pixel.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Main/Main.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Main/Main.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/DisplayConfig.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/display.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/gpio.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/i2c.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/i2s.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/main.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/spi.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/stm32f4xx_it.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/syscalls.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/sysmem.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/system_stm32f4xx.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Startup/startup_stm32f411vetx.s">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc/usbh_cdc.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/STM32F411VETX_FLASH.ld">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/App/usb_host.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/App/usb_host.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target/usbh_conf.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target/usbh_conf.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target/usbh_platform.c">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target/usbh_platform.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
