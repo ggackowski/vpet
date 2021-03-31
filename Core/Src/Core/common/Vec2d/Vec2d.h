@@ -10,8 +10,11 @@ namespace tama
     class Vec2d
     {
     public:
+        Vec2d(int i, int i1);
+
         int x;
         int y;
+        Vec2d operator+(Vec2d);
     };
 }
 

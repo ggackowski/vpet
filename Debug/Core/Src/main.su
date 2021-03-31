@@ -1,3 +1,4 @@
-main.c:71:5:main	56	static
-main.c:148:6:SystemClock_Config	112	static
-main.c:204:6:Error_Handler	4	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+main.cpp:72:5:int main()	16	static
+main.cpp:146:6:void SystemClock_Config()	112	static
+main.cpp:202:6:void Error_Handler()	4	static

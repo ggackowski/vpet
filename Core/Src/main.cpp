@@ -27,8 +27,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "display.h"
 #include "./Main/Main.h"
+//#include "display.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,33 +100,27 @@ int main(void)
   MX_USB_HOST_Init();
   /* USER CODE BEGIN 2 */
 
-  struct display_config cfg;
-cfg.spi = &hspi1;
-cfg.reset_port = RST_GPIO_Port;
-cfg.reset_pin = RST_Pin;
-cfg.bl_port = BL_GPIO_Port;
-cfg.bl_pin = BL_Pin;
-cfg.dc_port = DC_GPIO_Port;
-cfg.dc_pin = DC_Pin;
-cfg.ce_port = CE_GPIO_Port;
-cfg.ce_pin = CE_Pin;
 
-  	display_setup(&cfg);
-  	display_set_dxy(&cfg, horizontal, 0, 0);
+
+//  struct display_config cfg;
+//cfg.spi = &hspi1;
+//cfg.reset_port = RST_GPIO_Port;
+//cfg.reset_pin = RST_Pin;
+//cfg.bl_port = BL_GPIO_Port;
+//cfg.bl_pin = BL_Pin;
+//cfg.dc_port = DC_GPIO_Port;
+//cfg.dc_pin = DC_Pin;
+//cfg.ce_port = CE_GPIO_Port;
+//cfg.ce_pin = CE_Pin;
+//
+//  	display_setup(&cfg);
+//  	display_set_dxy(&cfg, horizontal, 0, 0);
 //	display_write_data(&cfg, 0x1);
-//  	display_set_dxy(&cfg, horizontal, , 0);
+//  	display_set_dxy(&cfg, horizontal, 0, 0);
 //  	display_write_data(&cfg, 0x1);
+//
 
-  	for (uint8_t row = 0; row < 6; row++) {
-  		for (uint8_t col = 0; col < 10; col++) {
-  			for (uint8_t j = 0; j < 4; j++)
-  				display_write_data(&cfg, 0x0F);
-  			for (uint8_t j = 0; j < 4; j++)
-  				display_write_data(&cfg, 0xF0);
-  		}
-  		for (uint8_t j = 0; j < 4; j++)
-  			display_write_data(&cfg, 0x0F);
-  	}
+//  HAL_GPIO_WritePin(RST_GPIO_Port, RST_Pin, GPIO_PIN_RESET);
 
     tama::Main tamaMain;
   	tamaMain.run();

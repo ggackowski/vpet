@@ -18,7 +18,7 @@ namespace tama
     public:
         void displayData() override;
 
-        void setData(PixelColor *) override;
+        void setData(DisplayData &) override;
 
         explicit Nokia5510Display(DisplayConfig &);
 

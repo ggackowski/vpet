@@ -7,6 +7,7 @@
 
 #include <memory>
 #include "../STM32F411Disco-drivers/display/DisplayConfig.h"
+#include "../STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.h"
 
 namespace tama
 {
@@ -17,6 +18,7 @@ namespace tama
 
     private:
         DisplayConfig getDefaultNokia5110DisplayConfig();
+        std::shared_ptr<Texture> makeSampleTexture();
     };
 }
 

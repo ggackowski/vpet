@@ -13,8 +13,8 @@ tama::DisplayRefresher::DisplayRefresher(const std::shared_ptr<Display> &display
 
 void tama::DisplayRefresher::refresh()
 {
-    display->setData(displayData->getDrawingData());
-    display->displayData();
+//    display->setData(displayData->getDrawingData());
+//    display->displayData();
 }
 
 

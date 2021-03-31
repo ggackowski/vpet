@@ -5,9 +5,9 @@
 #include <memory>
 #include "Pixel.h"
 
-tama::PixelColor *tama::Pixel::getTexture()
+std::shared_ptr<tama::Texture> tama::Pixel::getTexture()
 {
-    return color;
+    return nullptr;
 }
 
 tama::Pixel::Pixel(const tama::Vec2d &position, tama::PixelColor & color) : position(position)

@@ -6,6 +6,7 @@
 #define VPET_DISPLAY_H
 
 #include "PixelColor.h"
+#include "display-data/DisplayData.h"
 
 namespace tama
 {
@@ -15,7 +16,7 @@ namespace tama
     public:
         virtual void displayData() = 0;
 
-        virtual void setData(PixelColor *) = 0;
+        virtual void setData(DisplayData &) = 0;
 
     };
 }

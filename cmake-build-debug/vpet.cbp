@@ -138,13 +138,16 @@
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/Vec2d/Vec2d.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/observers/ChangeObserver.h">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/Display.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/PixelColor.h">
 			<Option target="vpet.elf"/>
 		</Unit>
-		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.cpp">
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data-manager/DisplayDataManager.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.h">
@@ -159,10 +162,25 @@
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/Drawable.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/texture.h">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/pixel/Pixel.cpp">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/pixel/Pixel.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Main/Main.cpp">
@@ -178,6 +196,12 @@
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/display.c">

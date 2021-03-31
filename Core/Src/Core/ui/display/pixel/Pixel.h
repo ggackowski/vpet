@@ -16,7 +16,7 @@ namespace tama
         Pixel(const Vec2d &position, PixelColor & color);
 
     public:
-        PixelColor *getTexture() override;
+        std::shared_ptr<Texture> getTexture() override;
 
         Vec2d getPosition() override;
 

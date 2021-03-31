@@ -4,7 +4,10 @@
 #ifndef VPET_DISPLAY_CONFIG
 #define VPET_DISPLAY_CONFIG
 
-#include <stm32f4xx_hal.h>
+#include "stm32f4xx_hal.h"
+#include <stdint.h>
+#include "spi.h"
+#include "gpio.h"
 
 namespace tama
 {

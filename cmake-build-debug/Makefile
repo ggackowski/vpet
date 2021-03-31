@@ -170,33 +170,6 @@ Core/Src/Core/common/Vec2d/Vec2d.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.s
 .PHONY : Core/Src/Core/common/Vec2d/Vec2d.cpp.s
 
-Core/Src/Core/ui/display/display-data/DisplayData.obj: Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj
-
-.PHONY : Core/Src/Core/ui/display/display-data/DisplayData.obj
-
-# target to build an object file
-Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj
-.PHONY : Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj
-
-Core/Src/Core/ui/display/display-data/DisplayData.i: Core/Src/Core/ui/display/display-data/DisplayData.cpp.i
-
-.PHONY : Core/Src/Core/ui/display/display-data/DisplayData.i
-
-# target to preprocess a source file
-Core/Src/Core/ui/display/display-data/DisplayData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.i
-.PHONY : Core/Src/Core/ui/display/display-data/DisplayData.cpp.i
-
-Core/Src/Core/ui/display/display-data/DisplayData.s: Core/Src/Core/ui/display/display-data/DisplayData.cpp.s
-
-.PHONY : Core/Src/Core/ui/display/display-data/DisplayData.s
-
-# target to generate assembly for a file
-Core/Src/Core/ui/display/display-data/DisplayData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.s
-.PHONY : Core/Src/Core/ui/display/display-data/DisplayData.cpp.s
-
 Core/Src/Core/ui/display/display-refresher/DisplayRefresher.obj: Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj
 
 .PHONY : Core/Src/Core/ui/display/display-refresher/DisplayRefresher.obj
@@ -224,6 +197,33 @@ Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.s
 .PHONY : Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.s
 
+Core/Src/Core/ui/display/drawable/sprite/Sprite.obj: Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj
+
+.PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.obj
+
+# target to build an object file
+Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj
+.PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj
+
+Core/Src/Core/ui/display/drawable/sprite/Sprite.i: Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i
+
+.PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.i
+
+# target to preprocess a source file
+Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i
+.PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i
+
+Core/Src/Core/ui/display/drawable/sprite/Sprite.s: Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s
+
+.PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.s
+
+# target to generate assembly for a file
+Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s
+.PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s
+
 Core/Src/Core/ui/display/pixel/Pixel.obj: Core/Src/Core/ui/display/pixel/Pixel.cpp.obj
 
 .PHONY : Core/Src/Core/ui/display/pixel/Pixel.obj
@@ -250,6 +250,33 @@ Core/Src/Core/ui/display/pixel/Pixel.s: Core/Src/Core/ui/display/pixel/Pixel.cpp
 Core/Src/Core/ui/display/pixel/Pixel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.s
 .PHONY : Core/Src/Core/ui/display/pixel/Pixel.cpp.s
+
+Core/Src/Core/ui/display/scene/Scene.obj: Core/Src/Core/ui/display/scene/Scene.cpp.obj
+
+.PHONY : Core/Src/Core/ui/display/scene/Scene.obj
+
+# target to build an object file
+Core/Src/Core/ui/display/scene/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj
+.PHONY : Core/Src/Core/ui/display/scene/Scene.cpp.obj
+
+Core/Src/Core/ui/display/scene/Scene.i: Core/Src/Core/ui/display/scene/Scene.cpp.i
+
+.PHONY : Core/Src/Core/ui/display/scene/Scene.i
+
+# target to preprocess a source file
+Core/Src/Core/ui/display/scene/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.i
+.PHONY : Core/Src/Core/ui/display/scene/Scene.cpp.i
+
+Core/Src/Core/ui/display/scene/Scene.s: Core/Src/Core/ui/display/scene/Scene.cpp.s
+
+.PHONY : Core/Src/Core/ui/display/scene/Scene.s
+
+# target to generate assembly for a file
+Core/Src/Core/ui/display/scene/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.s
+.PHONY : Core/Src/Core/ui/display/scene/Scene.cpp.s
 
 Core/Src/Main/Main.obj: Core/Src/Main/Main.cpp.obj
 
@@ -304,6 +331,33 @@ Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.s: Core/Src/STM32F411Di
 Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.s
 .PHONY : Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.s
+
+Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.obj: Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj
+
+.PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.obj
+
+# target to build an object file
+Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj
+.PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj
+
+Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.i: Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i
+
+.PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.i
+
+# target to preprocess a source file
+Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i
+.PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i
+
+Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.s: Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
+
+.PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.s
+
+# target to generate assembly for a file
+Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
+.PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
 
 Core/Src/display.obj: Core/Src/display.c.obj
 
@@ -1433,21 +1487,27 @@ help:
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.obj"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.i"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.s"
-	@echo "... Core/Src/Core/ui/display/display-data/DisplayData.obj"
-	@echo "... Core/Src/Core/ui/display/display-data/DisplayData.i"
-	@echo "... Core/Src/Core/ui/display/display-data/DisplayData.s"
 	@echo "... Core/Src/Core/ui/display/display-refresher/DisplayRefresher.obj"
 	@echo "... Core/Src/Core/ui/display/display-refresher/DisplayRefresher.i"
 	@echo "... Core/Src/Core/ui/display/display-refresher/DisplayRefresher.s"
+	@echo "... Core/Src/Core/ui/display/drawable/sprite/Sprite.obj"
+	@echo "... Core/Src/Core/ui/display/drawable/sprite/Sprite.i"
+	@echo "... Core/Src/Core/ui/display/drawable/sprite/Sprite.s"
 	@echo "... Core/Src/Core/ui/display/pixel/Pixel.obj"
 	@echo "... Core/Src/Core/ui/display/pixel/Pixel.i"
 	@echo "... Core/Src/Core/ui/display/pixel/Pixel.s"
+	@echo "... Core/Src/Core/ui/display/scene/Scene.obj"
+	@echo "... Core/Src/Core/ui/display/scene/Scene.i"
+	@echo "... Core/Src/Core/ui/display/scene/Scene.s"
 	@echo "... Core/Src/Main/Main.obj"
 	@echo "... Core/Src/Main/Main.i"
 	@echo "... Core/Src/Main/Main.s"
 	@echo "... Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.obj"
 	@echo "... Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.i"
 	@echo "... Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.s"
+	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.obj"
+	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.i"
+	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.s"
 	@echo "... Core/Src/display.obj"
 	@echo "... Core/Src/display.i"
 	@echo "... Core/Src/display.s"

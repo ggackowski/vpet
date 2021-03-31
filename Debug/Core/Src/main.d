@@ -1,4 +1,4 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
+Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -32,8 +32,19 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h ../Core/Inc/i2c.h \
  ../Core/Inc/main.h ../Core/Inc/i2s.h ../Core/Inc/spi.h \
- ../USB_HOST/App/usb_host.h ../Core/Inc/gpio.h ../Core/Inc/display.h \
- ../Core/Inc/spi.h ../Core/Inc/gpio.h
+ ../USB_HOST/App/usb_host.h ../Core/Inc/gpio.h ../Core/Src/./Main/Main.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/display/DisplayConfig.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/DisplayDataManager.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/DisplayData.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../PixelColor.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/Drawable.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/../PixelColor.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/../../../common/Vec2d/Vec2d.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/../../../common/observers/ChangeObserver.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/texture.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data/DisplayData.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Configuration/display.config.h
 
 ../Core/Inc/main.h:
 
@@ -113,8 +124,28 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Core/Inc/gpio.h:
 
-../Core/Inc/display.h:
+../Core/Src/./Main/Main.h:
 
-../Core/Inc/spi.h:
+../Core/Src/./Main/../STM32F411Disco-drivers/display/DisplayConfig.h:
 
-../Core/Inc/gpio.h:
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/DisplayDataManager.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/DisplayData.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../PixelColor.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/Drawable.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/../PixelColor.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/../../../common/Vec2d/Vec2d.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/../../../common/observers/ChangeObserver.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data-manager/../display-data/../drawable/texture.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Core/ui/display/display-data/DisplayData.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/nokia5110-display-data-manager/../../Configuration/display.config.h:

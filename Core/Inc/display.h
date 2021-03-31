@@ -23,6 +23,6 @@ void display_set_dxy(struct display_config * cfg,
                      enum display_direction direction,
                      uint8_t column, uint8_t row);
 void display_write_cmd(struct display_config * cfg, uint8_t cmd);
-void display_write_data(struct display_config * cfg, uint8_t data);
+void Pixel(struct display_config * cfg, uint8_t data);
 
 #endif

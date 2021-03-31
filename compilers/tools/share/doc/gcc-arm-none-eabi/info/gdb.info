@@ -6838,7 +6838,7 @@ following table:
 
    Explicit location options may be abbreviated by omitting any
 non-unique trailing characters from the option name, e.g.,
-'break -s main.c -li 3'.
+'break -s main.cpp -li 3'.
 
 
 File: gdb.info,  Node: Address Locations,  Prev: Explicit Locations,  Up: Specify Location

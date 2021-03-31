@@ -94,11 +94,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/Vec2d/Vec2d.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.obj"
-  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/pixel/Pixel.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Main/Main.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/main.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

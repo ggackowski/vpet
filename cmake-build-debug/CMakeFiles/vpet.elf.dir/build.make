@@ -90,22 +90,9 @@ CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.s"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/Vec2d/Vec2d.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.s
 
-CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
-CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj: ../Core/Src/Core/ui/display/display-data/DisplayData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj"
-	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.cpp
-
-CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.i"
-	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.cpp > CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.i
-
-CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.s"
-	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-data/DisplayData.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.s
-
 CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj: ../Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp
 
 CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.i: cmake_force
@@ -115,6 +102,19 @@ CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefres
 CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.s"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.s
+
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj: ../Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp
+
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp > CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.i
+
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s
 
 CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.obj: ../Core/Src/Core/ui/display/pixel/Pixel.cpp
@@ -129,9 +129,22 @@ CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.s"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/pixel/Pixel.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.s
 
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj: ../Core/Src/Core/ui/display/scene/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.cpp
+
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.i"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.cpp > CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.i
+
+CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.s"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.s
+
 CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj: ../Core/Src/Main/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Main/Main.cpp
 
 CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.i: cmake_force
@@ -144,7 +157,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj: ../Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp
 
 CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.i: cmake_force
@@ -155,9 +168,22 @@ CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.s"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.s
 
+CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
+CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj: ../Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp
+
+CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp > CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.i
+
+CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s"
+	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp -o CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
+
 CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj: ../Core/Src/display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/display.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/display.c.i: cmake_force
@@ -170,7 +196,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/display.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/gpio.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -183,7 +209,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/i2c.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.i: cmake_force
@@ -196,7 +222,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.obj: ../Core/Src/i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/i2s.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.i: cmake_force
@@ -209,7 +235,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/i2s.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj: ../Core/Src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/main.cpp
 
 CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.i: cmake_force
@@ -222,7 +248,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/spi.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/spi.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/spi.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/spi.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -235,7 +261,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/spi.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -248,7 +274,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/stm32f4xx_it.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -261,7 +287,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/syscalls.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -274,7 +300,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/sysmem.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -287,7 +313,7 @@ CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/system_stm32f4xx.c
 
 CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -300,12 +326,12 @@ CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/Core/Startup/startup_stm32f411vetx.s.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Core/Startup/startup_stm32f411vetx.s.obj: ../Core/Startup/startup_stm32f411vetx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object CMakeFiles/vpet.elf.dir/Core/Startup/startup_stm32f411vetx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/vpet.elf.dir/Core/Startup/startup_stm32f411vetx.s.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/vpet.elf.dir/Core/Startup/startup_stm32f411vetx.s.obj -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Startup/startup_stm32f411vetx.s
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -318,7 +344,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmak
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -331,7 +357,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -344,7 +370,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -357,7 +383,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -370,7 +396,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -383,7 +409,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -396,7 +422,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -409,7 +435,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ram
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -422,7 +448,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i: cmake_force
@@ -435,7 +461,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -448,7 +474,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -461,7 +487,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i: cmake_force
@@ -474,7 +500,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i: cmake_force
@@ -487,7 +513,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -500,7 +526,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -513,7 +539,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -526,7 +552,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -539,7 +565,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -552,7 +578,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -565,7 +591,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: 
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -578,7 +604,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 
 CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
@@ -591,7 +617,7 @@ CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: c
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c.obj: ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c.i: cmake_force
@@ -604,7 +630,7 @@ CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c.obj: ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c.i: cmake_force
@@ -617,7 +643,7 @@ CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c.i: cmake_force
@@ -630,7 +656,7 @@ CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlr
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c.obj: ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c.i: cmake_force
@@ -643,7 +669,7 @@ CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_iore
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c.obj: ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c
 
 CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c.i: cmake_force
@@ -656,7 +682,7 @@ CMakeFiles/vpet.elf.dir/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipe
 
 CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.obj: ../USB_HOST/App/usb_host.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/App/usb_host.c
 
 CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.i: cmake_force
@@ -669,7 +695,7 @@ CMakeFiles/vpet.elf.dir/USB_HOST/App/usb_host.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.obj: ../USB_HOST/Target/usbh_conf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target/usbh_conf.c
 
 CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.i: cmake_force
@@ -682,7 +708,7 @@ CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.s: cmake_force
 
 CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.obj: CMakeFiles/vpet.elf.dir/flags.make
 CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.obj: ../USB_HOST/Target/usbh_platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.obj"
 	/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/compilers/tools/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.obj   -c /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/USB_HOST/Target/usbh_platform.c
 
 CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.i: cmake_force
@@ -696,11 +722,13 @@ CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.s: cmake_force
 # Object files for target vpet.elf
 vpet_elf_OBJECTS = \
 "CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.obj" \
-"CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj" \
+"CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.obj" \
+"CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj" \
+"CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj" \
@@ -748,11 +776,13 @@ vpet_elf_OBJECTS = \
 vpet_elf_EXTERNAL_OBJECTS =
 
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.obj
-vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-data/DisplayData.cpp.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj
+vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/pixel/Pixel.cpp.obj
+vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj
+vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/display.c.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/gpio.c.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/Core/Src/i2c.c.obj
@@ -797,7 +827,7 @@ vpet.elf: CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_conf.c.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/USB_HOST/Target/usbh_platform.c.obj
 vpet.elf: CMakeFiles/vpet.elf.dir/build.make
 vpet.elf: CMakeFiles/vpet.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable vpet.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable vpet.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vpet.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/vpet.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/vpet.bin"

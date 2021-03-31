@@ -14,19 +14,10 @@ namespace tama
 {
     class DisplayData
     {
-
     public:
-        DisplayData();
-
-        PixelColor * getDrawingData();
-
-        void addDrawable(std::shared_ptr<Drawable>);
-
-    private:
-
-        std::vector<std::shared_ptr<Drawable>> elements;
-
-        PixelColor * data;
+        void * data;
+        unsigned size;
+        unsigned elementSize;
     };
 }
 
