@@ -11,8 +11,8 @@ tama::DisplayData tama::Nokia5110DisplayDataManager::getActiveSceneDisplayData(s
     {
         for (unsigned j = 0; j < texture->width; ++j) //i = 32, j = 60
         {
-            unsigned segmentHeightNumber = i / segmentSize; // 0, 1, .., 6 -> 4
-            unsigned bitInSegment = i % segmentSize; // 0 ... 7 -> 0
+            unsigned segmentHeightNumber = i / segmentSize; // 0, 1, .., 7 -> 4
+            unsigned bitInSegment = i % segmentSize; // 0 ... 7 -> 0  // 504 = 7 * 48 + 47
             setPixel(data[segmentHeightNumber * segmentsInWidth + j], bitInSegment, texture->data[i][j]);
         }
     }

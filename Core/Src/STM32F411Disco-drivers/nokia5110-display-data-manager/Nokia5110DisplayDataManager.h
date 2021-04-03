@@ -18,7 +18,7 @@ namespace tama
 
     private:
         unsigned segmentSize = 8;
-        unsigned segmentsInHeight = Config_Display_Height / segmentSize;
+        unsigned segmentsInHeight = Config_Display_Height / segmentSize; // 6
         unsigned segmentsInWidth = Config_Display_Width;
         unsigned dataSize = segmentsInHeight * segmentsInWidth;
         unsigned dataFragmentSize = sizeof(uint8_t);

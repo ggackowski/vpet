@@ -27,10 +27,10 @@ void tama::Main::run()
     scene->addDrawable(sprite);
     scene->addDrawable(sprite2);
 
-    for (unsigned i = 0; i < 100; ++i)
+    for (unsigned i = 0; i < 30; ++i)
     {
         HAL_Delay(100);
-        sprite->move(Vec2d(0, -1));
+        sprite->move(Vec2d(0, 1));
         sprite2->move(Vec2d(0, -1));
         auto sceneData = dataManager->getActiveSceneDisplayData(scene->getSceneData());
         display->setData(sceneData);
@@ -84,10 +84,10 @@ std::shared_ptr<tama::Texture> tama::Main::makeSampleTexture()
     tD[2][2] = PixelColor::WHITE;
     tD[2][3] = PixelColor::BLACK;
 
-    tD[2][0] = PixelColor::WHITE;
-    tD[2][1] = PixelColor::BLACK;
-    tD[2][2] = PixelColor::BLACK;
-    tD[2][3] = PixelColor::WHITE;
+    tD[3][0] = PixelColor::WHITE;
+    tD[3][1] = PixelColor::BLACK;
+    tD[3][2] = PixelColor::BLACK;
+    tD[3][3] = PixelColor::WHITE;
 
     return std::make_shared<Texture>(tW, tH, tD);
 }

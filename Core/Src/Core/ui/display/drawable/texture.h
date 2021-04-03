@@ -37,11 +37,11 @@ namespace tama
             {
                 for (unsigned j = 0; j < texture->width; ++j)
                 {
-                    unsigned newX = i + position.y;
-                    unsigned newY = j + position.x;
+                    unsigned newY = i + position.y;
+                    unsigned newX = j + position.x;
                     if (newX < width && newY < height)
                     {
-                        this->data[newX][newY] = texture->data[i][j];
+                        this->data[newY][newX] = texture->data[i][j];
                     }
                 }
             }
