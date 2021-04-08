@@ -8,7 +8,7 @@
 namespace tama
 {
     enum PixelColor {
-        WHITE, BLACK
+        WHITE, BLACK, TRANSPARENT
     };
 }
 

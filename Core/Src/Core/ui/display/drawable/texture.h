@@ -5,7 +5,9 @@
 #ifndef VPET_TEXTURE_H
 #define VPET_TEXTURE_H
 
+#include <memory>
 #include "../PixelColor.h"
+#include "../../../common/Vec2d/Vec2d.h"
 
 namespace tama
 {
@@ -39,13 +41,17 @@ namespace tama
                 {
                     unsigned newY = i + position.y;
                     unsigned newX = j + position.x;
-                    if (newX < width && newY < height)
+                    if (shouldDrawPixel(texture, i, j, newY, newX))
                     {
                         this->data[newY][newX] = texture->data[i][j];
                     }
                 }
             }
         }
+
+        bool shouldDrawPixel(const std::shared_ptr<Texture> &texture, unsigned int i, unsigned int j, unsigned int newY,
+                             unsigned int newX) const
+        { return newX < width && newY < height && texture->data[i][j] != PixelColor::TRANSPARENT; }
 
         virtual ~Texture()
         {

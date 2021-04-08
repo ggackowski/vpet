@@ -32,11 +32,13 @@ SUBDIRS := \
 Core/Src/Core/common/Vec2d \
 Core/Src/Core/ui/display/display-refresher \
 Core/Src/Core/ui/display/drawable/sprite \
+Core/Src/Core/ui/display/drawable/text \
 Core/Src/Core/ui/display/pixel \
 Core/Src/Core/ui/display/scene \
 Core/Src/Main \
 Core/Src/STM32F411Disco-drivers/display \
 Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager \
+Core/Src/STM32F411Disco-drivers/texture-loader \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \

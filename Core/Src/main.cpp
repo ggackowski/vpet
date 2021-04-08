@@ -28,7 +28,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "./Main/Main.h"
-//#include "display.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -38,7 +37,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -62,6 +60,16 @@ void MX_USB_HOST_Process(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if(GPIO_Pin == BUTTON_C_Pin)
+	{
+		int a = 3;
+		a = a + 3;
+
+	}
+}
 
 /* USER CODE END 0 */
 
@@ -100,30 +108,8 @@ int main(void)
   MX_USB_HOST_Init();
   /* USER CODE BEGIN 2 */
 
-
-
-//  struct display_config cfg;
-//cfg.spi = &hspi1;
-//cfg.reset_port = RST_GPIO_Port;
-//cfg.reset_pin = RST_Pin;
-//cfg.bl_port = BL_GPIO_Port;
-//cfg.bl_pin = BL_Pin;
-//cfg.dc_port = DC_GPIO_Port;
-//cfg.dc_pin = DC_Pin;
-//cfg.ce_port = CE_GPIO_Port;
-//cfg.ce_pin = CE_Pin;
-//
-//  	display_setup(&cfg);
-//  	display_set_dxy(&cfg, horizontal, 0, 0);
-//	display_write_data(&cfg, 0x1);
-//  	display_set_dxy(&cfg, horizontal, 0, 0);
-//  	display_write_data(&cfg, 0x1);
-//
-
-//  HAL_GPIO_WritePin(RST_GPIO_Port, RST_Pin, GPIO_PIN_RESET);
-
-    tama::Main tamaMain;
-  	tamaMain.run();
+  tama::Main tamaMain;
+  tamaMain.run();
 
   /* USER CODE END 2 */
 

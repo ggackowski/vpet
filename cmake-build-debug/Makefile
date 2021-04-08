@@ -224,6 +224,33 @@ Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s
 .PHONY : Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.s
 
+Core/Src/Core/ui/display/drawable/text/Text.obj: Core/Src/Core/ui/display/drawable/text/Text.cpp.obj
+
+.PHONY : Core/Src/Core/ui/display/drawable/text/Text.obj
+
+# target to build an object file
+Core/Src/Core/ui/display/drawable/text/Text.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/text/Text.cpp.obj
+.PHONY : Core/Src/Core/ui/display/drawable/text/Text.cpp.obj
+
+Core/Src/Core/ui/display/drawable/text/Text.i: Core/Src/Core/ui/display/drawable/text/Text.cpp.i
+
+.PHONY : Core/Src/Core/ui/display/drawable/text/Text.i
+
+# target to preprocess a source file
+Core/Src/Core/ui/display/drawable/text/Text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/text/Text.cpp.i
+.PHONY : Core/Src/Core/ui/display/drawable/text/Text.cpp.i
+
+Core/Src/Core/ui/display/drawable/text/Text.s: Core/Src/Core/ui/display/drawable/text/Text.cpp.s
+
+.PHONY : Core/Src/Core/ui/display/drawable/text/Text.s
+
+# target to generate assembly for a file
+Core/Src/Core/ui/display/drawable/text/Text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/text/Text.cpp.s
+.PHONY : Core/Src/Core/ui/display/drawable/text/Text.cpp.s
+
 Core/Src/Core/ui/display/pixel/Pixel.obj: Core/Src/Core/ui/display/pixel/Pixel.cpp.obj
 
 .PHONY : Core/Src/Core/ui/display/pixel/Pixel.obj
@@ -358,6 +385,33 @@ Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayD
 Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
 .PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
+
+Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.obj: Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.obj
+
+.PHONY : Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.obj
+
+# target to build an object file
+Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.obj
+.PHONY : Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.obj
+
+Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.i: Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.i
+
+.PHONY : Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.i
+
+# target to preprocess a source file
+Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.i
+.PHONY : Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.i
+
+Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.s: Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.s
+
+.PHONY : Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.s
+
+# target to generate assembly for a file
+Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.s
+.PHONY : Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.s
 
 Core/Src/display.obj: Core/Src/display.c.obj
 
@@ -1493,6 +1547,9 @@ help:
 	@echo "... Core/Src/Core/ui/display/drawable/sprite/Sprite.obj"
 	@echo "... Core/Src/Core/ui/display/drawable/sprite/Sprite.i"
 	@echo "... Core/Src/Core/ui/display/drawable/sprite/Sprite.s"
+	@echo "... Core/Src/Core/ui/display/drawable/text/Text.obj"
+	@echo "... Core/Src/Core/ui/display/drawable/text/Text.i"
+	@echo "... Core/Src/Core/ui/display/drawable/text/Text.s"
 	@echo "... Core/Src/Core/ui/display/pixel/Pixel.obj"
 	@echo "... Core/Src/Core/ui/display/pixel/Pixel.i"
 	@echo "... Core/Src/Core/ui/display/pixel/Pixel.s"
@@ -1508,6 +1565,9 @@ help:
 	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.obj"
 	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.i"
 	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.s"
+	@echo "... Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.obj"
+	@echo "... Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.i"
+	@echo "... Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.s"
 	@echo "... Core/Src/display.obj"
 	@echo "... Core/Src/display.i"
 	@echo "... Core/Src/display.s"

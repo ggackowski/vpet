@@ -21,7 +21,7 @@ tama::DisplayData tama::Nokia5110DisplayDataManager::getActiveSceneDisplayData(s
 
 void tama::Nokia5110DisplayDataManager::setPixel(uint8_t & pixelSegment, unsigned position, tama::PixelColor color)
 {
-    if (color == PixelColor::WHITE)
+    if (color == PixelColor::BLACK)
     {
        pixelSegment |= 1 << position;
     } else {

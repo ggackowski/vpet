@@ -11,32 +11,41 @@
 #include "../Core/ui/display/scene/Scene.h"
 #include "../Core/ui/display/display-data-manager/DisplayDataManager.h"
 #include "../STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.h"
+#include "../Core/ui/display/drawable/texture-loader/TextureLoader.h"
+#include "../STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.h"
+#include "../Core/assets/egg.texture.h"
+#include "../Core/ui/display/drawable/text/Text.h"
 
 void tama::Main::run()
 {
     DisplayConfig displayConfig = getDefaultNokia5110DisplayConfig();
     std::shared_ptr<Display> display = std::make_shared<Nokia5510Display>(displayConfig);
-
-    std::shared_ptr<Sprite> sprite = std::make_shared<Sprite>(makeSampleTexture(), Vec2d(1, 1));
-    std::shared_ptr<Sprite> sprite2 = std::make_shared<Sprite>(makeSampleTexture(), Vec2d(30, 35));
-
+    std::shared_ptr<TextureLoader> textureLoader = std::make_shared<Stm32TextureLoader>();
     std::shared_ptr<DisplayDataManager> dataManager = std::make_shared<Nokia5110DisplayDataManager>();
-
     std::shared_ptr<Scene> scene = std::make_shared<Scene>();
+
+    auto textureData1 = textureLoader->load(tama::asset::egg1);
+    auto textureData2 = textureLoader->load(tama::asset::egg2);
+
+    std::shared_ptr<Sprite> sprite = std::make_shared<Sprite>(textureData1, Vec2d(1, 37));
+    std::shared_ptr<Sprite> sprite2 = std::make_shared<Sprite>(textureData2, Vec2d(64, 37));
+    std::shared_ptr<Text> text = std::make_shared<Text>(Vec2d(1, 2));
+
+    text->setText("LOOKS LIKE\nIT WORKS\nPERFECTLY");
 
     scene->addDrawable(sprite);
     scene->addDrawable(sprite2);
+    scene->addDrawable(text);
 
-    for (unsigned i = 0; i < 30; ++i)
+    for (unsigned i = 0; i < 3000; ++i)
     {
         HAL_Delay(100);
-        sprite->move(Vec2d(0, 1));
-        sprite2->move(Vec2d(0, -1));
+        sprite->setTexture(i % 2 ? textureData2 : textureData1);
+        sprite2->setTexture(i % 2 ? textureData1 : textureData2);
+        text->move(Vec2d(0, i % 4 > 1 ? 1 : -1));
         auto sceneData = dataManager->getActiveSceneDisplayData(scene->getSceneData());
         display->setData(sceneData);
     }
-
-
 
     while (true)
     {}

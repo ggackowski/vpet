@@ -16,6 +16,7 @@ namespace tama
     public:
         void run();
 
+
     private:
         DisplayConfig getDefaultNokia5110DisplayConfig();
         std::shared_ptr<Texture> makeSampleTexture();
