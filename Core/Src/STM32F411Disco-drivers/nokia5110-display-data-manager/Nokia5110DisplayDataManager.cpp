@@ -25,6 +25,6 @@ void tama::Nokia5110DisplayDataManager::setPixel(uint8_t & pixelSegment, unsigne
     {
        pixelSegment |= 1 << position;
     } else {
-        pixelSegment&= ~(1 << position);
+        pixelSegment &= ~(1 << position);
     }
 }

@@ -40,6 +40,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/syscalls.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/syscalls.c.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/sysmem.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/sysmem.c.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/system_stm32f4xx.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/tim.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/tim.c.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
@@ -94,6 +95,12 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/Vec2d/Vec2d.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/input/Input.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/input/Input.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/runtime/context/Context.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/runtime/context/Context.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/runtime/stage/Stage.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/runtime/stage/Stage.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/sound/sound-player/SoundPlayer.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/sound/sound-player/SoundPlayer.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/initial-loading/InitialLoading.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/initial-loading/InitialLoading.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/time/time-monitor/TimeMonitor.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/time/time-monitor/TimeMonitor.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/display-refresher/DisplayRefresher.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/sprite/Sprite.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/drawable/text/Text.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/drawable/text/Text.cpp.obj"
@@ -101,8 +108,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/scene/Scene.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/display/scene/Scene.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Main/Main.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/Main/Main.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/display/Nokia5510Display.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/input/Stm32Input.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/input/Stm32Input.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.obj"
+  "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/time-monitor/Stm32TimeMonitor.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/time-monitor/Stm32TimeMonitor.cpp.obj"
   "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/main.cpp" "/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/cmake-build-debug/CMakeFiles/vpet.elf.dir/Core/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

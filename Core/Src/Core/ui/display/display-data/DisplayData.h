@@ -18,6 +18,10 @@ namespace tama
         void * data;
         unsigned size;
         unsigned elementSize;
+
+        ~DisplayData() {
+            delete[] ((short *)data);
+        }
     };
 }
 

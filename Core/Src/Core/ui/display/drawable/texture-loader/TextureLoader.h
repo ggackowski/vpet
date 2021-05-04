@@ -14,7 +14,7 @@ namespace tama
     class TextureLoader
     {
     public:
-        virtual std::shared_ptr<Texture> load(TextureAsset &) = 0;
+        virtual std::shared_ptr<Texture> load(const TextureAsset &) = 0;
     };
 }
 

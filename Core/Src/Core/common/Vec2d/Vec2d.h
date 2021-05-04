@@ -10,7 +10,8 @@ namespace tama
     class Vec2d
     {
     public:
-        Vec2d(int i, int i1);
+        Vec2d(int x, int y);
+        Vec2d(): x(0), y(0) {}
 
         int x;
         int y;

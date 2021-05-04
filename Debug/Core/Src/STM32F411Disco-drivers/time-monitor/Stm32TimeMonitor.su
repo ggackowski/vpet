@@ -1,0 +1,2 @@
+Stm32TimeMonitor.cpp:7:6:virtual void tama::Stm32TimeMonitor::startTimer()	16	static
+Stm32TimeMonitor.cpp:12:14:virtual unsigned int tama::Stm32TimeMonitor::getElapsedTime()	16	static

@@ -13,7 +13,7 @@ namespace tama
     class Stm32TextureLoader : public TextureLoader
     {
     public:
-        std::shared_ptr<Texture> load(TextureAsset &) override;
+        std::shared_ptr<Texture> load(const TextureAsset &) override;
 
     private:
         PixelColor colorFromData(short data);

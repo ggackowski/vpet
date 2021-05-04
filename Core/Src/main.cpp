@@ -22,6 +22,7 @@
 #include "i2c.h"
 #include "i2s.h"
 #include "spi.h"
+#include "tim.h"
 #include "usb_host.h"
 #include "gpio.h"
 
@@ -61,16 +62,6 @@ void MX_USB_HOST_Process(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{
-	if(GPIO_Pin == BUTTON_C_Pin)
-	{
-		int a = 3;
-		a = a + 3;
-
-	}
-}
-
 /* USER CODE END 0 */
 
 /**
@@ -106,11 +97,17 @@ int main(void)
   MX_I2S3_Init();
   MX_SPI1_Init();
   MX_USB_HOST_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+  __HAL_TIM_SET_PRESCALER(&htim3, 0);
+//  __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 10000);
+//  for (int i =1; i <= 40; i += 1) {
+                 __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 10);
+//                 HAL_Delay(100);
+//  }
   tama::Main tamaMain;
   tamaMain.run();
-
   /* USER CODE END 2 */
 
   /* Infinite loop */

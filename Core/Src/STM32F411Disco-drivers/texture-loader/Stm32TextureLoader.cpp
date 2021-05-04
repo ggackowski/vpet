@@ -4,7 +4,7 @@
 
 #include "Stm32TextureLoader.h"
 
-std::shared_ptr<tama::Texture> tama::Stm32TextureLoader::load(TextureAsset & textureAsset)
+std::shared_ptr<tama::Texture> tama::Stm32TextureLoader::load(const TextureAsset & textureAsset)
 {
     std::shared_ptr<Texture> texture = std::make_shared<Texture>(textureAsset.width, textureAsset.height);
     PixelColor ** textureData = createEmptyTextureData(textureAsset.width, textureAsset.height);
@@ -34,7 +34,7 @@ tama::PixelColor tama::Stm32TextureLoader::colorFromData(short data)
     return PixelColor::TRANSPARENT;
 }
 
-tama::PixelColor **tama::Stm32TextureLoader::createEmptyTextureData(unsigned int width, unsigned int height)
+tama::PixelColor ** tama::Stm32TextureLoader::createEmptyTextureData(unsigned int width, unsigned int height)
 {
     PixelColor ** textureData = new PixelColor*[height];
     for (unsigned i = 0; i < height; ++i)

@@ -20,26 +20,6 @@ void tama::Text::setPosition(tama::Vec2d d)
 
 std::shared_ptr<tama::Texture> tama::Text::getTexture()
 {
-    unsigned width = (size + 1) * text.size();
-    unsigned height = (size + 1) * (std::count(text.begin(), text.end(), '\n') + 1) ;
-    auto texture = std::make_shared<Texture>(width, height);
-
-    unsigned line = 0;
-    unsigned letterInLine = 0;
-
-    for (unsigned i = 0; i < text.size(); ++i)
-    {
-        if (text[i] == '\n')
-        {
-            line++;
-            letterInLine = 0;
-            continue;
-        }
-
-        auto letter = getTextureForLetter(text[i]);
-        texture->insertAt(Vec2d(letterInLine++ * (size + 1), line * (size + 1)), letter);
-    }
-
     return texture;
 }
 
@@ -79,6 +59,9 @@ bool tama::Text::isVisible()
 void tama::Text::setText(std::string text)
 {
     this->text = text;
+    recalculateDimensions();
+    updateTexture();
+    notifyObserver();
 }
 
 void tama::Text::notifyObserver()
@@ -96,6 +79,29 @@ tama::Text::Text(const tama::Vec2d &position) :
     observer = nullptr;
     visible = true;
     text = "";
+    recalculateDimensions();
+    updateTexture();
+}
+
+void tama::Text::updateTexture()
+{
+    texture = std::make_shared<Texture>(dimensions.x, dimensions.y);
+    unsigned line = 0;
+    unsigned letterInLine = 0;
+
+    for (unsigned i = 0; i < text.size(); ++i)
+    {
+        if (text[i] == '\n')
+        {
+            line++;
+            letterInLine = 0;
+            continue;
+        }
+
+        auto letter = getTextureForLetter(text[i]);
+        texture->insertAt(Vec2d(letterInLine++ * (size + 1), line * (size + 1)), letter);
+        //texture->insertAt(Vec2d(0, 0), letter);
+    }
 }
 
 std::shared_ptr<tama::Texture> tama::Text::getTextureForLetter(char letter)
@@ -131,4 +137,11 @@ std::shared_ptr<tama::Texture> tama::Text::getTextureForLetter(char letter)
         case ' ': return textureLoader->load(tama::asset::font::standard::SPC);
     }
     return std::make_shared<tama::Texture>(0, 0);
+}
+
+void tama::Text::recalculateDimensions()
+{
+    dimensions.x = (size + 1) * text.size();
+    dimensions.y = (size + 1) * (std::count(text.begin(), text.end(), '\n') + 2) ;
+
 }

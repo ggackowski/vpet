@@ -13,6 +13,7 @@ namespace tama
     class Text : public Drawable
     {
     public:
+
         Text(const Vec2d &position);
 
         void setTexture(std::shared_ptr<Texture> ptr) override;
@@ -36,8 +37,15 @@ namespace tama
         void setText(std::string);
 
     private:
+
         void notifyObserver();
+
         std::shared_ptr<Texture> getTextureForLetter(char);
+
+        void recalculateDimensions();
+
+        void updateTexture();
+
         std::unique_ptr<tama::TextureLoader> textureLoader;
         std::shared_ptr<ChangeObserver> observer;
         std::string text;
@@ -45,6 +53,7 @@ namespace tama
         unsigned size = 7;
         bool visible;
         Vec2d position;
+        Vec2d dimensions;
 
     };
 }

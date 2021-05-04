@@ -4,34 +4,34 @@ shared_ptr_base.h:307:5:void std::_Sp_counted_base<_Lp>::_M_release() [with __gn
 texture.h:20:9:tama::Texture::Texture(unsigned int, unsigned int)	40	static
 texture.h:56:17:tama::Texture::~Texture()	24	static
 texture.h:56:17:virtual tama::Texture::~Texture()	16	static
-Stm32TextureLoader.cpp:7:32:virtual std::shared_ptr<tama::Texture> tama::Stm32TextureLoader::load(tama::TextureAsset&)	48	static
+Stm32TextureLoader.cpp:7:32:virtual std::shared_ptr<tama::Texture> tama::Stm32TextureLoader::load(const tama::TextureAsset&)	48	static
 Stm32TextureLoader.cpp:25:18:tama::PixelColor tama::Stm32TextureLoader::colorFromData(short int)	16	static
-Stm32TextureLoader.cpp:37:20:tama::PixelColor** tama::Stm32TextureLoader::createEmptyTextureData(unsigned int, unsigned int)	40	static
+Stm32TextureLoader.cpp:37:21:tama::PixelColor** tama::Stm32TextureLoader::createEmptyTextureData(unsigned int, unsigned int)	40	static
 shared_ptr_base.h:130:7:void std::_Sp_counted_base<_Lp>::_M_destroy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
-move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = unsigned int&]	16	static
-shared_ptr.h:703:5:) [with _Tp = tama::Texture; _Args = {unsigned int&, unsigned int&}]	40	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const unsigned int&]	16	static
+shared_ptr.h:703:5:) [with _Tp = tama::Texture; _Args = {const unsigned int&, const unsigned int&}]	40	static
 shared_ptr_base.h:681:7:std::__shared_count<_Lp>::~__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:120:7:std::_Sp_counted_base<_Lp>::~_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:120:7:std::_Sp_counted_base<_Lp>::~_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
 allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = tama::Texture]	16	static
 allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = tama::Texture]	16	static
-shared_ptr.h:688:5:) [with _Tp = tama::Texture; _Alloc = std::allocator<tama::Texture>; _Args = {unsigned int&, unsigned int&}]	48	static
+shared_ptr.h:688:5:) [with _Tp = tama::Texture; _Alloc = std::allocator<tama::Texture>; _Args = {const unsigned int&, const unsigned int&}]	48	static
 shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = tama::Texture]	16	static
 new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = tama::Texture]	16	static
-shared_ptr.h:342:2:) [with _Alloc = std::allocator<tama::Texture>; _Args = {unsigned int&, unsigned int&}; _Tp = tama::Texture]	48	static
+shared_ptr.h:342:2:) [with _Alloc = std::allocator<tama::Texture>; _Args = {const unsigned int&, const unsigned int&}; _Tp = tama::Texture]	48	static
 shared_ptr_base.h:575:17:constexpr std::__shared_count<_Lp>::__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:710:7:void std::__shared_count<_Lp>::_M_swap(std::__shared_count<_Lp>&) [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	24	static
 shared_ptr_base.h:1305:16:std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >::~_Deleter()	16	static
 shared_ptr_base.h:1305:16:std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >::_Deleter(const std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >&)	16	static
-shared_ptr_base.h:1316:2:) [with _Alloc = std::allocator<tama::Texture>; _Args = {unsigned int&, unsigned int&}; _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	64	static
+shared_ptr_base.h:1316:2:) [with _Alloc = std::allocator<tama::Texture>; _Args = {const unsigned int&, const unsigned int&}; _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	64	static
 allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = tama::Texture]	16	static
 allocated_ptr.h:102:5:std::__allocated_ptr<_Alloc> std::__allocate_guarded(_Alloc&) [with _Alloc = std::allocator<tama::Texture>]	16	static
 allocated_ptr.h:70:7:std::__allocated_ptr<_Alloc>::~__allocated_ptr() [with _Alloc = std::allocator<tama::Texture>]	16	static
 allocated_ptr.h:85:19:std::__allocated_ptr<_Alloc>::value_type* std::__allocated_ptr<_Alloc>::get() [with _Alloc = std::allocator<tama::Texture>]	16	static
-alloc_traits.h:474:2:) [with _Up = tama::Texture; _Args = {unsigned int&, unsigned int&}; _Tp = tama::Texture]	32	static
+alloc_traits.h:474:2:) [with _Up = tama::Texture; _Args = {const unsigned int&, const unsigned int&}; _Tp = tama::Texture]	32	static
 allocated_ptr.h:78:7:std::__allocated_ptr<_Alloc>& std::__allocated_ptr<_Alloc>::operator=(std::nullptr_t) [with _Alloc = std::allocator<tama::Texture>]	16	static
 move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >&]	16	static
 shared_ptr_base.h:1305:16:std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >::_Deleter(std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >&&)	16	static
@@ -43,7 +43,7 @@ alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_Tp1> >::a
 allocated_ptr.h:52:7:std::__allocated_ptr<_Alloc>::__allocated_ptr(_Alloc&, std::__allocated_ptr<_Alloc>::pointer) [with _Alloc = std::allocator<tama::Texture>]	24	static
 alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = tama::Texture]	24	static
 allocated_ptr.h:88:26:static std::__allocated_ptr<_Alloc>::value_type* std::__allocated_ptr<_Alloc>::_S_raw_ptr(std::__allocated_ptr<_Alloc>::value_type*) [with _Alloc = std::allocator<tama::Texture>]	16	static
-new_allocator.h:135:2:) [with _Up = tama::Texture; _Args = {unsigned int&, unsigned int&}; _Tp = tama::Texture]	32	static
+new_allocator.h:135:2:) [with _Up = tama::Texture; _Args = {const unsigned int&, const unsigned int&}; _Tp = tama::Texture]	32	static
 allocator.h:137:2:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator<_Tp1>&) [with _Tp1 = tama::Texture; _Tp = std::_Sp_counted_deleter<tama::Texture*, std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >, std::allocator<tama::Texture>, (__gnu_cxx::_Lock_policy)0>]	16	static
 allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = std::_Sp_counted_deleter<tama::Texture*, std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >, std::allocator<tama::Texture>, (__gnu_cxx::_Lock_policy)0>]	16	static
 allocated_ptr.h:102:5:std::__allocated_ptr<_Alloc> std::__allocate_guarded(_Alloc&) [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Texture*, std::__shared_ptr<tama::Texture, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Texture> >, std::allocator<tama::Texture>, (__gnu_cxx::_Lock_policy)0> >]	16	static

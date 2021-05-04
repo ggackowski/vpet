@@ -2,54 +2,68 @@
 // Created by grzegorz on 3/25/21.
 //
 
-#include <spi.h>
-#include "Main.h"
-#include "../STM32F411Disco-drivers/display/Nokia5510Display.h"
-#include "../Core/ui/display/Display.h"
-#include "../Core/ui/display/drawable/texture.h"
-#include "../Core/ui/display/drawable/sprite/Sprite.h"
-#include "../Core/ui/display/scene/Scene.h"
-#include "../Core/ui/display/display-data-manager/DisplayDataManager.h"
-#include "../STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.h"
-#include "../Core/ui/display/drawable/texture-loader/TextureLoader.h"
-#include "../STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.h"
-#include "../Core/assets/egg.texture.h"
-#include "../Core/ui/display/drawable/text/Text.h"
 
-void tama::Main::run()
+#include "Main.h"
+#include "../Core/input/Input.h"
+#include "../STM32F411Disco-drivers/input/Stm32Input.h"
+
+
+[[noreturn]] void tama::Main::run()
 {
+    unsigned fps = 5;
+    unsigned frameMillis = 1000 / fps;
+
     DisplayConfig displayConfig = getDefaultNokia5110DisplayConfig();
     std::shared_ptr<Display> display = std::make_shared<Nokia5510Display>(displayConfig);
     std::shared_ptr<TextureLoader> textureLoader = std::make_shared<Stm32TextureLoader>();
-    std::shared_ptr<DisplayDataManager> dataManager = std::make_shared<Nokia5110DisplayDataManager>();
-    std::shared_ptr<Scene> scene = std::make_shared<Scene>();
+    std::shared_ptr<DisplayDataManager> dataConverter = std::make_shared<Nokia5110DisplayDataManager>();
+    std::shared_ptr<TimeMonitor> soundTimeMonitor = std::make_shared<Stm32TimeMonitor>();
+    std::shared_ptr<TimeMonitor> refreshTimeMonitor = std::make_shared<Stm32TimeMonitor>();
+    std::shared_ptr<SoundPlayingStrategy> playingStrategy = std::make_shared<Stm32SoundPlayingStrategy>();
+    std::shared_ptr<SoundPlayer> soundPlayer = std::make_shared<SoundPlayer>(soundTimeMonitor);
+    std::shared_ptr<Input> input = std::make_shared<Stm32Input>();
+    soundPlayer->setPlayingStrategy(playingStrategy);
+    std::vector<Tone> music;
+    music.push_back({400, 10});
+    music.push_back({400, 5});
+    music.push_back({400, 10});
+    music.push_back({400, 5});
+    music.push_back({300, 10});
+    music.push_back({200, 14});
+    music.push_back({200, 10});
+    music.push_back({200, 7});
+    music.push_back({200, 5});
+    music.push_back({400, 7});
+    music.push_back({200, 0});
+    music.push_back({400, 10});
+    music.push_back({400, 5});
+    music.push_back({400, 10});
+    music.push_back({400, 5});
+    music.push_back({300, 10});
+    music.push_back({200, 14});
+    music.push_back({200, 10});
+    music.push_back({200, 7});
+    music.push_back({200, 5});
+    music.push_back({400, 7});
 
-    auto textureData1 = textureLoader->load(tama::asset::egg1);
-    auto textureData2 = textureLoader->load(tama::asset::egg2);
+    std::shared_ptr<Context> context = std::make_shared<Context>(textureLoader, input);
+    std::shared_ptr<Stage> loadingStage = std::make_shared<InitialLoading>(context);
+    context->openNewStage(loadingStage);
+    context->getActiveStage()->onInit();
 
-    std::shared_ptr<Sprite> sprite = std::make_shared<Sprite>(textureData1, Vec2d(1, 37));
-    std::shared_ptr<Sprite> sprite2 = std::make_shared<Sprite>(textureData2, Vec2d(64, 37));
-    std::shared_ptr<Text> text = std::make_shared<Text>(Vec2d(1, 2));
-
-    text->setText("LOOKS LIKE\nIT WORKS\nPERFECTLY");
-
-    scene->addDrawable(sprite);
-    scene->addDrawable(sprite2);
-    scene->addDrawable(text);
-
-    for (unsigned i = 0; i < 3000; ++i)
-    {
-        HAL_Delay(100);
-        sprite->setTexture(i % 2 ? textureData2 : textureData1);
-        sprite2->setTexture(i % 2 ? textureData1 : textureData2);
-        text->move(Vec2d(0, i % 4 > 1 ? 1 : -1));
-        auto sceneData = dataManager->getActiveSceneDisplayData(scene->getSceneData());
-        display->setData(sceneData);
-    }
-
+    refreshTimeMonitor->startTimer();
     while (true)
-    {}
-
+    {
+        input->update();
+        soundPlayer->update();
+        if (refreshTimeMonitor->getElapsedTime() > frameMillis)
+        {
+            refreshTimeMonitor->startTimer();
+            context->getActiveStage()->onFrame();
+            auto sceneData = dataConverter->getActiveSceneDisplayData(context->getActiveStage()->getScene()->getSceneData());
+            display->setData(sceneData);
+        }
+    }
 }
 
 tama::DisplayConfig tama::Main::getDefaultNokia5110DisplayConfig()
@@ -67,36 +81,44 @@ tama::DisplayConfig tama::Main::getDefaultNokia5110DisplayConfig()
     return cfg;
 }
 
-std::shared_ptr<tama::Texture> tama::Main::makeSampleTexture()
-{
-    unsigned tW = 4;
-    unsigned tH = 4;
-    PixelColor ** tD = new PixelColor*[tH];
 
-    tD[0] = new PixelColor[tW];
-    tD[1] = new PixelColor[tW];
-    tD[2] = new PixelColor[tW];
-    tD[3] = new PixelColor[tW];
+// for next time
 
-    tD[0][0] = PixelColor::BLACK;
-    tD[0][1] = PixelColor::WHITE;
-    tD[0][2] = PixelColor::WHITE;
-    tD[0][3] = PixelColor::BLACK;
+/*
+ *
+ * //    context->getActiveStage()->onFrame();
 
-    tD[1][0] = PixelColor::WHITE;
-    tD[1][1] = PixelColor::WHITE;
-    tD[1][2] = PixelColor::WHITE;
-    tD[1][3] = PixelColor::WHITE;
+//    auto textureData1 = textureLoader->load(tama::asset::egg1); //PWM  (Głosniczek do timera) przycisk moze byc w pętli freertos + LCD
+//    auto textureData2 = textureLoader->load(tama::asset::egg2); //
+//
+//    std::shared_ptr<Sprite> sprite = std::make_shared<Sprite>(textureData1, Vec2d(1, 37));
+//    std::shared_ptr<Sprite> sprite2 = std::make_shared<Sprite>(textureData2, Vec2d(64, 37));
+//    std::shared_ptr<Text> text = std::make_shared<Text>(Vec2d(1, 2));
+//    std::string textStr("A");
+//    text->setText(textStr);
+//
+//    scene->addDrawable(sprite);
+//    scene->addDrawable(sprite2);
+//    scene->addDrawable(text);
 
-    tD[2][0] = PixelColor::BLACK;
-    tD[2][1] = PixelColor::WHITE;
-    tD[2][2] = PixelColor::WHITE;
-    tD[2][3] = PixelColor::BLACK;
+//    auto sceneData = dataConverter->getActiveSceneDisplayData(scene->getSceneData());
 
-    tD[3][0] = PixelColor::WHITE;
-    tD[3][1] = PixelColor::BLACK;
-    tD[3][2] = PixelColor::BLACK;
-    tD[3][3] = PixelColor::WHITE;
 
-    return std::make_shared<Texture>(tW, tH, tD);
-}
+ //        if (HAL_GPIO_ReadPin(BUTTON_C_GPIO_Port, BUTTON_C_Pin) == GPIO_PIN_RESET){
+////            textStr = std::string(1, (char)(textStr.c_str()[0] + 1));
+//
+//            text->setText(textStr);
+//        }
+//        if (HAL_GPIO_ReadPin(BUTTON_B_GPIO_Port, BUTTON_B_Pin) == GPIO_PIN_RESET){
+////        	textStr = std::string(1, (char)(textStr.c_str()[0] - 1));
+//        	__HAL_TIM_SET_PRESCALER(&htim3, k-=5);
+//            text->setText(textStr);
+//        }
+
+
+ //    soundPlayer->play(music);
+ //        sprite->setTexture(i % 2 ? textureData2 : textureData1);
+//
+//        text->move(Vec2d(0, i % 4 > 1 ? 1 : -1));
+ *
+ */

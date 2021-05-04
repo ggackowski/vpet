@@ -97,6 +97,8 @@ void Error_Handler(void);
 #define BL_GPIO_Port GPIOE
 #define CLK_IN_Pin GPIO_PIN_10
 #define CLK_IN_GPIO_Port GPIOB
+#define BUTTON_B_Pin GPIO_PIN_8
+#define BUTTON_B_GPIO_Port GPIOD
 #define BUTTON_C_Pin GPIO_PIN_10
 #define BUTTON_C_GPIO_Port GPIOD
 #define BUTTON_C_EXTI_IRQn EXTI15_10_IRQn
