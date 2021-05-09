@@ -16,6 +16,11 @@ Core/Src/Core/runtime/context/Context.o: \
  ../Core/Src/Core/runtime/context/../../ui/display/drawable/texture-loader/TextureLoader.h \
  ../Core/Src/Core/runtime/context/../../ui/display/drawable/texture-loader/../texture.h \
  ../Core/Src/Core/runtime/context/../../ui/display/drawable/texture-loader/../../../../assets/texture-asset.h \
+ ../Core/Src/Core/runtime/context/../../sound/sound-player/SoundPlayer.h \
+ ../Core/Src/Core/runtime/context/../../sound/sound-player/../../time/time-monitor/TimeMonitor.h \
+ ../Core/Src/Core/runtime/context/../../sound/sound-player/../tone/Tone.h \
+ ../Core/Src/Core/runtime/context/../../sound/sound-player/../SoundPlayingStrategy.h \
+ ../Core/Src/Core/runtime/context/../../sound/sound-player/../tone/Tone.h \
  ../Core/Src/Core/runtime/context/../../input/Input.h \
  ../Core/Src/Core/runtime/context/../../input/../common/observers/OnInput.h
 
@@ -50,6 +55,16 @@ Core/Src/Core/runtime/context/Context.o: \
 ../Core/Src/Core/runtime/context/../../ui/display/drawable/texture-loader/../texture.h:
 
 ../Core/Src/Core/runtime/context/../../ui/display/drawable/texture-loader/../../../../assets/texture-asset.h:
+
+../Core/Src/Core/runtime/context/../../sound/sound-player/SoundPlayer.h:
+
+../Core/Src/Core/runtime/context/../../sound/sound-player/../../time/time-monitor/TimeMonitor.h:
+
+../Core/Src/Core/runtime/context/../../sound/sound-player/../tone/Tone.h:
+
+../Core/Src/Core/runtime/context/../../sound/sound-player/../SoundPlayingStrategy.h:
+
+../Core/Src/Core/runtime/context/../../sound/sound-player/../tone/Tone.h:
 
 ../Core/Src/Core/runtime/context/../../input/Input.h:
 

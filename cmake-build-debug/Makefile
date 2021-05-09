@@ -170,6 +170,141 @@ Core/Src/Core/common/Vec2d/Vec2d.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/common/Vec2d/Vec2d.cpp.s
 .PHONY : Core/Src/Core/common/Vec2d/Vec2d.cpp.s
 
+Core/Src/Core/game/model/datetime/Datetime.obj: Core/Src/Core/game/model/datetime/Datetime.cpp.obj
+
+.PHONY : Core/Src/Core/game/model/datetime/Datetime.obj
+
+# target to build an object file
+Core/Src/Core/game/model/datetime/Datetime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/Datetime.cpp.obj
+.PHONY : Core/Src/Core/game/model/datetime/Datetime.cpp.obj
+
+Core/Src/Core/game/model/datetime/Datetime.i: Core/Src/Core/game/model/datetime/Datetime.cpp.i
+
+.PHONY : Core/Src/Core/game/model/datetime/Datetime.i
+
+# target to preprocess a source file
+Core/Src/Core/game/model/datetime/Datetime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/Datetime.cpp.i
+.PHONY : Core/Src/Core/game/model/datetime/Datetime.cpp.i
+
+Core/Src/Core/game/model/datetime/Datetime.s: Core/Src/Core/game/model/datetime/Datetime.cpp.s
+
+.PHONY : Core/Src/Core/game/model/datetime/Datetime.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/model/datetime/Datetime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/Datetime.cpp.s
+.PHONY : Core/Src/Core/game/model/datetime/Datetime.cpp.s
+
+Core/Src/Core/game/model/datetime/date/Date.obj: Core/Src/Core/game/model/datetime/date/Date.cpp.obj
+
+.PHONY : Core/Src/Core/game/model/datetime/date/Date.obj
+
+# target to build an object file
+Core/Src/Core/game/model/datetime/date/Date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/date/Date.cpp.obj
+.PHONY : Core/Src/Core/game/model/datetime/date/Date.cpp.obj
+
+Core/Src/Core/game/model/datetime/date/Date.i: Core/Src/Core/game/model/datetime/date/Date.cpp.i
+
+.PHONY : Core/Src/Core/game/model/datetime/date/Date.i
+
+# target to preprocess a source file
+Core/Src/Core/game/model/datetime/date/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/date/Date.cpp.i
+.PHONY : Core/Src/Core/game/model/datetime/date/Date.cpp.i
+
+Core/Src/Core/game/model/datetime/date/Date.s: Core/Src/Core/game/model/datetime/date/Date.cpp.s
+
+.PHONY : Core/Src/Core/game/model/datetime/date/Date.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/model/datetime/date/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/date/Date.cpp.s
+.PHONY : Core/Src/Core/game/model/datetime/date/Date.cpp.s
+
+Core/Src/Core/game/model/datetime/time/Time.obj: Core/Src/Core/game/model/datetime/time/Time.cpp.obj
+
+.PHONY : Core/Src/Core/game/model/datetime/time/Time.obj
+
+# target to build an object file
+Core/Src/Core/game/model/datetime/time/Time.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/time/Time.cpp.obj
+.PHONY : Core/Src/Core/game/model/datetime/time/Time.cpp.obj
+
+Core/Src/Core/game/model/datetime/time/Time.i: Core/Src/Core/game/model/datetime/time/Time.cpp.i
+
+.PHONY : Core/Src/Core/game/model/datetime/time/Time.i
+
+# target to preprocess a source file
+Core/Src/Core/game/model/datetime/time/Time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/time/Time.cpp.i
+.PHONY : Core/Src/Core/game/model/datetime/time/Time.cpp.i
+
+Core/Src/Core/game/model/datetime/time/Time.s: Core/Src/Core/game/model/datetime/time/Time.cpp.s
+
+.PHONY : Core/Src/Core/game/model/datetime/time/Time.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/model/datetime/time/Time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/datetime/time/Time.cpp.s
+.PHONY : Core/Src/Core/game/model/datetime/time/Time.cpp.s
+
+Core/Src/Core/game/model/game-state/GameState.obj: Core/Src/Core/game/model/game-state/GameState.cpp.obj
+
+.PHONY : Core/Src/Core/game/model/game-state/GameState.obj
+
+# target to build an object file
+Core/Src/Core/game/model/game-state/GameState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/game-state/GameState.cpp.obj
+.PHONY : Core/Src/Core/game/model/game-state/GameState.cpp.obj
+
+Core/Src/Core/game/model/game-state/GameState.i: Core/Src/Core/game/model/game-state/GameState.cpp.i
+
+.PHONY : Core/Src/Core/game/model/game-state/GameState.i
+
+# target to preprocess a source file
+Core/Src/Core/game/model/game-state/GameState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/game-state/GameState.cpp.i
+.PHONY : Core/Src/Core/game/model/game-state/GameState.cpp.i
+
+Core/Src/Core/game/model/game-state/GameState.s: Core/Src/Core/game/model/game-state/GameState.cpp.s
+
+.PHONY : Core/Src/Core/game/model/game-state/GameState.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/model/game-state/GameState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/game-state/GameState.cpp.s
+.PHONY : Core/Src/Core/game/model/game-state/GameState.cpp.s
+
+Core/Src/Core/game/model/pet-data/PetData.obj: Core/Src/Core/game/model/pet-data/PetData.cpp.obj
+
+.PHONY : Core/Src/Core/game/model/pet-data/PetData.obj
+
+# target to build an object file
+Core/Src/Core/game/model/pet-data/PetData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-data/PetData.cpp.obj
+.PHONY : Core/Src/Core/game/model/pet-data/PetData.cpp.obj
+
+Core/Src/Core/game/model/pet-data/PetData.i: Core/Src/Core/game/model/pet-data/PetData.cpp.i
+
+.PHONY : Core/Src/Core/game/model/pet-data/PetData.i
+
+# target to preprocess a source file
+Core/Src/Core/game/model/pet-data/PetData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-data/PetData.cpp.i
+.PHONY : Core/Src/Core/game/model/pet-data/PetData.cpp.i
+
+Core/Src/Core/game/model/pet-data/PetData.s: Core/Src/Core/game/model/pet-data/PetData.cpp.s
+
+.PHONY : Core/Src/Core/game/model/pet-data/PetData.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/model/pet-data/PetData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-data/PetData.cpp.s
+.PHONY : Core/Src/Core/game/model/pet-data/PetData.cpp.s
+
 Core/Src/Core/input/Input.obj: Core/Src/Core/input/Input.cpp.obj
 
 .PHONY : Core/Src/Core/input/Input.obj
@@ -304,6 +439,33 @@ Core/Src/Core/stages/initial-loading/InitialLoading.s: Core/Src/Core/stages/init
 Core/Src/Core/stages/initial-loading/InitialLoading.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/initial-loading/InitialLoading.cpp.s
 .PHONY : Core/Src/Core/stages/initial-loading/InitialLoading.cpp.s
+
+Core/Src/Core/store/services-store/ServicesStore.obj: Core/Src/Core/store/services-store/ServicesStore.cpp.obj
+
+.PHONY : Core/Src/Core/store/services-store/ServicesStore.obj
+
+# target to build an object file
+Core/Src/Core/store/services-store/ServicesStore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/store/services-store/ServicesStore.cpp.obj
+.PHONY : Core/Src/Core/store/services-store/ServicesStore.cpp.obj
+
+Core/Src/Core/store/services-store/ServicesStore.i: Core/Src/Core/store/services-store/ServicesStore.cpp.i
+
+.PHONY : Core/Src/Core/store/services-store/ServicesStore.i
+
+# target to preprocess a source file
+Core/Src/Core/store/services-store/ServicesStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/store/services-store/ServicesStore.cpp.i
+.PHONY : Core/Src/Core/store/services-store/ServicesStore.cpp.i
+
+Core/Src/Core/store/services-store/ServicesStore.s: Core/Src/Core/store/services-store/ServicesStore.cpp.s
+
+.PHONY : Core/Src/Core/store/services-store/ServicesStore.s
+
+# target to generate assembly for a file
+Core/Src/Core/store/services-store/ServicesStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/store/services-store/ServicesStore.cpp.s
+.PHONY : Core/Src/Core/store/services-store/ServicesStore.cpp.s
 
 Core/Src/Core/time/time-monitor/TimeMonitor.obj: Core/Src/Core/time/time-monitor/TimeMonitor.cpp.obj
 
@@ -574,6 +736,33 @@ Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayD
 Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
 .PHONY : Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.cpp.s
+
+Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.obj: Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.obj
+
+.PHONY : Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.obj
+
+# target to build an object file
+Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.obj
+.PHONY : Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.obj
+
+Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.i: Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.i
+
+.PHONY : Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.i
+
+# target to preprocess a source file
+Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.i
+.PHONY : Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.i
+
+Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.s: Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.s
+
+.PHONY : Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.s
+
+# target to generate assembly for a file
+Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.s
+.PHONY : Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.cpp.s
 
 Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.obj: Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.cpp.obj
 
@@ -1784,6 +1973,21 @@ help:
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.obj"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.i"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.s"
+	@echo "... Core/Src/Core/game/model/datetime/Datetime.obj"
+	@echo "... Core/Src/Core/game/model/datetime/Datetime.i"
+	@echo "... Core/Src/Core/game/model/datetime/Datetime.s"
+	@echo "... Core/Src/Core/game/model/datetime/date/Date.obj"
+	@echo "... Core/Src/Core/game/model/datetime/date/Date.i"
+	@echo "... Core/Src/Core/game/model/datetime/date/Date.s"
+	@echo "... Core/Src/Core/game/model/datetime/time/Time.obj"
+	@echo "... Core/Src/Core/game/model/datetime/time/Time.i"
+	@echo "... Core/Src/Core/game/model/datetime/time/Time.s"
+	@echo "... Core/Src/Core/game/model/game-state/GameState.obj"
+	@echo "... Core/Src/Core/game/model/game-state/GameState.i"
+	@echo "... Core/Src/Core/game/model/game-state/GameState.s"
+	@echo "... Core/Src/Core/game/model/pet-data/PetData.obj"
+	@echo "... Core/Src/Core/game/model/pet-data/PetData.i"
+	@echo "... Core/Src/Core/game/model/pet-data/PetData.s"
 	@echo "... Core/Src/Core/input/Input.obj"
 	@echo "... Core/Src/Core/input/Input.i"
 	@echo "... Core/Src/Core/input/Input.s"
@@ -1799,6 +2003,9 @@ help:
 	@echo "... Core/Src/Core/stages/initial-loading/InitialLoading.obj"
 	@echo "... Core/Src/Core/stages/initial-loading/InitialLoading.i"
 	@echo "... Core/Src/Core/stages/initial-loading/InitialLoading.s"
+	@echo "... Core/Src/Core/store/services-store/ServicesStore.obj"
+	@echo "... Core/Src/Core/store/services-store/ServicesStore.i"
+	@echo "... Core/Src/Core/store/services-store/ServicesStore.s"
 	@echo "... Core/Src/Core/time/time-monitor/TimeMonitor.obj"
 	@echo "... Core/Src/Core/time/time-monitor/TimeMonitor.i"
 	@echo "... Core/Src/Core/time/time-monitor/TimeMonitor.s"
@@ -1829,6 +2036,9 @@ help:
 	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.obj"
 	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.i"
 	@echo "... Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/Nokia5110DisplayDataManager.s"
+	@echo "... Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.obj"
+	@echo "... Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.i"
+	@echo "... Core/Src/STM32F411Disco-drivers/stm32-services-store/Stm32ServicesStore.s"
 	@echo "... Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.obj"
 	@echo "... Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.i"
 	@echo "... Core/Src/STM32F411Disco-drivers/texture-loader/Stm32TextureLoader.s"

@@ -16,6 +16,7 @@ RM := rm -rf
 -include Core/Startup/subdir.mk
 -include Core/Src/STM32F411Disco-drivers/time-monitor/subdir.mk
 -include Core/Src/STM32F411Disco-drivers/texture-loader/subdir.mk
+-include Core/Src/STM32F411Disco-drivers/stm32-services-store/subdir.mk
 -include Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager/subdir.mk
 -include Core/Src/STM32F411Disco-drivers/input/subdir.mk
 -include Core/Src/STM32F411Disco-drivers/display/subdir.mk
@@ -26,11 +27,17 @@ RM := rm -rf
 -include Core/Src/Core/ui/display/drawable/sprite/subdir.mk
 -include Core/Src/Core/ui/display/display-refresher/subdir.mk
 -include Core/Src/Core/time/time-monitor/subdir.mk
+-include Core/Src/Core/store/services-store/subdir.mk
 -include Core/Src/Core/stages/initial-loading/subdir.mk
 -include Core/Src/Core/sound/sound-player/subdir.mk
 -include Core/Src/Core/runtime/stage/subdir.mk
 -include Core/Src/Core/runtime/context/subdir.mk
 -include Core/Src/Core/input/subdir.mk
+-include Core/Src/Core/game/model/pet-data/subdir.mk
+-include Core/Src/Core/game/model/game-state/subdir.mk
+-include Core/Src/Core/game/model/datetime/time/subdir.mk
+-include Core/Src/Core/game/model/datetime/date/subdir.mk
+-include Core/Src/Core/game/model/datetime/subdir.mk
 -include Core/Src/Core/common/Vec2d/subdir.mk
 -include Core/Src/subdir.mk
 -include subdir.mk

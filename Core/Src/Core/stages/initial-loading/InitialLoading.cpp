@@ -4,42 +4,75 @@
 
 #include "InitialLoading.h"
 #include "../../assets/egg.texture.h"
+#include "../../assets/common/icon-bar-background.texture.h"
+#include "../../assets/common/icon-bar-big-icons.texture.h"
+#include "../../ui/display/drawable/text/Text.h"
 
 void tama::InitialLoading::onInput(tama::Button button)
 {
-    i++;
+    std::vector<Tone> music;
+    music.push_back({5, 14});
+    context->getSoundPlayer()->play(music);
     if (button == Button::C)
     {
-        egg->move(Vec2d(1, 0));
-    } else if (button == Button::B) {
-        egg->move(Vec2d(-1, 0));
+        if (selectedIconIndex != 9)
+        {
+            bigIcons.at(selectedIconIndex).hide();
+        }
+        selectedIconIndex++;
+        selectedIconIndex %= 10;
+        if (selectedIconIndex != 9)
+        {
+            bigIcons.at(selectedIconIndex).show();
+        }
     }
-
-    if (i == 10)
-    {
-        context->switchStage(std::make_shared<InitialLoading>(context));
-    }
-
-    int a = 5;
-    a = 3;
 }
 
 void tama::InitialLoading::onInit()
 {
 
-    int b = 4;
-    int c = 3;
 }
 
 void tama::InitialLoading::onFrame()
 {
-    int w = 3;
-    w = 1;
+
 }
 
 tama::InitialLoading::InitialLoading(const std::shared_ptr<Context> &context) : Stage(context)
 {
-    context->getInput()->addListener(std::make_shared<InitialLoading>(*this));
-    egg = std::make_shared<Sprite>(context->getTextureLoader()->load(tama::asset::egg1), Vec2d(10, 37));
-    scene->addDrawable(egg);
+    initMenu();
+    scene->addDrawable(std::make_shared<Sprite>(context->getTextureLoader()->load(tama::asset::egg1), Vec2d(40, 35)));
+    text = Text(Vec2d(25, 5));
+    scene->addDrawable(
+            std::shared_ptr<Text>(&text)
+            );
+    text.show();
+    text.setPosition(Vec2d(14, 0));
+    text.setText(std::string("HALO"));
+    text.setText(std::string("HALOA"));
+}
+
+void tama::InitialLoading::initMenu()
+{
+    scene->addDrawable(std::make_shared<Sprite>(context->getTextureLoader()->load(tama::asset::iconBarBackgroundLeft), Vec2d(0, 0)));
+    scene->addDrawable(std::make_shared<Sprite>(context->getTextureLoader()->load(tama::asset::iconBarBackgroundRight), Vec2d(84-14, 0)));
+
+    bigIcons.at(0) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon1), Vec2d(0, 0));
+    bigIcons.at(1) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon2), Vec2d(0, 8));
+    bigIcons.at(2) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon3), Vec2d(0, 15));
+    bigIcons.at(3) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon4), Vec2d(0, 22));
+    bigIcons.at(4) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon5), Vec2d(0, 29));
+    bigIcons.at(5) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon6), Vec2d(65, 0));
+    bigIcons.at(6) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon7), Vec2d(65, 8));
+    bigIcons.at(7) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon8), Vec2d(65, 15));
+    bigIcons.at(8) = Sprite(context->getTextureLoader()->load(tama::asset::bigIcon9), Vec2d(65, 20));
+
+    for (int i = 0; i < 9; ++i)
+    {
+        bigIcons.at(i).hide();
+        scene->addDrawable(std::shared_ptr<Sprite>(&bigIcons.at(i)));
+    }
+
+    okIcon = Sprite(context->getTextureLoader()->load(tama::asset::okIcon), Vec2d(84 - 11, 48 - 8));
+    scene->addDrawable(std::shared_ptr<Sprite>(&okIcon));
 }

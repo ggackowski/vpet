@@ -13,6 +13,9 @@ namespace tama
     class Sprite : public Drawable
     {
     public:
+
+        Sprite();
+
         Sprite(const std::shared_ptr<Texture> &texture, const Vec2d &position);
 
         void setTexture(std::shared_ptr <Texture> ptr) override;

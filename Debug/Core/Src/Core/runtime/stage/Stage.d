@@ -16,6 +16,11 @@ Core/Src/Core/runtime/stage/Stage.o: \
  ../Core/Src/Core/runtime/stage/../context/../../ui/display/drawable/texture-loader/TextureLoader.h \
  ../Core/Src/Core/runtime/stage/../context/../../ui/display/drawable/texture-loader/../texture.h \
  ../Core/Src/Core/runtime/stage/../context/../../ui/display/drawable/texture-loader/../../../../assets/texture-asset.h \
+ ../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/SoundPlayer.h \
+ ../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../../time/time-monitor/TimeMonitor.h \
+ ../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../tone/Tone.h \
+ ../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../SoundPlayingStrategy.h \
+ ../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../tone/Tone.h \
  ../Core/Src/Core/runtime/stage/../context/../../input/Input.h \
  ../Core/Src/Core/runtime/stage/../context/../../input/../common/observers/OnInput.h
 
@@ -50,6 +55,16 @@ Core/Src/Core/runtime/stage/Stage.o: \
 ../Core/Src/Core/runtime/stage/../context/../../ui/display/drawable/texture-loader/../texture.h:
 
 ../Core/Src/Core/runtime/stage/../context/../../ui/display/drawable/texture-loader/../../../../assets/texture-asset.h:
+
+../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/SoundPlayer.h:
+
+../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../../time/time-monitor/TimeMonitor.h:
+
+../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../tone/Tone.h:
+
+../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../SoundPlayingStrategy.h:
+
+../Core/Src/Core/runtime/stage/../context/../../sound/sound-player/../tone/Tone.h:
 
 ../Core/Src/Core/runtime/stage/../context/../../input/Input.h:
 

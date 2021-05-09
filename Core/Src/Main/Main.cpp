@@ -10,19 +10,19 @@
 
 [[noreturn]] void tama::Main::run()
 {
-    unsigned fps = 5;
+    unsigned fps = 4;
     unsigned frameMillis = 1000 / fps;
 
     DisplayConfig displayConfig = getDefaultNokia5110DisplayConfig();
-    std::shared_ptr<Display> display = std::make_shared<Nokia5510Display>(displayConfig);
+    std::unique_ptr<Display> display = std::make_unique<Nokia5510Display>(displayConfig);
     std::shared_ptr<TextureLoader> textureLoader = std::make_shared<Stm32TextureLoader>();
     std::shared_ptr<DisplayDataManager> dataConverter = std::make_shared<Nokia5110DisplayDataManager>();
     std::shared_ptr<TimeMonitor> soundTimeMonitor = std::make_shared<Stm32TimeMonitor>();
     std::shared_ptr<TimeMonitor> refreshTimeMonitor = std::make_shared<Stm32TimeMonitor>();
     std::shared_ptr<SoundPlayingStrategy> playingStrategy = std::make_shared<Stm32SoundPlayingStrategy>();
-    std::shared_ptr<SoundPlayer> soundPlayer = std::make_shared<SoundPlayer>(soundTimeMonitor);
+    SoundPlayer soundPlayer(soundTimeMonitor);
     std::shared_ptr<Input> input = std::make_shared<Stm32Input>();
-    soundPlayer->setPlayingStrategy(playingStrategy);
+    soundPlayer.setPlayingStrategy(playingStrategy);
     std::vector<Tone> music;
     music.push_back({400, 10});
     music.push_back({400, 5});
@@ -46,16 +46,16 @@
     music.push_back({200, 5});
     music.push_back({400, 7});
 
-    std::shared_ptr<Context> context = std::make_shared<Context>(textureLoader, input);
+    std::shared_ptr<Context> context = std::make_shared<Context>(textureLoader, input, std::shared_ptr<SoundPlayer>(&soundPlayer));
     std::shared_ptr<Stage> loadingStage = std::make_shared<InitialLoading>(context);
     context->openNewStage(loadingStage);
     context->getActiveStage()->onInit();
-
+//    soundPlayer.play(music);
     refreshTimeMonitor->startTimer();
     while (true)
     {
         input->update();
-        soundPlayer->update();
+        soundPlayer.update();
         if (refreshTimeMonitor->getElapsedTime() > frameMillis)
         {
             refreshTimeMonitor->startTimer();

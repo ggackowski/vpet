@@ -17,12 +17,22 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../ui/display/drawable/texture-loader/TextureLoader.h \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../ui/display/drawable/texture-loader/../texture.h \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../ui/display/drawable/texture-loader/../../../../assets/texture-asset.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/SoundPlayer.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../../time/time-monitor/TimeMonitor.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../tone/Tone.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../SoundPlayingStrategy.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../tone/Tone.h \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/Input.h \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/../common/observers/OnInput.h \
  ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/../Drawable.h \
+ ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/Text.h \
+ ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/../Drawable.h \
+ ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/../texture-loader/TextureLoader.h \
  ../Core/Src/Core/stages/initial-loading/../../assets/egg.texture.h \
- ../Core/Src/Core/stages/initial-loading/../../assets/texture-asset.h
+ ../Core/Src/Core/stages/initial-loading/../../assets/texture-asset.h \
+ ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-background.texture.h \
+ ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h
 
 ../Core/Src/Core/stages/initial-loading/InitialLoading.h:
 
@@ -58,6 +68,16 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
 
 ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../ui/display/drawable/texture-loader/../../../../assets/texture-asset.h:
 
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/SoundPlayer.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../../time/time-monitor/TimeMonitor.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../tone/Tone.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../SoundPlayingStrategy.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../tone/Tone.h:
+
 ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/Input.h:
 
 ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/../common/observers/OnInput.h:
@@ -66,6 +86,16 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
 
 ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/../Drawable.h:
 
+../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/Text.h:
+
+../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/../Drawable.h:
+
+../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/../texture-loader/TextureLoader.h:
+
 ../Core/Src/Core/stages/initial-loading/../../assets/egg.texture.h:
 
 ../Core/Src/Core/stages/initial-loading/../../assets/texture-asset.h:
+
+../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-background.texture.h:
+
+../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h:

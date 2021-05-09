@@ -14,7 +14,11 @@ namespace tama
     {
     public:
 
+        Text();
+
         Text(const Vec2d &position);
+
+        Text(std::string & text, Vec2d & position);
 
         void setTexture(std::shared_ptr<Texture> ptr) override;
 
@@ -51,7 +55,7 @@ namespace tama
         std::string text;
         std::shared_ptr<Texture> texture;
         unsigned size = 7;
-        bool visible;
+        bool visible{};
         Vec2d position;
         Vec2d dimensions;
 

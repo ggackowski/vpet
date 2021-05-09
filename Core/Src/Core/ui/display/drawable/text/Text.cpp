@@ -14,7 +14,7 @@ void tama::Text::setTexture(std::shared_ptr<Texture> ptr)
 
 void tama::Text::setPosition(tama::Vec2d d)
 {
-    this->position = position;
+    this->position = d;
     notifyObserver();
 }
 
@@ -142,6 +142,21 @@ std::shared_ptr<tama::Texture> tama::Text::getTextureForLetter(char letter)
 void tama::Text::recalculateDimensions()
 {
     dimensions.x = (size + 1) * text.size();
-    dimensions.y = (size + 1) * (std::count(text.begin(), text.end(), '\n') + 2) ;
+    dimensions.y = (size + 1) * (std::count(text.begin(), text.end(), '\n') + 1) ;
 
+}
+
+tama::Text::Text(std::string & text, Vec2d & position):
+        position(position), text(text)
+{
+    textureLoader = std::make_unique<tama::Stm32TextureLoader>();
+    observer = nullptr;
+    visible = true;
+    recalculateDimensions();
+    updateTexture();
+}
+
+tama::Text::Text()
+{
+    tama::Text(Vec2d(0,0));
 }

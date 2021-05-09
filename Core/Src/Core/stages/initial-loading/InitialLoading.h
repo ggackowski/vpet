@@ -7,6 +7,7 @@
 
 #include "../../runtime/stage/Stage.h"
 #include "../../ui/display/drawable/sprite/Sprite.h"
+#include "../../ui/display/drawable/text/Text.h"
 
 namespace tama
 {
@@ -23,8 +24,14 @@ namespace tama
         void onFrame() override;
 
     private:
-        std::shared_ptr<Sprite> egg;
-        int i = 0;
+//        std::shared_ptr<Sprite> egg;
+//        std::shared_ptr<Sprite> bigFirstIcon;
+        void initMenu();
+
+        std::array<Sprite, 9> bigIcons;
+        Sprite okIcon;
+        Text text;
+        int selectedIconIndex = 9;
 
     };
 }

@@ -31,8 +31,8 @@ std::shared_ptr<tama::Stage> tama::Context::getActiveStage()
     return stages.top(); // @todo return null object if no stage created
 }
 
-tama::Context::Context(std::shared_ptr<TextureLoader> textureLoader, std::shared_ptr<Input> input)
-: textureLoader(textureLoader), input(input)
+tama::Context::Context(std::shared_ptr<TextureLoader> textureLoader, std::shared_ptr<Input> input, std::shared_ptr<SoundPlayer> player)
+: textureLoader(textureLoader), input(input), player(player)
 {
 }
 
@@ -44,4 +44,9 @@ std::shared_ptr<tama::TextureLoader> tama::Context::getTextureLoader()
 std::shared_ptr<tama::Input> tama::Context::getInput()
 {
     return input;
+}
+
+std::shared_ptr<tama::SoundPlayer> tama::Context::getSoundPlayer()
+{
+    return player;
 }

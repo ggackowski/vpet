@@ -10,6 +10,7 @@
 #include <memory>
 #include "../stage/Stage.h"
 #include "../../ui/display/drawable/texture-loader/TextureLoader.h"
+#include "../../sound/sound-player/SoundPlayer.h"
 #include "../../input/Input.h"
 
 namespace tama
@@ -19,7 +20,7 @@ namespace tama
     class Context
     {
     public:
-        Context(std::shared_ptr<TextureLoader> textureLoader, std::shared_ptr<Input> input);
+        Context(std::shared_ptr<TextureLoader> textureLoader, std::shared_ptr<Input> input, std::shared_ptr<SoundPlayer> player);
 
         void openNewStage(std::shared_ptr<tama::Stage>);
         void goToPreviousStage();
@@ -27,10 +28,12 @@ namespace tama
         std::shared_ptr<tama::Stage> getActiveStage();
         std::shared_ptr<TextureLoader> getTextureLoader();
         std::shared_ptr<Input> getInput();
+        std::shared_ptr<SoundPlayer> getSoundPlayer();
     private:
         std::stack<std::shared_ptr<Stage>> stages;
         std::shared_ptr<TextureLoader> textureLoader;
         std::shared_ptr<Input> input;
+        std::shared_ptr<SoundPlayer> player;
     };
 }
 

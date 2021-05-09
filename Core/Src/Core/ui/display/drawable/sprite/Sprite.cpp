@@ -67,3 +67,10 @@ tama::Sprite::Sprite(const std::shared_ptr<Texture> &texture, const tama::Vec2d 
     observer = nullptr;
     visible = true;
 }
+
+tama::Sprite::Sprite()
+{
+    observer = nullptr;
+    visible = true;
+    position = Vec2d(0, 0);
+}

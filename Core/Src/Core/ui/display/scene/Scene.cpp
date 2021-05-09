@@ -17,7 +17,7 @@ void tama::Scene::setChangeObserver(std::shared_ptr<ChangeObserver> observer)
 void tama::Scene::addDrawable(std::shared_ptr<Drawable> drawable)
 {
     this->drawables.push_back(drawable);
-    drawable->setChangeObserver(std::make_shared<Scene>(*this));
+    //drawable->setChangeObserver(std::make_shared<Scene>(*this));
 }
 
 void tama::Scene::removeDrawable(std::shared_ptr<Drawable>)

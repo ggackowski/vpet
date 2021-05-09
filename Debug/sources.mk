@@ -30,11 +30,17 @@ CPP_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Src/Core/common/Vec2d \
+Core/Src/Core/game/model/datetime \
+Core/Src/Core/game/model/datetime/date \
+Core/Src/Core/game/model/datetime/time \
+Core/Src/Core/game/model/game-state \
+Core/Src/Core/game/model/pet-data \
 Core/Src/Core/input \
 Core/Src/Core/runtime/context \
 Core/Src/Core/runtime/stage \
 Core/Src/Core/sound/sound-player \
 Core/Src/Core/stages/initial-loading \
+Core/Src/Core/store/services-store \
 Core/Src/Core/time/time-monitor \
 Core/Src/Core/ui/display/display-refresher \
 Core/Src/Core/ui/display/drawable/sprite \
@@ -45,6 +51,7 @@ Core/Src/Main \
 Core/Src/STM32F411Disco-drivers/display \
 Core/Src/STM32F411Disco-drivers/input \
 Core/Src/STM32F411Disco-drivers/nokia5110-display-data-manager \
+Core/Src/STM32F411Disco-drivers/stm32-services-store \
 Core/Src/STM32F411Disco-drivers/texture-loader \
 Core/Src/STM32F411Disco-drivers/time-monitor \
 Core/Src \

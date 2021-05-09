@@ -15,9 +15,12 @@ shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::TextureLoader]	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::Input; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::Input]	16	static
-Context.cpp:34:1:tama::Context::Context(std::shared_ptr<tama::TextureLoader>, std::shared_ptr<tama::Input>)	24	static
+shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::SoundPlayer; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::SoundPlayer]	16	static
+Context.cpp:34:1:tama::Context::Context(std::shared_ptr<tama::TextureLoader>, std::shared_ptr<tama::Input>, std::shared_ptr<tama::SoundPlayer>)	24	static
 Context.cpp:39:38:std::shared_ptr<tama::TextureLoader> tama::Context::getTextureLoader()	16	static
 Context.cpp:44:30:std::shared_ptr<tama::Input> tama::Context::getInput()	16	static
+Context.cpp:49:36:std::shared_ptr<tama::SoundPlayer> tama::Context::getSoundPlayer()	16	static
 stl_stack.h:225:7:void std::stack<_Tp, _Sequence>::push(const value_type&) [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
 stl_stack.h:258:7:void std::stack<_Tp, _Sequence>::pop() [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
 stl_stack.h:190:7:std::stack<_Tp, _Sequence>::size_type std::stack<_Tp, _Sequence>::size() const [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
