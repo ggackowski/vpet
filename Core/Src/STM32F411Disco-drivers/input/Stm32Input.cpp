@@ -8,8 +8,8 @@
 
 void tama::Stm32Input::update()
 {
-    Button button = tama::Button::NONE;
-
+    delay++;
+    delay %= 4;
     if (HAL_GPIO_ReadPin(BUTTON_C_GPIO_Port, BUTTON_C_Pin) == GPIO_PIN_RESET)
     {
         button = tama::Button::C;
@@ -18,12 +18,20 @@ void tama::Stm32Input::update()
     {
         button = tama::Button::B;
     }
-
-    if (button != tama::Button::NONE)
+    if (HAL_GPIO_ReadPin(BUTTON_A_GPIO_Port, BUTTON_A_Pin) == GPIO_PIN_RESET)
+    {
+        button = tama::Button::A;
+    }
+    // temp
+    if (delay % 2 == 0 && button != tama::Button::NONE)
     {
         for (auto listener : listeners)
         {
-            listener->onInput(button);
+            if (listener != nullptr)
+            {
+                listener->onInput(button);
+            }
         }
+        button = tama::Button::NONE;
     }
 }

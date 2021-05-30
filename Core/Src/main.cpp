@@ -100,12 +100,12 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
-  __HAL_TIM_SET_PRESCALER(&htim3, 0);
-//  __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 10000);
-//  for (int i =1; i <= 40; i += 1) {
-                 __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 10);
-//                 HAL_Delay(100);
-//  }
+   __HAL_TIM_SET_PRESCALER(&htim3, 0);
+ //  __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 10000);
+ //  for (int i =1; i <= 40; i += 1) {
+                  __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 10);
+ //                 HAL_Delay(100);
+ //  }
   tama::Main tamaMain;
   tamaMain.run();
   /* USER CODE END 2 */

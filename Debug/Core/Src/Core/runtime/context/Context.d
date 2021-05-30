@@ -22,7 +22,27 @@ Core/Src/Core/runtime/context/Context.o: \
  ../Core/Src/Core/runtime/context/../../sound/sound-player/../SoundPlayingStrategy.h \
  ../Core/Src/Core/runtime/context/../../sound/sound-player/../tone/Tone.h \
  ../Core/Src/Core/runtime/context/../../input/Input.h \
- ../Core/Src/Core/runtime/context/../../input/../common/observers/OnInput.h
+ ../Core/Src/Core/runtime/context/../../input/../common/observers/OnInput.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/GameState.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/PetData.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/gender/gender.enum.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/pet-phase/pet-phase.enum.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/breed/breed.enum.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/pet-identifier.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/breed/breed.enum.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/pet-phase/pet-phase.enum.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/gender//gender.enum.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../datetime/Datetime.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../datetime/time/Time.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../datetime/date/Date.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/PetDb.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/pet-textures.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/texture-asset.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/pet-identifier.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/Core/runtime/context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
+ ../Core/Src/Core/runtime/context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h
 
 ../Core/Src/Core/runtime/context/Context.h:
 
@@ -69,3 +89,43 @@ Core/Src/Core/runtime/context/Context.o: \
 ../Core/Src/Core/runtime/context/../../input/Input.h:
 
 ../Core/Src/Core/runtime/context/../../input/../common/observers/OnInput.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/GameState.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/PetData.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/gender/gender.enum.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/pet-phase/pet-phase.enum.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/breed/breed.enum.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/pet-identifier.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/breed/breed.enum.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/pet-phase/pet-phase.enum.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/gender//gender.enum.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../datetime/Datetime.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../datetime/time/Time.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../datetime/date/Date.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/PetDb.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/pet-textures.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/texture-asset.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/pet-identifier.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
+
+../Core/Src/Core/runtime/context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
+
+../Core/Src/Core/runtime/context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:

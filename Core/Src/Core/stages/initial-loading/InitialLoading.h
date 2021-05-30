@@ -2,12 +2,19 @@
 // Created by grzegorz on 4/29/21.
 //
 
+
+
 #ifndef VPET_INITIALLOADING_H
 #define VPET_INITIALLOADING_H
 
 #include "../../runtime/stage/Stage.h"
 #include "../../ui/display/drawable/sprite/Sprite.h"
 #include "../../ui/display/drawable/text/Text.h"
+#include "../../assets/egg.texture.h"
+#include "../../assets/common/icon-bar-background.texture.h"
+#include "../../assets/common/icon-bar-big-icons.texture.h"
+#include "../../ui/display/drawable/text/Text.h"
+#include "../name-selection/NameSelection.h"
 
 namespace tama
 {
@@ -24,8 +31,8 @@ namespace tama
         void onFrame() override;
 
     private:
-//        std::shared_ptr<Sprite> egg;
-//        std::shared_ptr<Sprite> bigFirstIcon;
+        std::shared_ptr<Sprite> egg;
+        std::shared_ptr<Sprite> bigFirstIcon;
         void initMenu();
 
         std::array<Sprite, 9> bigIcons;

@@ -12,6 +12,8 @@ namespace tama
     class Stm32Input : public Input
     {
         void update() override;
+        Button button = tama::Button::NONE;
+        int delay = 0;
     };
 }
 

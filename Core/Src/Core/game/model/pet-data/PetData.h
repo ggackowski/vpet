@@ -9,6 +9,7 @@
 #include "gender/gender.enum.h"
 #include "pet-phase/pet-phase.enum.h"
 #include "breed/breed.enum.h"
+#include "../../pet-db/pet-identifier.h"
 
 namespace tama
 {
@@ -16,12 +17,13 @@ namespace tama
     {
     private:
         std::string name;
-        Gender gender;
+//        Gender gender;
+//        PetPhase phase;
+//        Breed breed;
+        PetIdentifier petIdentifier;
         int age;
-        PetPhase phase;
-        Breed breed;
         int food;
-        int hapiness;
+        int happiness;
         int health;
         bool isSleepy;
     };

@@ -15,10 +15,11 @@ namespace tama
     {
     public:
         virtual void update() = 0;
-        void addListener(std::shared_ptr<OnInput>);
+        void addListener(OnInput *);
+        void removeListener(OnInput *);
 
     protected:
-        std::vector<std::shared_ptr<OnInput>> listeners;
+        std::vector<OnInput *> listeners;
     };
 }
 

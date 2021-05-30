@@ -1,0 +1,5 @@
+displayPlacementUtils.cpp:14:15:tama::Vec2d tama::util::toContentArea(const tama::Vec2d&)	16	static
+displayPlacementUtils.cpp:19:15:tama::Vec2d tama::util::fromBottomLeft(const tama::Vec2d&)	16	static
+displayPlacementUtils.cpp:24:15:tama::Vec2d tama::util::fromBottomRight(const tama::Vec2d&)	16	static
+displayPlacementUtils.cpp:29:15:tama::Vec2d tama::util::fromTopRight(const tama::Vec2d&)	16	static
+displayPlacementUtils.cpp:34:14:bool tama::util::fitsInContent(const tama::Vec2d&)	16	static

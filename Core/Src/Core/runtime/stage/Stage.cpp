@@ -11,6 +11,6 @@ std::shared_ptr<tama::Scene> tama::Stage::getScene()
 
 tama::Stage::Stage(const std::shared_ptr<Context> &context) : context(context)
 {
-    context->getInput()->addListener(std::shared_ptr<Stage>(this));
+    context->getInput()->addListener(this);
     scene = std::make_shared<Scene>();
 }

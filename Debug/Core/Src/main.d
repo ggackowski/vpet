@@ -86,17 +86,50 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Core/Src/./Main/../Core/runtime/context/../../sound/sound-player/../tone/Tone.h \
  ../Core/Src/./Main/../Core/runtime/context/../../input/Input.h \
  ../Core/Src/./Main/../Core/runtime/context/../../input/../common/observers/OnInput.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/GameState.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/PetData.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/gender/gender.enum.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/pet-phase/pet-phase.enum.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/breed/breed.enum.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/pet-identifier.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/breed/breed.enum.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/pet-phase/pet-phase.enum.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/gender//gender.enum.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../datetime/Datetime.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../datetime/time/Time.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../datetime/date/Date.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/PetDb.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/pet-textures.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/texture-asset.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/pet-identifier.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/./Main/../Core/stages/initial-loading/InitialLoading.h \
  ../Core/Src/./Main/../Core/stages/initial-loading/../../runtime/stage/Stage.h \
  ../Core/Src/./Main/../Core/stages/initial-loading/../../ui/display/drawable/sprite/Sprite.h \
  ../Core/Src/./Main/../Core/stages/initial-loading/../../ui/display/drawable/text/Text.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../../assets/egg.texture.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../../assets/texture-asset.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../../assets/common/icon-bar-background.texture.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../../assets/common/../texture-asset.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/NameSelection.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../runtime/stage/Stage.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../ui/display/drawable/text/Text.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../common/util/displayPlacementUtils.h \
+ ../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../common/util/../Vec2d/Vec2d.h \
  ../Core/Src/./Main/../Core/time/time-monitor/TimeMonitor.h \
  ../Core/Src/./Main/../STM32F411Disco-drivers/time-monitor/Stm32TimeMonitor.h \
  ../Core/Src/./Main/../STM32F411Disco-drivers/time-monitor/../../Core/time/time-monitor/TimeMonitor.h \
  ../Core/Src/./Main/../Core/sound/SoundPlayingStrategy.h \
  ../Core/Src/./Main/../STM32F411Disco-drivers/sound-playing-strategy/Stm32SoundPlayingStrategy.h \
  ../Core/Src/./Main/../STM32F411Disco-drivers/sound-playing-strategy/../../Core/sound/SoundPlayingStrategy.h \
- ../Core/Src/./Main/../Core/sound/sound-player/SoundPlayer.h
+ ../Core/Src/./Main/../Core/sound/sound-player/SoundPlayer.h \
+ ../Core/Src/./Main/../Core/input/Input.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/input/Stm32Input.h \
+ ../Core/Src/./Main/../STM32F411Disco-drivers/input/../../Core/input/Input.h
 
 ../Core/Inc/main.h:
 
@@ -286,6 +319,46 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 
 ../Core/Src/./Main/../Core/runtime/context/../../input/../common/observers/OnInput.h:
 
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/GameState.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/PetData.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/gender/gender.enum.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/pet-phase/pet-phase.enum.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/breed/breed.enum.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/pet-identifier.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/breed/breed.enum.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/pet-phase/pet-phase.enum.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/gender//gender.enum.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../datetime/Datetime.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../datetime/time/Time.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../datetime/date/Date.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/PetDb.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/pet-textures.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/texture-asset.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/pet-identifier.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:
+
 ../Core/Src/./Main/../Core/stages/initial-loading/InitialLoading.h:
 
 ../Core/Src/./Main/../Core/stages/initial-loading/../../runtime/stage/Stage.h:
@@ -293,6 +366,26 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Core/Src/./Main/../Core/stages/initial-loading/../../ui/display/drawable/sprite/Sprite.h:
 
 ../Core/Src/./Main/../Core/stages/initial-loading/../../ui/display/drawable/text/Text.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../../assets/egg.texture.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../../assets/texture-asset.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../../assets/common/icon-bar-background.texture.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../../assets/common/../texture-asset.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/NameSelection.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../runtime/stage/Stage.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../ui/display/drawable/text/Text.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../common/util/displayPlacementUtils.h:
+
+../Core/Src/./Main/../Core/stages/initial-loading/../name-selection/../../common/util/../Vec2d/Vec2d.h:
 
 ../Core/Src/./Main/../Core/time/time-monitor/TimeMonitor.h:
 
@@ -307,3 +400,9 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Core/Src/./Main/../STM32F411Disco-drivers/sound-playing-strategy/../../Core/sound/SoundPlayingStrategy.h:
 
 ../Core/Src/./Main/../Core/sound/sound-player/SoundPlayer.h:
+
+../Core/Src/./Main/../Core/input/Input.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/input/Stm32Input.h:
+
+../Core/Src/./Main/../STM32F411Disco-drivers/input/../../Core/input/Input.h:

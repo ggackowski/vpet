@@ -17,7 +17,7 @@ std::shared_ptr<tama::Texture> tama::Stm32TextureLoader::load(const TextureAsset
         }
     }
 
-    texture->data = textureData;
+    texture->setData(textureData);
 
     return texture;
 }

@@ -3,3 +3,23 @@
 //
 
 #include "Datetime.h"
+
+tama::Time &tama::Datetime::getTime()
+{
+    return time;
+}
+
+tama::Date &tama::Datetime::getDate()
+{
+    return date;
+}
+
+void tama::Datetime::updateBySeconds(int seconds)
+{
+    int currentHours = time.getHours();
+    time.updateBySeconds(seconds);
+    if (currentHours == 23 && time.getHours() == 0)
+    {
+        date.updateByDay();
+    }
+}

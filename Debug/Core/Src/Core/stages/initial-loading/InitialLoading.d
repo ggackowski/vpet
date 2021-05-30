@@ -24,6 +24,26 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../sound/sound-player/../tone/Tone.h \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/Input.h \
  ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/../common/observers/OnInput.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/GameState.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/PetData.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/gender/gender.enum.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/pet-phase/pet-phase.enum.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/breed/breed.enum.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/pet-identifier.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/breed/breed.enum.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/pet-phase/pet-phase.enum.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/gender//gender.enum.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../datetime/Datetime.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../datetime/time/Time.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../datetime/date/Date.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/PetDb.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-textures.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/texture-asset.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-identifier.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
+ ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/../Drawable.h \
  ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/text/Text.h \
@@ -32,7 +52,13 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
  ../Core/Src/Core/stages/initial-loading/../../assets/egg.texture.h \
  ../Core/Src/Core/stages/initial-loading/../../assets/texture-asset.h \
  ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-background.texture.h \
- ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h
+ ../Core/Src/Core/stages/initial-loading/../../assets/common/../texture-asset.h \
+ ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h \
+ ../Core/Src/Core/stages/initial-loading/../name-selection/NameSelection.h \
+ ../Core/Src/Core/stages/initial-loading/../name-selection/../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/initial-loading/../name-selection/../../ui/display/drawable/text/Text.h \
+ ../Core/Src/Core/stages/initial-loading/../name-selection/../../common/util/displayPlacementUtils.h \
+ ../Core/Src/Core/stages/initial-loading/../name-selection/../../common/util/../Vec2d/Vec2d.h
 
 ../Core/Src/Core/stages/initial-loading/InitialLoading.h:
 
@@ -82,6 +108,46 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
 
 ../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../input/../common/observers/OnInput.h:
 
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/GameState.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/PetData.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/gender/gender.enum.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/pet-phase/pet-phase.enum.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/breed/breed.enum.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/pet-identifier.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/breed/breed.enum.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/pet-phase/pet-phase.enum.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../pet-data/../../pet-db/../model/pet-data/gender//gender.enum.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../datetime/Datetime.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../datetime/time/Time.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../datetime/date/Date.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/PetDb.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-textures.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/texture-asset.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-identifier.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
+
+../Core/Src/Core/stages/initial-loading/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:
+
 ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/Sprite.h:
 
 ../Core/Src/Core/stages/initial-loading/../../ui/display/drawable/sprite/../Drawable.h:
@@ -98,4 +164,16 @@ Core/Src/Core/stages/initial-loading/InitialLoading.o: \
 
 ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-background.texture.h:
 
+../Core/Src/Core/stages/initial-loading/../../assets/common/../texture-asset.h:
+
 ../Core/Src/Core/stages/initial-loading/../../assets/common/icon-bar-big-icons.texture.h:
+
+../Core/Src/Core/stages/initial-loading/../name-selection/NameSelection.h:
+
+../Core/Src/Core/stages/initial-loading/../name-selection/../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/initial-loading/../name-selection/../../ui/display/drawable/text/Text.h:
+
+../Core/Src/Core/stages/initial-loading/../name-selection/../../common/util/displayPlacementUtils.h:
+
+../Core/Src/Core/stages/initial-loading/../name-selection/../../common/util/../Vec2d/Vec2d.h:

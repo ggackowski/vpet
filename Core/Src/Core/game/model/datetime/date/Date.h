@@ -9,7 +9,16 @@ namespace tama
 {
     class Date
     {
+    public:
+        Date();
+        void incrementDay();
+        void incrementMonth();
+        int getDay();
+        int getMonth();
+        void updateByDay();
     private:
+        const int MAX_MONTH = 12;
+        static int maxDayForMonth(int month);
         int day;
         int month;
     };

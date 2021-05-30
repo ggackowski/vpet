@@ -49,17 +49,32 @@ namespace tama
             }
         }
 
+        void setData(PixelColor ** d)
+        {
+            deleteTextureData();
+            this->data = d;
+        }
+
+
+        void deleteTextureData()
+        {
+            for (unsigned i = 0; i < height; ++i)
+            {
+            	if (data[i] != nullptr)
+            		delete[] data[i];
+            }
+            if (data != nullptr)
+            	delete[] data;
+        }
+
+
         bool shouldDrawPixel(const std::shared_ptr<Texture> &texture, unsigned int i, unsigned int j, unsigned int newY,
                              unsigned int newX) const
         { return newX < width && newY < height && texture->data[i][j] != PixelColor::TRANSPARENT; }
 
-        virtual ~Texture()
+        ~Texture()
         {
-            for (unsigned i = 0; i < height; ++i)
-            {
-                delete[] data[i];
-            }
-            delete[] data;
+            deleteTextureData();
         }
     };
 }

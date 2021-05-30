@@ -29,6 +29,8 @@
 #include "../Core/sound/SoundPlayingStrategy.h"
 #include "../STM32F411Disco-drivers/sound-playing-strategy/Stm32SoundPlayingStrategy.h"
 #include "../Core/sound/sound-player/SoundPlayer.h"
+#include "../Core/input/Input.h"
+#include "../STM32F411Disco-drivers/input/Stm32Input.h"
 
 
 namespace tama

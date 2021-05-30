@@ -138,13 +138,40 @@
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Configuration/display.config.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/common/icon-bar-background.texture.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/common/icon-bar-background.texture.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/common/icon-bar-big-icons.texture.cpp">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/common/icon-bar-big-icons.texture.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/egg.texture.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/egg.texture.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/menu-cursor.texture.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/menu-cursor.texture.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/menu/wash/wash.texture.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/menu/wash/wash.texture.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/pet/first-male/baby/fir.st-male-baby.texture.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.cpp">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/assets/text/standard-font.texture.h">
@@ -163,6 +190,12 @@
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/observers/OnInput.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/util/displayPlacementUtils.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/util/displayPlacementUtils.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/model/datetime/Datetime.cpp">
@@ -204,6 +237,18 @@
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/model/pet-data/pet-phase/pet-phase.enum.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/pet-db/PetDb.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/pet-db/PetDb.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/pet-db/pet-identifier.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/pet-db/pet-textures.h">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/input/Input.cpp">
 			<Option target="vpet.elf"/>
 		</Unit>
@@ -243,6 +288,48 @@
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/initial-loading/InitialLoading.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/initial/time-selection/TimeSelection.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/initial/time-selection/TimeSelection.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/main/Home.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/main/Home.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/eat/Eat.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/eat/Eat.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/play/menu/PlayMenu.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/play/menu/PlayMenu.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/wash/Wash.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/menu/wash/Wash.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/name-selection/NameSelection.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/stages/name-selection/NameSelection.h">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/store/services-store/ServicesStore.cpp">
 			<Option target="vpet.elf"/>
 		</Unit>
@@ -253,6 +340,24 @@
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/time/time-monitor/TimeMonitor.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/time/time-monitor/time-monitor-creator/TimeMonitorCreator.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/time/time-monitor/time-monitor-creator/TimeMonitorCreator.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/common-components/action-icons/ActionIcons.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/common-components/action-icons/ActionIcons.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/common-components/menu/Menu.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/common-components/menu/Menu.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/ui/display/Display.h">
@@ -352,6 +457,12 @@
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/time-monitor/Stm32TimeMonitor.h">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/time-monitor/Stm32TimeMonitorCreator.cpp">
+			<Option target="vpet.elf"/>
+		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/STM32F411Disco-drivers/time-monitor/Stm32TimeMonitorCreator.h">
 			<Option target="vpet.elf"/>
 		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/display.c">

@@ -6,8 +6,7 @@
 #define VPET_BREED_ENUM_H
 
 enum Breed {
-    ph1_msc,
-    ph1_fem,
+    first
 };
 
 #endif //VPET_BREED_ENUM_H

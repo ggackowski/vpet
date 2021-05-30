@@ -5,6 +5,7 @@
 #include "Context.h"
 
 
+
 #include <utility>
 
 void tama::Context::openNewStage(std::shared_ptr<Stage> stage)
@@ -19,9 +20,10 @@ void tama::Context::goToPreviousStage()
 
 void tama::Context::switchStage(std::shared_ptr<Stage> stage)
 {
-    if (stages.size() > 0)
+    if (!stages.empty())
     {
-        stages.pop();
+        input->removeListener(stages.top().get());
+        // stages.pop();
     }
     stages.push(stage);
 }
@@ -31,8 +33,11 @@ std::shared_ptr<tama::Stage> tama::Context::getActiveStage()
     return stages.top(); // @todo return null object if no stage created
 }
 
-tama::Context::Context(std::shared_ptr<TextureLoader> textureLoader, std::shared_ptr<Input> input, std::shared_ptr<SoundPlayer> player)
-: textureLoader(textureLoader), input(input), player(player)
+tama::Context::Context(std::shared_ptr<TextureLoader> textureLoader,
+                       std::shared_ptr<Input> input,
+                       std::shared_ptr<SoundPlayer> player,
+                       std::shared_ptr<TimeMonitorCreator> timeMonitorCreator)
+: textureLoader(textureLoader), input(input), player(player), timeMonitorCreator(timeMonitorCreator)
 {
 }
 
@@ -49,4 +54,14 @@ std::shared_ptr<tama::Input> tama::Context::getInput()
 std::shared_ptr<tama::SoundPlayer> tama::Context::getSoundPlayer()
 {
     return player;
+}
+
+tama::GameState &tama::Context::getGameState()
+{
+    return gameState;
+}
+
+std::shared_ptr<tama::TimeMonitorCreator> tama::Context::getTimeMonitorCreator()
+{
+    return timeMonitorCreator;
 }

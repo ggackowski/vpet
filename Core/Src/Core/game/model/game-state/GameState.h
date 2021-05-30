@@ -7,14 +7,20 @@
 
 #include "../pet-data/PetData.h"
 #include "../datetime/Datetime.h"
+#include "../../pet-db/PetDb.h"
 
 namespace tama
 {
     class GameState
     {
+    public:
+        PetData & getPetData();
+        Datetime & getDateTime();
+        PetDb & getPetDb();
     private:
         PetData pet;
         Datetime datetime;
+        PetDb petDb;
         int poopsCount;
         int moneyCount;
     };

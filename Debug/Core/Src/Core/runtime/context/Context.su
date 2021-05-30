@@ -3,34 +3,45 @@ stl_deque.h:91:3:constexpr std::size_t std::__deque_buf_size(std::size_t)	16	sta
 gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
 shared_ptr_base.h:302:5:void std::_Sp_counted_base<_Lp>::_M_add_ref_copy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:307:5:void std::_Sp_counted_base<_Lp>::_M_release() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
-Context.cpp:10:6:void tama::Context::openNewStage(std::shared_ptr<tama::Stage>)	16	static
-Context.cpp:15:6:void tama::Context::goToPreviousStage()	16	static
-Context.cpp:20:6:void tama::Context::switchStage(std::shared_ptr<tama::Stage>)	16	static
+Context.cpp:11:6:void tama::Context::openNewStage(std::shared_ptr<tama::Stage>)	16	static
+Context.cpp:16:6:void tama::Context::goToPreviousStage()	16	static
+Context.cpp:21:6:void tama::Context::switchStage(std::shared_ptr<tama::Stage>)	24	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::Stage]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::Stage>::~shared_ptr()	16	static
-Context.cpp:29:30:std::shared_ptr<tama::Stage> tama::Context::getActiveStage()	16	static
+Context.cpp:31:30:std::shared_ptr<tama::Stage> tama::Context::getActiveStage()	16	static
+PetData.h:16:11:tama::PetData::PetData()	16	static
+Datetime.h:13:11:tama::Datetime::Datetime()	16	static
+GameState.h:14:11:tama::GameState::GameState()	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::TextureLoader; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::TextureLoader]	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::Input; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::Input]	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::SoundPlayer; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::SoundPlayer]	16	static
-Context.cpp:34:1:tama::Context::Context(std::shared_ptr<tama::TextureLoader>, std::shared_ptr<tama::Input>, std::shared_ptr<tama::SoundPlayer>)	24	static
-Context.cpp:39:38:std::shared_ptr<tama::TextureLoader> tama::Context::getTextureLoader()	16	static
-Context.cpp:44:30:std::shared_ptr<tama::Input> tama::Context::getInput()	16	static
-Context.cpp:49:36:std::shared_ptr<tama::SoundPlayer> tama::Context::getSoundPlayer()	16	static
+shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::TimeMonitorCreator; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::TimeMonitorCreator]	16	static
+Context.cpp:36:1:tama::Context::Context(std::shared_ptr<tama::TextureLoader>, std::shared_ptr<tama::Input>, std::shared_ptr<tama::SoundPlayer>, std::shared_ptr<tama::TimeMonitorCreator>)	24	static
+Context.cpp:44:38:std::shared_ptr<tama::TextureLoader> tama::Context::getTextureLoader()	16	static
+Context.cpp:49:30:std::shared_ptr<tama::Input> tama::Context::getInput()	16	static
+Context.cpp:54:36:std::shared_ptr<tama::SoundPlayer> tama::Context::getSoundPlayer()	16	static
+Context.cpp:59:18:tama::GameState& tama::Context::getGameState()	16	static
+Context.cpp:64:43:std::shared_ptr<tama::TimeMonitorCreator> tama::Context::getTimeMonitorCreator()	16	static
+stl_algobase.h:219:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
 stl_stack.h:225:7:void std::stack<_Tp, _Sequence>::push(const value_type&) [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
 stl_stack.h:258:7:void std::stack<_Tp, _Sequence>::pop() [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
-stl_stack.h:190:7:std::stack<_Tp, _Sequence>::size_type std::stack<_Tp, _Sequence>::size() const [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
+stl_stack.h:185:7:bool std::stack<_Tp, _Sequence>::empty() const [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
+shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::Input; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
 stl_stack.h:198:7:std::stack<_Tp, _Sequence>::reference std::stack<_Tp, _Sequence>::top() [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:687:7:std::__shared_count<_Lp>::__shared_count(const std::__shared_count<_Lp>&) [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:681:7:std::__shared_count<_Lp>::~__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 stl_stack.h:148:2:std::stack<_Tp, _Sequence>::stack() [with _Seq = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >; _Requires = void; _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
 stl_deque.h:1542:7:void std::deque<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:1601:7:void std::deque<_Tp, _Alloc>::pop_back() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
-stl_deque.h:1271:7:std::deque<_Tp, _Alloc>::size_type std::deque<_Tp, _Alloc>::size() const [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
+stl_deque.h:1357:7:bool std::deque<_Tp, _Alloc>::empty() const [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
+shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::Input; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
 stl_deque.h:1473:7:std::deque<_Tp, _Alloc>::reference std::deque<_Tp, _Alloc>::back() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	32	static
 stl_deque.h:888:7:std::deque<_Tp, _Alloc>::deque() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:1183:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::end() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
@@ -41,7 +52,8 @@ alloc_traits.h:474:2:) [with _Up = std::shared_ptr<tama::Stage>; _Args = {const 
 deque.tcc:478:7:) [with _Args = {const std::shared_ptr<tama::Stage>&}; _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	24	static
 alloc_traits.h:486:2:static void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = std::shared_ptr<tama::Stage>; _Tp = std::shared_ptr<tama::Stage>]	16	static
 deque.tcc:546:10:void std::deque<_Tp, _Alloc>::_M_pop_back_aux() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
-stl_deque.h:351:5:typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&) [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
+stl_deque.h:267:5:bool std::operator==(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&) [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::Input; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 stl_deque.h:188:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Self& std::_Deque_iterator<_Tp, _Ref, _Ptr>::operator--() [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
 stl_deque.h:160:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::reference std::_Deque_iterator<_Tp, _Ref, _Ptr>::operator*() const [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
 stl_deque.h:490:7:std::_Deque_base<_Tp, _Alloc>::_Deque_base() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
@@ -52,7 +64,6 @@ stl_deque.h:599:7:std::_Deque_base<_Tp, _Alloc>::_Ptr std::_Deque_base<_Tp, _All
 stl_deque.h:254:7:void std::_Deque_iterator<_Tp, _Ref, _Ptr>::_M_set_node(std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Map_pointer) [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	24	static
 stl_deque.h:606:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_node(std::_Deque_base<_Tp, _Alloc>::_Ptr) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	24	static
 new_allocator.h:140:2:void __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = std::shared_ptr<tama::Stage>; _Tp = std::shared_ptr<tama::Stage>]	16	static
-stl_deque.h:128:21:static std::size_t std::_Deque_iterator<_Tp, _Ref, _Ptr>::_S_buffer_size() [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	8	static
 stl_deque.h:557:2:std::_Deque_base<_Tp, _Alloc>::_Deque_impl::_Deque_impl() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:681:5:void std::_Deque_base<_Tp, _Alloc>::_M_initialize_map(std::size_t) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	48	static
 stl_deque.h:595:7:std::_Deque_base<_Tp, _Alloc>::_Map_alloc_type std::_Deque_base<_Tp, _Alloc>::_M_get_map_allocator() const [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
@@ -60,10 +71,10 @@ allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with
 alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::shared_ptr<tama::Stage>*]	24	static
 deque.tcc:917:5:void std::deque<_Tp, _Alloc>::_M_reallocate_map(std::deque<_Tp, _Alloc>::size_type, bool) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	56	static
 alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_Tp1> >::allocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::shared_ptr<tama::Stage>]	16	static
+stl_deque.h:128:21:static std::size_t std::_Deque_iterator<_Tp, _Ref, _Ptr>::_S_buffer_size() [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	8	static
 alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::shared_ptr<tama::Stage>]	24	static
 allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = std::shared_ptr<tama::Stage>]	16	static
 stl_deque.h:148:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator() [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
-stl_algobase.h:219:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
 stl_deque.h:613:7:std::_Deque_base<_Tp, _Alloc>::_Map_pointer std::_Deque_base<_Tp, _Alloc>::_M_allocate_map(std::size_t) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	32	static
 stl_deque.h:720:5:void std::_Deque_base<_Tp, _Alloc>::_M_create_nodes(std::_Deque_base<_Tp, _Alloc>::_Map_pointer, std::_Deque_base<_Tp, _Alloc>::_Map_pointer) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	32	static
 stl_deque.h:591:7:const _Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static

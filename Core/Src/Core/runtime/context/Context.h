@@ -12,6 +12,8 @@
 #include "../../ui/display/drawable/texture-loader/TextureLoader.h"
 #include "../../sound/sound-player/SoundPlayer.h"
 #include "../../input/Input.h"
+#include "../../game/model/game-state/GameState.h"
+#include "../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h"
 
 namespace tama
 {
@@ -20,7 +22,10 @@ namespace tama
     class Context
     {
     public:
-        Context(std::shared_ptr<TextureLoader> textureLoader, std::shared_ptr<Input> input, std::shared_ptr<SoundPlayer> player);
+        Context(std::shared_ptr<TextureLoader> textureLoader,
+                std::shared_ptr<Input> input,
+                std::shared_ptr<SoundPlayer> player,
+                std::shared_ptr<TimeMonitorCreator> timeMonitorCreator);
 
         void openNewStage(std::shared_ptr<tama::Stage>);
         void goToPreviousStage();
@@ -29,11 +34,15 @@ namespace tama
         std::shared_ptr<TextureLoader> getTextureLoader();
         std::shared_ptr<Input> getInput();
         std::shared_ptr<SoundPlayer> getSoundPlayer();
+        std::shared_ptr<TimeMonitorCreator> getTimeMonitorCreator();
+        GameState & getGameState();
     private:
+        GameState gameState;
         std::stack<std::shared_ptr<Stage>> stages;
         std::shared_ptr<TextureLoader> textureLoader;
         std::shared_ptr<Input> input;
         std::shared_ptr<SoundPlayer> player;
+        std::shared_ptr<TimeMonitorCreator> timeMonitorCreator;
     };
 }
 

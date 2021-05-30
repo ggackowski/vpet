@@ -4,8 +4,15 @@
 
 
 #include "Main.h"
-#include "../Core/input/Input.h"
-#include "../STM32F411Disco-drivers/input/Stm32Input.h"
+// #include "../Core/stages/initial/time-selection/TimeSelection.h"
+#include "../Core/stages/main/Home.h"
+// #include "../Core/stages/initial/time-selection/TimeSelection.h"
+#include "../Core/stages/menu/wash/Wash.h"
+#include "../Core/ui/common-components/menu/Menu.h"
+#include "../Core/stages/menu/eat/Eat.h"
+#include "../Core/stages/initial/time-selection/TimeSelection.h"
+#include "../STM32F411Disco-drivers/time-monitor/Stm32TimeMonitorCreator.h"
+#include "../Core/stages/menu/play/menu/PlayMenu.h"
 
 
 [[noreturn]] void tama::Main::run()
@@ -17,41 +24,25 @@
     std::unique_ptr<Display> display = std::make_unique<Nokia5510Display>(displayConfig);
     std::shared_ptr<TextureLoader> textureLoader = std::make_shared<Stm32TextureLoader>();
     std::shared_ptr<DisplayDataManager> dataConverter = std::make_shared<Nokia5110DisplayDataManager>();
-    std::shared_ptr<TimeMonitor> soundTimeMonitor = std::make_shared<Stm32TimeMonitor>();
-    std::shared_ptr<TimeMonitor> refreshTimeMonitor = std::make_shared<Stm32TimeMonitor>();
+    std::shared_ptr<TimeMonitorCreator> timeMonitorCreator = std::make_shared<Stm32TimeMonitorCreator>();
+    std::shared_ptr<TimeMonitor> soundTimeMonitor = timeMonitorCreator->createTimeMonitor();
+    std::shared_ptr<TimeMonitor> refreshTimeMonitor = timeMonitorCreator->createTimeMonitor();
     std::shared_ptr<SoundPlayingStrategy> playingStrategy = std::make_shared<Stm32SoundPlayingStrategy>();
     SoundPlayer soundPlayer(soundTimeMonitor);
     std::shared_ptr<Input> input = std::make_shared<Stm32Input>();
     soundPlayer.setPlayingStrategy(playingStrategy);
-    std::vector<Tone> music;
-    music.push_back({400, 10});
-    music.push_back({400, 5});
-    music.push_back({400, 10});
-    music.push_back({400, 5});
-    music.push_back({300, 10});
-    music.push_back({200, 14});
-    music.push_back({200, 10});
-    music.push_back({200, 7});
-    music.push_back({200, 5});
-    music.push_back({400, 7});
-    music.push_back({200, 0});
-    music.push_back({400, 10});
-    music.push_back({400, 5});
-    music.push_back({400, 10});
-    music.push_back({400, 5});
-    music.push_back({300, 10});
-    music.push_back({200, 14});
-    music.push_back({200, 10});
-    music.push_back({200, 7});
-    music.push_back({200, 5});
-    music.push_back({400, 7});
+    std::shared_ptr<Context> context = std::make_shared<Context>(textureLoader,
+                                                                 input,
+                                                                 std::shared_ptr<SoundPlayer>(&soundPlayer),
+                                                                 timeMonitorCreator);
+    //std::shared_ptr<Stage> loadingStage = std::make_shared<InitialLoading>(context);
 
-    std::shared_ptr<Context> context = std::make_shared<Context>(textureLoader, input, std::shared_ptr<SoundPlayer>(&soundPlayer));
-    std::shared_ptr<Stage> loadingStage = std::make_shared<InitialLoading>(context);
-    context->openNewStage(loadingStage);
+    context->openNewStage(std::make_shared<PlayMenu>(context));
     context->getActiveStage()->onInit();
-//    soundPlayer.play(music);
     refreshTimeMonitor->startTimer();
+
+    //    soundPlayer.play(music);
+
     while (true)
     {
         input->update();
@@ -59,9 +50,9 @@
         if (refreshTimeMonitor->getElapsedTime() > frameMillis)
         {
             refreshTimeMonitor->startTimer();
-            context->getActiveStage()->onFrame();
             auto sceneData = dataConverter->getActiveSceneDisplayData(context->getActiveStage()->getScene()->getSceneData());
             display->setData(sceneData);
+            context->getActiveStage()->onFrame();
         }
     }
 }
@@ -80,6 +71,29 @@ tama::DisplayConfig tama::Main::getDefaultNokia5110DisplayConfig()
     cfg.ce_pin = CE_Pin;
     return cfg;
 }
+
+//std::vector<Tone> music;
+//    music.push_back({400, 10});
+//    music.push_back({400, 5});
+//    music.push_back({400, 10});
+//    music.push_back({400, 5});
+//    music.push_back({300, 10});
+//    music.push_back({200, 14});
+//    music.push_back({200, 10});
+//    music.push_back({200, 7});
+//    music.push_back({200, 5});
+//    music.push_back({400, 7});
+//    music.push_back({200, 0});
+//    music.push_back({400, 10});
+//    music.push_back({400, 5});
+//    music.push_back({400, 10});
+//    music.push_back({400, 5});
+//    music.push_back({300, 10});
+//    music.push_back({200, 14});
+//    music.push_back({200, 10});
+//    music.push_back({200, 7});
+//    music.push_back({200, 5});
+//    music.push_back({400, 7});
 
 
 // for next time

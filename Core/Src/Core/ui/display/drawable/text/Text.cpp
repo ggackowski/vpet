@@ -28,6 +28,11 @@ tama::Vec2d tama::Text::getPosition()
     return position;
 }
 
+std::string & tama::Text::getText()
+{
+    return text;
+}
+
 void tama::Text::move(tama::Vec2d delta)
 {
     position = position + delta;
@@ -56,12 +61,25 @@ bool tama::Text::isVisible()
     return visible;
 }
 
-void tama::Text::setText(std::string text)
+void tama::Text::afterUpdate()
 {
-    this->text = text;
     recalculateDimensions();
     updateTexture();
     notifyObserver();
+}
+
+void tama::Text::updateChar(char c, int pos)
+{
+    this->text[pos] = c;
+    afterUpdate();
+
+}
+
+void tama::Text::setText(std::string text)
+{
+    this->text = text;
+    afterUpdate();
+
 }
 
 void tama::Text::notifyObserver()
@@ -135,6 +153,19 @@ std::shared_ptr<tama::Texture> tama::Text::getTextureForLetter(char letter)
         case 'Y': return textureLoader->load(tama::asset::font::standard::Y);
         case 'Z': return textureLoader->load(tama::asset::font::standard::Z);
         case ' ': return textureLoader->load(tama::asset::font::standard::SPC);
+        case '0': return textureLoader->load(tama::asset::font::standard::Zero);
+        case '1': return textureLoader->load(tama::asset::font::standard::One);
+        case '2': return textureLoader->load(tama::asset::font::standard::Two);
+        case '3': return textureLoader->load(tama::asset::font::standard::Three);
+        case '4': return textureLoader->load(tama::asset::font::standard::Four);
+        case '5': return textureLoader->load(tama::asset::font::standard::Five);
+        case '6': return textureLoader->load(tama::asset::font::standard::Six);
+        case '7': return textureLoader->load(tama::asset::font::standard::Seven);
+        case '8': return textureLoader->load(tama::asset::font::standard::Eight);
+        case '9': return textureLoader->load(tama::asset::font::standard::Nine);
+        case ':': return textureLoader->load(tama::asset::font::standard::Colon);
+        case '-': return textureLoader->load(tama::asset::font::standard::Dash);
+        case '_': return textureLoader->load(tama::asset::font::standard::Underscore);
     }
     return std::make_shared<tama::Texture>(0, 0);
 }
@@ -146,7 +177,7 @@ void tama::Text::recalculateDimensions()
 
 }
 
-tama::Text::Text(std::string & text, Vec2d & position):
+tama::Text::Text(std::string text, Vec2d position):
         position(position), text(text)
 {
     textureLoader = std::make_unique<tama::Stm32TextureLoader>();

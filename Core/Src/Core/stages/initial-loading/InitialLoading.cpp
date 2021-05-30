@@ -3,10 +3,7 @@
 //
 
 #include "InitialLoading.h"
-#include "../../assets/egg.texture.h"
-#include "../../assets/common/icon-bar-background.texture.h"
-#include "../../assets/common/icon-bar-big-icons.texture.h"
-#include "../../ui/display/drawable/text/Text.h"
+
 
 void tama::InitialLoading::onInput(tama::Button button)
 {
@@ -26,6 +23,10 @@ void tama::InitialLoading::onInput(tama::Button button)
             bigIcons.at(selectedIconIndex).show();
         }
     }
+    if (button == tama::Button::B)
+    {
+        context->switchStage(std::make_shared<NameSelection>(context));
+    }
 }
 
 void tama::InitialLoading::onInit()
@@ -40,16 +41,13 @@ void tama::InitialLoading::onFrame()
 
 tama::InitialLoading::InitialLoading(const std::shared_ptr<Context> &context) : Stage(context)
 {
+    scene->addDrawable(std::make_shared<Sprite>(
+            context->getTextureLoader()->load(tama::asset::egg1),
+            Vec2d(34, 37)));
+    text = Text(Vec2d(15, 5));
+    text.setText(std::string("ABC"));
+    scene->addDrawable(std::shared_ptr<Text>(&text));
     initMenu();
-    scene->addDrawable(std::make_shared<Sprite>(context->getTextureLoader()->load(tama::asset::egg1), Vec2d(40, 35)));
-    text = Text(Vec2d(25, 5));
-    scene->addDrawable(
-            std::shared_ptr<Text>(&text)
-            );
-    text.show();
-    text.setPosition(Vec2d(14, 0));
-    text.setText(std::string("HALO"));
-    text.setText(std::string("HALOA"));
 }
 
 void tama::InitialLoading::initMenu()

@@ -2,8 +2,9 @@ new:168:14:void* operator new(std::size_t, void*)	16	static
 gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
 shared_ptr_base.h:307:5:void std::_Sp_counted_base<_Lp>::_M_release() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 texture.h:20:9:tama::Texture::Texture(unsigned int, unsigned int)	40	static
-texture.h:56:17:tama::Texture::~Texture()	24	static
-texture.h:56:17:virtual tama::Texture::~Texture()	16	static
+texture.h:52:14:void tama::Texture::setData(tama::PixelColor**)	16	static
+texture.h:59:14:void tama::Texture::deleteTextureData()	24	static
+texture.h:75:9:tama::Texture::~Texture()	16	static
 Stm32TextureLoader.cpp:7:32:virtual std::shared_ptr<tama::Texture> tama::Stm32TextureLoader::load(const tama::TextureAsset&)	48	static
 Stm32TextureLoader.cpp:25:18:tama::PixelColor tama::Stm32TextureLoader::colorFromData(short int)	16	static
 Stm32TextureLoader.cpp:37:21:tama::PixelColor** tama::Stm32TextureLoader::createEmptyTextureData(unsigned int, unsigned int)	40	static

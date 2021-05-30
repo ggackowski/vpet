@@ -12,6 +12,10 @@ namespace tama
 {
     class Datetime
     {
+    public:
+        Time & getTime();
+        Date & getDate();
+        void updateBySeconds(int seconds);
     private:
         Time time;
         Date date;
