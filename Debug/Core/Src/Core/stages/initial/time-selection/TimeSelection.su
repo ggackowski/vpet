@@ -11,12 +11,12 @@ shared_ptr.h:93:11:std::shared_ptr<tama::NameSelection>::~shared_ptr()	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::Stage>::~shared_ptr()	16	static
 TimeSelection.cpp:8:6:virtual void tama::TimeSelection::onInput(tama::Button)	40	static
-TimeSelection.cpp:31:6:void tama::TimeSelection::incrementOnCursorPosition()	24	static
-TimeSelection.cpp:43:6:virtual void tama::TimeSelection::onInit()	16	static
-TimeSelection.cpp:48:6:virtual void tama::TimeSelection::onFrame()	24	static
-TimeSelection.cpp:64:6:void tama::TimeSelection::updateText()	32	static
-TimeSelection.cpp:78:6:void tama::TimeSelection::setTwoChars(char, char, int)	24	static
-TimeSelection.cpp:84:10:unsigned int tama::TimeSelection::cursorToTextPosition()	16	static
+TimeSelection.cpp:32:6:void tama::TimeSelection::incrementOnCursorPosition()	24	static
+TimeSelection.cpp:44:6:virtual void tama::TimeSelection::onInit()	16	static
+TimeSelection.cpp:49:6:virtual void tama::TimeSelection::onFrame()	24	static
+TimeSelection.cpp:65:6:void tama::TimeSelection::updateText()	32	static
+TimeSelection.cpp:79:6:void tama::TimeSelection::setTwoChars(char, char, int)	24	static
+TimeSelection.cpp:85:10:unsigned int tama::TimeSelection::cursorToTextPosition()	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Scene; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::Scene>::~shared_ptr()	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
@@ -30,7 +30,7 @@ shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp 
 shared_ptr.h:93:11:std::shared_ptr<tama::Text>::~shared_ptr()	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Drawable; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::Drawable>::~shared_ptr()	16	static
-TimeSelection.cpp:96:1:tama::TimeSelection::TimeSelection(const std::shared_ptr<tama::Context>&)	160	static
+TimeSelection.cpp:97:1:tama::TimeSelection::TimeSelection(const std::shared_ptr<tama::Context>&)	160	static
 shared_ptr_base.h:130:7:void std::_Sp_counted_base<_Lp>::_M_destroy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 unique_ptr.h:264:7:std::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = tama::TextureLoader; _Dp = std::default_delete<tama::TextureLoader>]	24	static
 shared_ptr_base.h:681:7:std::__shared_count<_Lp>::~__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static

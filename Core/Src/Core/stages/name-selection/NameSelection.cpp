@@ -30,6 +30,7 @@ void tama::NameSelection::onInput(tama::Button button)
     {
         if (currentIndex == MAX_INDEX)
         {
+            context->getGameState().getPetData().setName(nameText);
             context->switchStage(std::make_shared<Home>(context));
             return;
         }

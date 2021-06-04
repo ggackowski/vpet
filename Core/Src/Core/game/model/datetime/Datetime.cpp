@@ -23,3 +23,13 @@ void tama::Datetime::updateBySeconds(int seconds)
         date.updateByDay();
     }
 }
+
+std::string tama::Datetime::toString()
+{
+    return std::string(
+            std::to_string(date.getDay()) + "-" +
+            std::to_string(date.getMonth()) + "\n" +
+            std::to_string(time.getHours()) + ":" +
+            std::to_string(time.getMinutes())
+            );
+}

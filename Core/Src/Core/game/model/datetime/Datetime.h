@@ -16,6 +16,7 @@ namespace tama
         Time & getTime();
         Date & getDate();
         void updateBySeconds(int seconds);
+        std::string toString();
     private:
         Time time;
         Date date;

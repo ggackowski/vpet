@@ -11,9 +11,8 @@ shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp 
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::Stage]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::Stage>::~shared_ptr()	16	static
 Context.cpp:31:30:std::shared_ptr<tama::Stage> tama::Context::getActiveStage()	16	static
-PetData.h:16:11:tama::PetData::PetData()	16	static
-Datetime.h:13:11:tama::Datetime::Datetime()	16	static
-GameState.h:14:11:tama::GameState::GameState()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::TimeMonitor; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::TimeMonitor>::~shared_ptr()	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::TextureLoader; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::TextureLoader]	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::Input; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
@@ -21,13 +20,19 @@ shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&)
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::SoundPlayer; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::SoundPlayer]	16	static
 shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::TimeMonitorCreator; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::TimeMonitorCreator; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::TimeMonitorCreator]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::TimeMonitorCreator>::~shared_ptr()	16	static
 Context.cpp:36:1:tama::Context::Context(std::shared_ptr<tama::TextureLoader>, std::shared_ptr<tama::Input>, std::shared_ptr<tama::SoundPlayer>, std::shared_ptr<tama::TimeMonitorCreator>)	24	static
 Context.cpp:44:38:std::shared_ptr<tama::TextureLoader> tama::Context::getTextureLoader()	16	static
 Context.cpp:49:30:std::shared_ptr<tama::Input> tama::Context::getInput()	16	static
 Context.cpp:54:36:std::shared_ptr<tama::SoundPlayer> tama::Context::getSoundPlayer()	16	static
 Context.cpp:59:18:tama::GameState& tama::Context::getGameState()	16	static
 Context.cpp:64:43:std::shared_ptr<tama::TimeMonitorCreator> tama::Context::getTimeMonitorCreator()	16	static
+Context.cpp:69:32:std::shared_ptr<tama::Texture> tama::Context::getPetTexture(tama::PetTextureVariant)	32	static
+shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::TimeMonitor; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::TimeMonitor]	16	static
+Context.cpp:74:6:void tama::Context::startTimeTimer()	48	static
 stl_algobase.h:219:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
 stl_stack.h:225:7:void std::stack<_Tp, _Sequence>::push(const value_type&) [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
 stl_stack.h:258:7:void std::stack<_Tp, _Sequence>::pop() [with _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
@@ -38,6 +43,8 @@ shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__share
 shared_ptr_base.h:687:7:std::__shared_count<_Lp>::__shared_count(const std::__shared_count<_Lp>&) [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr_base.h:681:7:std::__shared_count<_Lp>::~__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 stl_stack.h:148:2:std::stack<_Tp, _Sequence>::stack() [with _Seq = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >; _Requires = void; _Tp = std::shared_ptr<tama::Stage>; _Sequence = std::deque<std::shared_ptr<tama::Stage>, std::allocator<std::shared_ptr<tama::Stage> > >]	16	static
+shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::TextureLoader; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::TimeMonitorCreator; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
 stl_deque.h:1542:7:void std::deque<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:1601:7:void std::deque<_Tp, _Alloc>::pop_back() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:1357:7:bool std::deque<_Tp, _Alloc>::empty() const [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
@@ -47,6 +54,8 @@ stl_deque.h:888:7:std::deque<_Tp, _Alloc>::deque() [with _Tp = std::shared_ptr<t
 stl_deque.h:1183:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::end() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:587:7:std::_Deque_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:151:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator(const iterator&) [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
+shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::TextureLoader; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::TimeMonitorCreator; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
 move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const std::shared_ptr<tama::Stage>&]	16	static
 alloc_traits.h:474:2:) [with _Up = std::shared_ptr<tama::Stage>; _Args = {const std::shared_ptr<tama::Stage>&}; _Tp = std::shared_ptr<tama::Stage>]	24	static
 deque.tcc:478:7:) [with _Args = {const std::shared_ptr<tama::Stage>&}; _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	24	static
@@ -58,6 +67,8 @@ stl_deque.h:188:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Self& std::_Deque_iter
 stl_deque.h:160:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::reference std::_Deque_iterator<_Tp, _Ref, _Ptr>::operator*() const [with _Tp = std::shared_ptr<tama::Stage>; _Ref = std::shared_ptr<tama::Stage>&; _Ptr = std::shared_ptr<tama::Stage>*]	16	static
 stl_deque.h:490:7:std::_Deque_base<_Tp, _Alloc>::_Deque_base() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:620:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_map(std::_Deque_base<_Tp, _Alloc>::_Map_pointer, std::size_t) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	32	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::TextureLoader; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::TimeMonitorCreator; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 new_allocator.h:135:2:) [with _Up = std::shared_ptr<tama::Stage>; _Args = {const std::shared_ptr<tama::Stage>&}; _Tp = std::shared_ptr<tama::Stage>]	32	static
 stl_deque.h:2149:7:void std::deque<_Tp, _Alloc>::_M_reserve_map_at_back(std::deque<_Tp, _Alloc>::size_type) [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	16	static
 stl_deque.h:599:7:std::_Deque_base<_Tp, _Alloc>::_Ptr std::_Deque_base<_Tp, _Alloc>::_M_allocate_node() [with _Tp = std::shared_ptr<tama::Stage>; _Alloc = std::allocator<std::shared_ptr<tama::Stage> >]	24	static

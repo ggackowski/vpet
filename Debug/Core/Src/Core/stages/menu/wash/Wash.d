@@ -42,6 +42,11 @@ Core/Src/Core/stages/menu/wash/Wash.o: \
  ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-identifier.h \
  ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
  ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h \
+ ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h \
+ ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h \
+ ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h \
+ ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h \
  ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
  ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/Core/stages/menu/wash/../../../ui/display/drawable/sprite/Sprite.h \
@@ -65,11 +70,19 @@ Core/Src/Core/stages/menu/wash/Wash.o: \
  ../Core/Src/Core/stages/menu/wash/../../initial-loading/../name-selection/../../runtime/stage/Stage.h \
  ../Core/Src/Core/stages/menu/wash/../../initial-loading/../name-selection/../../ui/display/drawable/text/Text.h \
  ../Core/Src/Core/stages/menu/wash/../../initial-loading/../name-selection/../../common/util/displayPlacementUtils.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/HappyJump.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../display/scene/Scene.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../runtime/context/Context.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../assets/pet/misc/../../texture-asset.h \
+ ../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../common/util/displayPlacementUtils.h \
  ../Core/Src/Core/stages/menu/wash/../../main/Home.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../../runtime/stage/Stage.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../../ui/display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../name-selection/NameSelection.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/stages/menu/wash/../../main/../../assets/pet/misc/misc.texture.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../../ui/common-components/action-icons/ActionIcons.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/menu/wash/../../main/../../ui/common-components/action-icons/../../display/scene/Scene.h \
@@ -159,6 +172,16 @@ Core/Src/Core/stages/menu/wash/Wash.o: \
 
 ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
 
+../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h:
+
+../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h:
+
+../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h:
+
+../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h:
+
+../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h:
+
 ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
 
 ../Core/Src/Core/stages/menu/wash/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:
@@ -205,6 +228,20 @@ Core/Src/Core/stages/menu/wash/Wash.o: \
 
 ../Core/Src/Core/stages/menu/wash/../../initial-loading/../name-selection/../../common/util/displayPlacementUtils.h:
 
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/HappyJump.h:
+
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../display/scene/Scene.h:
+
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../runtime/context/Context.h:
+
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../assets/pet/misc/../../texture-asset.h:
+
+../Core/Src/Core/stages/menu/wash/../../../ui/common-components/happy-jump/../../../common/util/displayPlacementUtils.h:
+
 ../Core/Src/Core/stages/menu/wash/../../main/Home.h:
 
 ../Core/Src/Core/stages/menu/wash/../../main/../../runtime/stage/Stage.h:
@@ -214,6 +251,8 @@ Core/Src/Core/stages/menu/wash/Wash.o: \
 ../Core/Src/Core/stages/menu/wash/../../main/../name-selection/NameSelection.h:
 
 ../Core/Src/Core/stages/menu/wash/../../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/Core/stages/menu/wash/../../main/../../assets/pet/misc/misc.texture.h:
 
 ../Core/Src/Core/stages/menu/wash/../../main/../../ui/common-components/action-icons/ActionIcons.h:
 

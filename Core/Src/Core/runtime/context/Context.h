@@ -35,6 +35,8 @@ namespace tama
         std::shared_ptr<Input> getInput();
         std::shared_ptr<SoundPlayer> getSoundPlayer();
         std::shared_ptr<TimeMonitorCreator> getTimeMonitorCreator();
+        std::shared_ptr<Texture> getPetTexture(PetTextureVariant petTextureVariant);
+        void startTimeTimer();
         GameState & getGameState();
     private:
         GameState gameState;

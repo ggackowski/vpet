@@ -42,6 +42,11 @@ Core/Src/Core/stages/menu/play/menu/PlayMenu.o: \
  ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-identifier.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../../ui/common-components/menu/Menu.h \
@@ -62,6 +67,8 @@ Core/Src/Core/stages/menu/play/menu/PlayMenu.o: \
  ../Core/Src/Core/stages/menu/play/menu/../../../main/../name-selection/../../common/util/displayPlacementUtils.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../main/../name-selection/../../common/util/../Vec2d/Vec2d.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../main/../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/menu/play/menu/../../../main/../../assets/pet/misc/../../texture-asset.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../main/../../ui/common-components/action-icons/ActionIcons.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/menu/play/menu/../../../main/../../ui/common-components/action-icons/../../display/scene/Scene.h \
@@ -156,6 +163,16 @@ Core/Src/Core/stages/menu/play/menu/PlayMenu.o: \
 
 ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
 
+../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h:
+
+../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h:
+
+../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h:
+
+../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h:
+
+../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h:
+
 ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
 
 ../Core/Src/Core/stages/menu/play/menu/../../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:
@@ -195,6 +212,10 @@ Core/Src/Core/stages/menu/play/menu/PlayMenu.o: \
 ../Core/Src/Core/stages/menu/play/menu/../../../main/../name-selection/../../common/util/../Vec2d/Vec2d.h:
 
 ../Core/Src/Core/stages/menu/play/menu/../../../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/Core/stages/menu/play/menu/../../../main/../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/menu/play/menu/../../../main/../../assets/pet/misc/../../texture-asset.h:
 
 ../Core/Src/Core/stages/menu/play/menu/../../../main/../../ui/common-components/action-icons/ActionIcons.h:
 

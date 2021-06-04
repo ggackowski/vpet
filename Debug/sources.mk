@@ -31,8 +31,11 @@ CPP_DEPS :=
 SUBDIRS := \
 Core/Src/Core/assets/common \
 Core/Src/Core/assets \
+Core/Src/Core/assets/menu/eat/meal \
+Core/Src/Core/assets/menu/heal \
 Core/Src/Core/assets/menu/wash \
 Core/Src/Core/assets/pet/first-male/baby \
+Core/Src/Core/assets/pet/misc \
 Core/Src/Core/common/Vec2d \
 Core/Src/Core/common/util \
 Core/Src/Core/game/model/datetime \
@@ -40,7 +43,9 @@ Core/Src/Core/game/model/datetime/date \
 Core/Src/Core/game/model/datetime/time \
 Core/Src/Core/game/model/game-state \
 Core/Src/Core/game/model/pet-data \
+Core/Src/Core/game/model/pet-texture \
 Core/Src/Core/game/pet-db \
+Core/Src/Core/game/random-events-generator \
 Core/Src/Core/input \
 Core/Src/Core/runtime/context \
 Core/Src/Core/runtime/stage \
@@ -49,14 +54,21 @@ Core/Src/Core/stages/initial/time-selection \
 Core/Src/Core/stages/initial-loading \
 Core/Src/Core/stages/main \
 Core/Src/Core/stages/menu/eat \
+Core/Src/Core/stages/menu/eat/pick-food \
+Core/Src/Core/stages/menu/heal \
+Core/Src/Core/stages/menu/lamp \
 Core/Src/Core/stages/menu/play/jumping-game \
 Core/Src/Core/stages/menu/play/menu \
+Core/Src/Core/stages/menu/stats/page-one \
+Core/Src/Core/stages/menu/stats/page-two \
 Core/Src/Core/stages/menu/wash \
 Core/Src/Core/stages/name-selection \
+Core/Src/Core/stages/time \
 Core/Src/Core/store/services-store \
 Core/Src/Core/time/time-monitor \
 Core/Src/Core/time/time-monitor/time-monitor-creator \
 Core/Src/Core/ui/common-components/action-icons \
+Core/Src/Core/ui/common-components/happy-jump \
 Core/Src/Core/ui/common-components/menu \
 Core/Src/Core/ui/display/display-refresher \
 Core/Src/Core/ui/display/drawable/sprite \

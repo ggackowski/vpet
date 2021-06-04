@@ -1,0 +1,55 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+shared_ptr_base.h:307:5:void std::_Sp_counted_base<_Lp>::_M_release() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::ChangeObserver; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::ChangeObserver>::~shared_ptr()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Texture>::~shared_ptr()	16	static
+Text.h:13:11:tama::Text::~Text()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Text; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Text>::~shared_ptr()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Drawable; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Drawable>::~shared_ptr()	16	static
+TimeView.cpp:7:1:tama::TimeView::TimeView(const std::shared_ptr<tama::Context>&)	104	static
+TimeView.cpp:14:6:virtual void tama::TimeView::onInput(tama::Button)	16	static
+TimeView.cpp:19:6:virtual void tama::TimeView::onInit()	16	static
+TimeView.cpp:24:6:virtual void tama::TimeView::onFrame()	16	static
+shared_ptr_base.h:130:7:void std::_Sp_counted_base<_Lp>::_M_destroy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+unique_ptr.h:264:7:std::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = tama::TextureLoader; _Dp = std::default_delete<tama::TextureLoader>]	24	static
+shared_ptr_base.h:681:7:std::__shared_count<_Lp>::~__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::Scene; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+shared_ptr.h:129:2:std::shared_ptr<_Tp>::shared_ptr(_Yp*) [with _Yp = tama::Text; <template-parameter-2-2> = void; _Tp = tama::Text]	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::shared_ptr<tama::Text>&]	16	static
+shared_ptr.h:253:2:std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&) [with _Yp = tama::Text; <template-parameter-2-2> = void; _Tp = tama::Drawable]	24	static
+shared_ptr_base.h:120:7:std::_Sp_counted_base<_Lp>::~_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:120:7:std::_Sp_counted_base<_Lp>::~_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+unique_ptr.h:146:18:std::__uniq_ptr_impl<_Tp, _Dp>::pointer& std::__uniq_ptr_impl<_Tp, _Dp>::_M_ptr() [with _Tp = tama::TextureLoader; _Dp = std::default_delete<tama::TextureLoader>]	16	static
+unique_ptr.h:341:7:std::unique_ptr<_Tp, _Dp>::deleter_type& std::unique_ptr<_Tp, _Dp>::get_deleter() [with _Tp = tama::TextureLoader; _Dp = std::default_delete<tama::TextureLoader>]	16	static
+unique_ptr.h:72:7:void std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = tama::TextureLoader]	16	static
+shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::Scene; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+shared_ptr_base.h:1078:2:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(_Yp*) [with _Yp = tama::Text; <template-parameter-2-2> = void; _Tp = tama::Text; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	32	static
+shared_ptr_base.h:1138:2:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::__shared_ptr<_Yp, _Lp>&&) [with _Yp = tama::Text; <template-parameter-2-2> = void; _Tp = tama::Drawable; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+tuple:1314:5:>&) [with unsigned int __i = 0; _Elements = {tama::TextureLoader*, std::default_delete<tama::TextureLoader>}]	16	static
+unique_ptr.h:148:18:_Dp& std::__uniq_ptr_impl<_Tp, _Dp>::_M_deleter() [with _Tp = tama::TextureLoader; _Dp = std::default_delete<tama::TextureLoader>]	16	static
+shared_ptr_base.h:575:17:constexpr std::__shared_count<_Lp>::__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:710:7:void std::__shared_count<_Lp>::_M_swap(std::__shared_count<_Lp>&) [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	24	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::Scene; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:594:2:std::__shared_count<_Lp>::__shared_count(_Ptr, std::false_type) [with _Ptr = tama::Text*; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	24	static
+shared_ptr_base.h:1378:2:typename std::enable_if<(! std::__shared_ptr<_Tp, _Lp>::__has_esft_base<_Yp2>::value)>::type std::__shared_ptr<_Tp, _Lp>::_M_enable_shared_from_this_with(_Yp*) [with _Yp = tama::Text; _Yp2 = tama::Text; _Tp = tama::Text; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+tuple:1303:5:>&) [with unsigned int __i = 0; _Head = tama::TextureLoader*; _Tail = {std::default_delete<tama::TextureLoader>}]	16	static
+tuple:1314:5:>&) [with unsigned int __i = 1; _Elements = {tama::TextureLoader*, std::default_delete<tama::TextureLoader>}]	16	static
+shared_ptr_base.h:580:2:std::__shared_count<_Lp>::__shared_count(_Ptr) [with _Ptr = tama::Text*; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	24	static
+tuple:195:7:>&) [with unsigned int _Idx = 0; _Head = tama::TextureLoader*; _Tail = {std::default_delete<tama::TextureLoader>}]	16	static
+tuple:1303:5:>&) [with unsigned int __i = 1; _Head = std::default_delete<tama::TextureLoader>; _Tail = {}]	16	static
+shared_ptr_base.h:371:7:std::_Sp_counted_ptr<_Ptr, _Lp>::_Sp_counted_ptr(_Ptr) [with _Ptr = tama::Text*; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+tuple:160:7:static constexpr _Head& std::_Head_base<_Idx, _Head, false>::_M_head(std::_Head_base<_Idx, _Head, false>&) [with unsigned int _Idx = 0; _Head = tama::TextureLoader*]	16	static
+tuple:351:7:static constexpr _Head& std::_Tuple_impl<_Idx, _Head>::_M_head(std::_Tuple_impl<_Idx, _Head>&) [with unsigned int _Idx = 1; _Head = std::default_delete<tama::TextureLoader>]	16	static
+shared_ptr_base.h:116:7:std::_Sp_counted_base<_Lp>::_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+tuple:113:7:static constexpr _Head& std::_Head_base<_Idx, _Head, true>::_M_head(std::_Head_base<_Idx, _Head, true>&) [with unsigned int _Idx = 1; _Head = std::default_delete<tama::TextureLoader>]	16	static
+shared_ptr_base.h:367:11:std::_Sp_counted_ptr<tama::Text*, (__gnu_cxx::_Lock_policy)0>::~_Sp_counted_ptr()	16	static
+shared_ptr_base.h:367:11:virtual std::_Sp_counted_ptr<tama::Text*, (__gnu_cxx::_Lock_policy)0>::~_Sp_counted_ptr()	16	static
+shared_ptr_base.h:375:7:void std::_Sp_counted_ptr<_Ptr, _Lp>::_M_dispose() [with _Ptr = tama::Text*; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	24	static
+shared_ptr_base.h:379:7:void std::_Sp_counted_ptr<_Ptr, _Lp>::_M_destroy() [with _Ptr = tama::Text*; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:383:7:void* std::_Sp_counted_ptr<_Ptr, _Lp>::_M_get_deleter(const std::type_info&) [with _Ptr = tama::Text*; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static

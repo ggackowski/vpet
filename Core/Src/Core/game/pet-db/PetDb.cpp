@@ -17,8 +17,8 @@ void tama::PetDb::initDb()
       {
               &firstMale::baby::frontOne,
               &firstMale::baby::frontTwo,
-              &firstMale::baby::frontOne,
-              &firstMale::baby::frontOne,
+              &firstMale::baby::sideStandard,
+              &firstMale::baby::sideEating,
               &firstMale::baby::frontOne,
          }
     });

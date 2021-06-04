@@ -15,17 +15,32 @@ namespace tama
 {
     class PetData
     {
+
     private:
         std::string name;
-//        Gender gender;
-//        PetPhase phase;
-//        Breed breed;
+        int happiness = 0;
+        int health = 0;
+        bool isSleepy = false;
+        int food = 0;
         PetIdentifier petIdentifier;
-        int age;
-        int food;
-        int happiness;
-        int health;
-        bool isSleepy;
+        int age = 0;
+
+    public:
+        PetIdentifier &getPetIdentifier();
+        int getAge() const;
+        int getHealth() const;
+        void setPetIdentifier(const PetIdentifier &petIdentifier);
+        void increaseAge();
+        void updateHappiness(int h);
+        void updateHealth(int h);
+        void makeSleepy();
+        void makeAwake();
+        int getFood() const;
+        const std::string &getName() const;
+        void setName(const std::string &name);
+        int getHappiness() const;
+
+        void increaseFood(int f);
     };
 }
 

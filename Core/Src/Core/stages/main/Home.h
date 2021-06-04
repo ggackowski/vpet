@@ -9,6 +9,7 @@
 #include "../../ui/display/drawable/sprite/Sprite.h"
 #include "../name-selection/NameSelection.h"
 #include "../../assets/pet/first-male/baby/fir.st-male-baby.texture.h"
+#include "../../assets/pet/misc/misc.texture.h"
 #include "../../ui/common-components/action-icons/ActionIcons.h"
 
 namespace tama
@@ -38,8 +39,17 @@ namespace tama
         std::shared_ptr<Texture> petFrontPosOne = context->getTextureLoader()->load(firstMale::baby::frontOne);
         std::shared_ptr<Texture> petFrontPosTwo = context->getTextureLoader()->load(firstMale::baby::frontTwo);
         Sprite pet = Sprite(petFrontPosOne, Vec2d(tama::util::fromBottomLeft(Vec2d(0, -petFrontPosOne->height))));
+        Sprite lightsOff = Sprite(context->getTextureLoader()->load(asset::misc::lightsOff), util::toContentArea(Vec2d(1, 1)));
+        std::vector<std::shared_ptr<Sprite>> poops;
+        bool isFirstPoopTextureDisplayed = true;
 
         void onIconSelection(int selected);
+
+        bool shouldUpdatePet();
+
+        void updatePetPosition();
+
+        void updatePoops();
     };
 }
 

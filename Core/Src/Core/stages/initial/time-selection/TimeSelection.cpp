@@ -13,6 +13,7 @@ void tama::TimeSelection::onInput(tama::Button button)
         cursorPosition++;   // @todo edge conditions
         if (cursorPosition == LAST_STEP + 1)
         {
+            context->startTimeTimer();
             context->switchStage(std::make_shared<NameSelection>(context));
         }
     }

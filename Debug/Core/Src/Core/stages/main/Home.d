@@ -41,6 +41,11 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
  ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-identifier.h \
  ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
  ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h \
+ ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h \
+ ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h \
+ ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h \
+ ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h \
  ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
  ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/Core/stages/main/../../ui/display/drawable/sprite/Sprite.h \
@@ -53,6 +58,8 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
  ../Core/Src/Core/stages/main/../name-selection/../../common/util/displayPlacementUtils.h \
  ../Core/Src/Core/stages/main/../name-selection/../../common/util/../Vec2d/Vec2d.h \
  ../Core/Src/Core/stages/main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/stages/main/../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/main/../../assets/pet/misc/../../texture-asset.h \
  ../Core/Src/Core/stages/main/../../ui/common-components/action-icons/ActionIcons.h \
  ../Core/Src/Core/stages/main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/main/../../ui/common-components/action-icons/../../display/scene/Scene.h \
@@ -73,6 +80,12 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
  ../Core/Src/Core/stages/main/../menu/wash/../../initial-loading/../../assets/common/../texture-asset.h \
  ../Core/Src/Core/stages/main/../menu/wash/../../initial-loading/../../assets/common/icon-bar-big-icons.texture.h \
  ../Core/Src/Core/stages/main/../menu/wash/../../initial-loading/../name-selection/NameSelection.h \
+ ../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/HappyJump.h \
+ ../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../display/scene/Scene.h \
+ ../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../../runtime/context/Context.h \
+ ../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../../common/util/displayPlacementUtils.h \
  ../Core/Src/Core/stages/main/../menu/eat/Eat.h \
  ../Core/Src/Core/stages/main/../menu/eat/../../../runtime/stage/Stage.h \
  ../Core/Src/Core/stages/main/../menu/eat/../../../ui/common-components/menu/Menu.h \
@@ -84,7 +97,25 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
  ../Core/Src/Core/stages/main/../menu/play/menu/PlayMenu.h \
  ../Core/Src/Core/stages/main/../menu/play/menu/../../../../runtime/stage/Stage.h \
  ../Core/Src/Core/stages/main/../menu/play/menu/../../../../ui/common-components/menu/Menu.h \
- ../Core/Src/Core/stages/main/../menu/play/menu/../../../main/Home.h
+ ../Core/Src/Core/stages/main/../menu/play/menu/../../../main/Home.h \
+ ../Core/Src/Core/stages/main/../menu/stats/page-one/PageOne.h \
+ ../Core/Src/Core/stages/main/../menu/stats/page-one/../../../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/main/../menu/stats/page-one/../../../../ui/display/drawable/text/Text.h \
+ ../Core/Src/Core/stages/main/../menu/stats/page-one/../../wash/Wash.h \
+ ../Core/Src/Core/stages/main/../menu/heal/Heal.h \
+ ../Core/Src/Core/stages/main/../menu/heal/../../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/main/../menu/heal/../../../ui/display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/main/../menu/heal/../../../assets/menu/heal/heal.texture.h \
+ ../Core/Src/Core/stages/main/../menu/heal/../../../assets/menu/heal/../../texture-asset.h \
+ ../Core/Src/Core/stages/main/../menu/heal/../wash/Wash.h \
+ ../Core/Src/Core/stages/main/../menu/heal/../../../ui/common-components/happy-jump/HappyJump.h \
+ ../Core/Src/Core/stages/main/../menu/lamp/Lamp.h \
+ ../Core/Src/Core/stages/main/../menu/lamp/../../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/main/../menu/lamp/../../../ui/common-components/menu/Menu.h \
+ ../Core/Src/Core/stages/main/../time/TimeView.h \
+ ../Core/Src/Core/stages/main/../time/../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/main/../time/../../ui/display/drawable/text/Text.h \
+ ../Core/Src/Core/stages/main/../time/../../common/util/displayPlacementUtils.h
 
 ../Core/Src/Core/stages/main/Home.h:
 
@@ -170,6 +201,16 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
 
 ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
 
+../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h:
+
+../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h:
+
+../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h:
+
+../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h:
+
+../Core/Src/Core/stages/main/../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h:
+
 ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
 
 ../Core/Src/Core/stages/main/../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:
@@ -193,6 +234,10 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
 ../Core/Src/Core/stages/main/../name-selection/../../common/util/../Vec2d/Vec2d.h:
 
 ../Core/Src/Core/stages/main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/Core/stages/main/../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/main/../../assets/pet/misc/../../texture-asset.h:
 
 ../Core/Src/Core/stages/main/../../ui/common-components/action-icons/ActionIcons.h:
 
@@ -234,6 +279,18 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
 
 ../Core/Src/Core/stages/main/../menu/wash/../../initial-loading/../name-selection/NameSelection.h:
 
+../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/HappyJump.h:
+
+../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../display/scene/Scene.h:
+
+../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../../runtime/context/Context.h:
+
+../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/main/../menu/wash/../../../ui/common-components/happy-jump/../../../common/util/displayPlacementUtils.h:
+
 ../Core/Src/Core/stages/main/../menu/eat/Eat.h:
 
 ../Core/Src/Core/stages/main/../menu/eat/../../../runtime/stage/Stage.h:
@@ -257,3 +314,39 @@ Core/Src/Core/stages/main/Home.o: ../Core/Src/Core/stages/main/Home.cpp \
 ../Core/Src/Core/stages/main/../menu/play/menu/../../../../ui/common-components/menu/Menu.h:
 
 ../Core/Src/Core/stages/main/../menu/play/menu/../../../main/Home.h:
+
+../Core/Src/Core/stages/main/../menu/stats/page-one/PageOne.h:
+
+../Core/Src/Core/stages/main/../menu/stats/page-one/../../../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/main/../menu/stats/page-one/../../../../ui/display/drawable/text/Text.h:
+
+../Core/Src/Core/stages/main/../menu/stats/page-one/../../wash/Wash.h:
+
+../Core/Src/Core/stages/main/../menu/heal/Heal.h:
+
+../Core/Src/Core/stages/main/../menu/heal/../../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/main/../menu/heal/../../../ui/display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/main/../menu/heal/../../../assets/menu/heal/heal.texture.h:
+
+../Core/Src/Core/stages/main/../menu/heal/../../../assets/menu/heal/../../texture-asset.h:
+
+../Core/Src/Core/stages/main/../menu/heal/../wash/Wash.h:
+
+../Core/Src/Core/stages/main/../menu/heal/../../../ui/common-components/happy-jump/HappyJump.h:
+
+../Core/Src/Core/stages/main/../menu/lamp/Lamp.h:
+
+../Core/Src/Core/stages/main/../menu/lamp/../../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/main/../menu/lamp/../../../ui/common-components/menu/Menu.h:
+
+../Core/Src/Core/stages/main/../time/TimeView.h:
+
+../Core/Src/Core/stages/main/../time/../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/main/../time/../../ui/display/drawable/text/Text.h:
+
+../Core/Src/Core/stages/main/../time/../../common/util/displayPlacementUtils.h:

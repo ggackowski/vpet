@@ -26,7 +26,7 @@ shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp 
 shared_ptr.h:93:11:std::shared_ptr<tama::Drawable>::~shared_ptr()	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Sprite; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::Sprite>::~shared_ptr()	16	static
-JumpingGame.cpp:9:1:tama::JumpingGame::JumpingGame(const std::shared_ptr<tama::Context>&)	224	static
+JumpingGame.cpp:9:1:tama::JumpingGame::JumpingGame(const std::shared_ptr<tama::Context>&)	192	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::PlayMenu; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 shared_ptr.h:93:11:std::shared_ptr<tama::PlayMenu>::~shared_ptr()	16	static
 shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static

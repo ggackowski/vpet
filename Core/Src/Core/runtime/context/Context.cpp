@@ -65,3 +65,14 @@ std::shared_ptr<tama::TimeMonitorCreator> tama::Context::getTimeMonitorCreator()
 {
     return timeMonitorCreator;
 }
+
+std::shared_ptr<tama::Texture> tama::Context::getPetTexture(tama::PetTextureVariant petTextureVariant)
+{
+    return textureLoader->load(gameState.getPetTextureAsset(petTextureVariant));
+}
+
+void tama::Context::startTimeTimer()
+{
+    auto timeTimer = getTimeMonitorCreator()->createTimeMonitor();
+    gameState.setTimeTimer(timeTimer);
+}

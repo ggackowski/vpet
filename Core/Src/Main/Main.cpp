@@ -37,7 +37,7 @@
                                                                  timeMonitorCreator);
     //std::shared_ptr<Stage> loadingStage = std::make_shared<InitialLoading>(context);
 
-    context->openNewStage(std::make_shared<PlayMenu>(context));
+    context->openNewStage(std::make_shared<TimeSelection>(context));
     context->getActiveStage()->onInit();
     refreshTimeMonitor->startTimer();
 
@@ -50,9 +50,9 @@
         if (refreshTimeMonitor->getElapsedTime() > frameMillis)
         {
             refreshTimeMonitor->startTimer();
+            context->getActiveStage()->onFrame();
             auto sceneData = dataConverter->getActiveSceneDisplayData(context->getActiveStage()->getScene()->getSceneData());
             display->setData(sceneData);
-            context->getActiveStage()->onFrame();
         }
     }
 }

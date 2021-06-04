@@ -18,9 +18,13 @@ namespace baby
 
     extern const short frontOne_data[];
     extern const short frontTwo_data[];
+    extern const short sideStandard_data[];
+    extern const short sideEating_data[];
 
     extern TextureAsset frontOne;
     extern TextureAsset frontTwo;
+    extern TextureAsset sideStandard;
+    extern TextureAsset sideEating;
 
 }
 

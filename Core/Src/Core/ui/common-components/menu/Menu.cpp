@@ -40,4 +40,9 @@ void tama::Menu::moveToNextItem()
 {
     selectedItem++;
     cursor.move(Vec2d(0, 8));
+    if (selectedItem == options.size())
+    {
+        cursor.setPosition(Vec2d(0, 0));
+        selectedItem = 0;
+    }
 }

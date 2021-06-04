@@ -24,6 +24,8 @@ namespace tama
 
         void removeDrawable(std::shared_ptr<Drawable>);
 
+        void hideAll();
+
         std::shared_ptr<Texture> getSceneData();
 
         void onChange() override;

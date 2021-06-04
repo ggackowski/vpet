@@ -4,6 +4,7 @@
 
 #include "Eat.h"
 #include "../../main/Home.h"
+#include "pick-food/PickFood.h"
 
 void tama::Eat::onInput(tama::Button button)
 {
@@ -14,6 +15,15 @@ void tama::Eat::onInput(tama::Button button)
     if (button == Button::B)
     {
         int selectedItem = menu.getSelectedItem();
+        if (selectedItem == 0)
+        {
+            //meal
+        	context->switchStage(std::make_shared<PickFood>(context, MEAL));
+        }
+        else
+        {
+            //snack
+        }
     }
     if (button == Button::C)
     {

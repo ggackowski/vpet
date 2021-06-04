@@ -42,6 +42,11 @@ Core/Src/Core/stages/menu/eat/Eat.o: \
  ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/pet-identifier.h \
  ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
  ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h \
+ ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h \
+ ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h \
+ ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h \
+ ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h \
  ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
  ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/Core/stages/menu/eat/../../../ui/common-components/menu/Menu.h \
@@ -62,10 +67,24 @@ Core/Src/Core/stages/menu/eat/Eat.o: \
  ../Core/Src/Core/stages/menu/eat/../../main/../name-selection/../../common/util/displayPlacementUtils.h \
  ../Core/Src/Core/stages/menu/eat/../../main/../name-selection/../../common/util/../Vec2d/Vec2d.h \
  ../Core/Src/Core/stages/menu/eat/../../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/stages/menu/eat/../../main/../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/menu/eat/../../main/../../assets/pet/misc/../../texture-asset.h \
  ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/ActionIcons.h \
  ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h \
  ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../display/scene/Scene.h \
- ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../../runtime/context/Context.h
+ ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../../runtime/context/Context.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/PickFood.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../meal-type.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/eat-food-state.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../common/util/displayPlacementUtils.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/HappyJump.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../display/scene/Scene.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../../runtime/context/Context.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../../common/util/displayPlacementUtils.h
 
 ../Core/Src/Core/stages/menu/eat/Eat.h:
 
@@ -151,6 +170,16 @@ Core/Src/Core/stages/menu/eat/Eat.o: \
 
 ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
 
+../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/PetTexture.h:
+
+../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h:
+
+../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h:
+
+../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h:
+
+../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h:
+
 ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
 
 ../Core/Src/Core/stages/menu/eat/../../../runtime/stage/../context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h:
@@ -191,6 +220,10 @@ Core/Src/Core/stages/menu/eat/Eat.o: \
 
 ../Core/Src/Core/stages/menu/eat/../../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
 
+../Core/Src/Core/stages/menu/eat/../../main/../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/menu/eat/../../main/../../assets/pet/misc/../../texture-asset.h:
+
 ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/ActionIcons.h:
 
 ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h:
@@ -198,3 +231,27 @@ Core/Src/Core/stages/menu/eat/Eat.o: \
 ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../display/scene/Scene.h:
 
 ../Core/Src/Core/stages/menu/eat/../../main/../../ui/common-components/action-icons/../../../runtime/context/Context.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/PickFood.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../meal-type.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/eat-food-state.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../common/util/displayPlacementUtils.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/HappyJump.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../display/scene/Scene.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../../runtime/context/Context.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/menu/eat/pick-food/../../../../ui/common-components/happy-jump/../../../common/util/displayPlacementUtils.h:

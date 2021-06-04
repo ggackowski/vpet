@@ -104,6 +104,11 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/pet-identifier.h \
  ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
  ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/PetTexture.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h \
+ ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h \
  ../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h \
  ../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/../TimeMonitor.h \
  ../Core/Src/./Main/../Core/stages/initial-loading/InitialLoading.h \
@@ -354,6 +359,16 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
 
 ../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../pet-db/../../assets/pet/first-male/baby/../../../texture-asset.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/PetTexture.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/../../pet-db/PetDb.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/../../pet-db/pet-texture-variant.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../pet-texture/../../../ui/display/drawable/texture.h:
+
+../Core/Src/./Main/../Core/runtime/context/../../game/model/game-state/../../../time/time-monitor/TimeMonitor.h:
 
 ../Core/Src/./Main/../Core/runtime/context/../../time/time-monitor/time-monitor-creator/TimeMonitorCreator.h:
 

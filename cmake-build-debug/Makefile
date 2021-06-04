@@ -251,6 +251,60 @@ Core/Src/Core/assets/menu-cursor.texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu-cursor.texture.cpp.s
 .PHONY : Core/Src/Core/assets/menu-cursor.texture.cpp.s
 
+Core/Src/Core/assets/menu/eat/meal/meal.texture.obj: Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.obj
+
+.PHONY : Core/Src/Core/assets/menu/eat/meal/meal.texture.obj
+
+# target to build an object file
+Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.obj
+.PHONY : Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.obj
+
+Core/Src/Core/assets/menu/eat/meal/meal.texture.i: Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.i
+
+.PHONY : Core/Src/Core/assets/menu/eat/meal/meal.texture.i
+
+# target to preprocess a source file
+Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.i
+.PHONY : Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.i
+
+Core/Src/Core/assets/menu/eat/meal/meal.texture.s: Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.s
+
+.PHONY : Core/Src/Core/assets/menu/eat/meal/meal.texture.s
+
+# target to generate assembly for a file
+Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.s
+.PHONY : Core/Src/Core/assets/menu/eat/meal/meal.texture.cpp.s
+
+Core/Src/Core/assets/menu/heal/heal.texture.obj: Core/Src/Core/assets/menu/heal/heal.texture.cpp.obj
+
+.PHONY : Core/Src/Core/assets/menu/heal/heal.texture.obj
+
+# target to build an object file
+Core/Src/Core/assets/menu/heal/heal.texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu/heal/heal.texture.cpp.obj
+.PHONY : Core/Src/Core/assets/menu/heal/heal.texture.cpp.obj
+
+Core/Src/Core/assets/menu/heal/heal.texture.i: Core/Src/Core/assets/menu/heal/heal.texture.cpp.i
+
+.PHONY : Core/Src/Core/assets/menu/heal/heal.texture.i
+
+# target to preprocess a source file
+Core/Src/Core/assets/menu/heal/heal.texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu/heal/heal.texture.cpp.i
+.PHONY : Core/Src/Core/assets/menu/heal/heal.texture.cpp.i
+
+Core/Src/Core/assets/menu/heal/heal.texture.s: Core/Src/Core/assets/menu/heal/heal.texture.cpp.s
+
+.PHONY : Core/Src/Core/assets/menu/heal/heal.texture.s
+
+# target to generate assembly for a file
+Core/Src/Core/assets/menu/heal/heal.texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/menu/heal/heal.texture.cpp.s
+.PHONY : Core/Src/Core/assets/menu/heal/heal.texture.cpp.s
+
 Core/Src/Core/assets/menu/wash/wash.texture.obj: Core/Src/Core/assets/menu/wash/wash.texture.cpp.obj
 
 .PHONY : Core/Src/Core/assets/menu/wash/wash.texture.obj
@@ -304,6 +358,33 @@ Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.s: Core/Src/Cor
 Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.cpp.s
 .PHONY : Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.cpp.s
+
+Core/Src/Core/assets/pet/misc/misc.texture.obj: Core/Src/Core/assets/pet/misc/misc.texture.cpp.obj
+
+.PHONY : Core/Src/Core/assets/pet/misc/misc.texture.obj
+
+# target to build an object file
+Core/Src/Core/assets/pet/misc/misc.texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/pet/misc/misc.texture.cpp.obj
+.PHONY : Core/Src/Core/assets/pet/misc/misc.texture.cpp.obj
+
+Core/Src/Core/assets/pet/misc/misc.texture.i: Core/Src/Core/assets/pet/misc/misc.texture.cpp.i
+
+.PHONY : Core/Src/Core/assets/pet/misc/misc.texture.i
+
+# target to preprocess a source file
+Core/Src/Core/assets/pet/misc/misc.texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/pet/misc/misc.texture.cpp.i
+.PHONY : Core/Src/Core/assets/pet/misc/misc.texture.cpp.i
+
+Core/Src/Core/assets/pet/misc/misc.texture.s: Core/Src/Core/assets/pet/misc/misc.texture.cpp.s
+
+.PHONY : Core/Src/Core/assets/pet/misc/misc.texture.s
+
+# target to generate assembly for a file
+Core/Src/Core/assets/pet/misc/misc.texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/assets/pet/misc/misc.texture.cpp.s
+.PHONY : Core/Src/Core/assets/pet/misc/misc.texture.cpp.s
 
 Core/Src/Core/common/Vec2d/Vec2d.obj: Core/Src/Core/common/Vec2d/Vec2d.cpp.obj
 
@@ -494,6 +575,33 @@ Core/Src/Core/game/model/pet-data/PetData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-data/PetData.cpp.s
 .PHONY : Core/Src/Core/game/model/pet-data/PetData.cpp.s
 
+Core/Src/Core/game/model/pet-texture/PetTexture.obj: Core/Src/Core/game/model/pet-texture/PetTexture.cpp.obj
+
+.PHONY : Core/Src/Core/game/model/pet-texture/PetTexture.obj
+
+# target to build an object file
+Core/Src/Core/game/model/pet-texture/PetTexture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-texture/PetTexture.cpp.obj
+.PHONY : Core/Src/Core/game/model/pet-texture/PetTexture.cpp.obj
+
+Core/Src/Core/game/model/pet-texture/PetTexture.i: Core/Src/Core/game/model/pet-texture/PetTexture.cpp.i
+
+.PHONY : Core/Src/Core/game/model/pet-texture/PetTexture.i
+
+# target to preprocess a source file
+Core/Src/Core/game/model/pet-texture/PetTexture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-texture/PetTexture.cpp.i
+.PHONY : Core/Src/Core/game/model/pet-texture/PetTexture.cpp.i
+
+Core/Src/Core/game/model/pet-texture/PetTexture.s: Core/Src/Core/game/model/pet-texture/PetTexture.cpp.s
+
+.PHONY : Core/Src/Core/game/model/pet-texture/PetTexture.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/model/pet-texture/PetTexture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/model/pet-texture/PetTexture.cpp.s
+.PHONY : Core/Src/Core/game/model/pet-texture/PetTexture.cpp.s
+
 Core/Src/Core/game/pet-db/PetDb.obj: Core/Src/Core/game/pet-db/PetDb.cpp.obj
 
 .PHONY : Core/Src/Core/game/pet-db/PetDb.obj
@@ -520,6 +628,33 @@ Core/Src/Core/game/pet-db/PetDb.s: Core/Src/Core/game/pet-db/PetDb.cpp.s
 Core/Src/Core/game/pet-db/PetDb.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/pet-db/PetDb.cpp.s
 .PHONY : Core/Src/Core/game/pet-db/PetDb.cpp.s
+
+Core/Src/Core/game/random-events-generator/RandomEventsGenerator.obj: Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.obj
+
+.PHONY : Core/Src/Core/game/random-events-generator/RandomEventsGenerator.obj
+
+# target to build an object file
+Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.obj
+.PHONY : Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.obj
+
+Core/Src/Core/game/random-events-generator/RandomEventsGenerator.i: Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.i
+
+.PHONY : Core/Src/Core/game/random-events-generator/RandomEventsGenerator.i
+
+# target to preprocess a source file
+Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.i
+.PHONY : Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.i
+
+Core/Src/Core/game/random-events-generator/RandomEventsGenerator.s: Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.s
+
+.PHONY : Core/Src/Core/game/random-events-generator/RandomEventsGenerator.s
+
+# target to generate assembly for a file
+Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.s
+.PHONY : Core/Src/Core/game/random-events-generator/RandomEventsGenerator.cpp.s
 
 Core/Src/Core/input/Input.obj: Core/Src/Core/input/Input.cpp.obj
 
@@ -737,6 +872,87 @@ Core/Src/Core/stages/menu/eat/Eat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/eat/Eat.cpp.s
 .PHONY : Core/Src/Core/stages/menu/eat/Eat.cpp.s
 
+Core/Src/Core/stages/menu/eat/pick-food/PickFood.obj: Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.obj
+
+.PHONY : Core/Src/Core/stages/menu/eat/pick-food/PickFood.obj
+
+# target to build an object file
+Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.obj
+.PHONY : Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.obj
+
+Core/Src/Core/stages/menu/eat/pick-food/PickFood.i: Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.i
+
+.PHONY : Core/Src/Core/stages/menu/eat/pick-food/PickFood.i
+
+# target to preprocess a source file
+Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.i
+.PHONY : Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.i
+
+Core/Src/Core/stages/menu/eat/pick-food/PickFood.s: Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.s
+
+.PHONY : Core/Src/Core/stages/menu/eat/pick-food/PickFood.s
+
+# target to generate assembly for a file
+Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.s
+.PHONY : Core/Src/Core/stages/menu/eat/pick-food/PickFood.cpp.s
+
+Core/Src/Core/stages/menu/heal/Heal.obj: Core/Src/Core/stages/menu/heal/Heal.cpp.obj
+
+.PHONY : Core/Src/Core/stages/menu/heal/Heal.obj
+
+# target to build an object file
+Core/Src/Core/stages/menu/heal/Heal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/heal/Heal.cpp.obj
+.PHONY : Core/Src/Core/stages/menu/heal/Heal.cpp.obj
+
+Core/Src/Core/stages/menu/heal/Heal.i: Core/Src/Core/stages/menu/heal/Heal.cpp.i
+
+.PHONY : Core/Src/Core/stages/menu/heal/Heal.i
+
+# target to preprocess a source file
+Core/Src/Core/stages/menu/heal/Heal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/heal/Heal.cpp.i
+.PHONY : Core/Src/Core/stages/menu/heal/Heal.cpp.i
+
+Core/Src/Core/stages/menu/heal/Heal.s: Core/Src/Core/stages/menu/heal/Heal.cpp.s
+
+.PHONY : Core/Src/Core/stages/menu/heal/Heal.s
+
+# target to generate assembly for a file
+Core/Src/Core/stages/menu/heal/Heal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/heal/Heal.cpp.s
+.PHONY : Core/Src/Core/stages/menu/heal/Heal.cpp.s
+
+Core/Src/Core/stages/menu/lamp/Lamp.obj: Core/Src/Core/stages/menu/lamp/Lamp.cpp.obj
+
+.PHONY : Core/Src/Core/stages/menu/lamp/Lamp.obj
+
+# target to build an object file
+Core/Src/Core/stages/menu/lamp/Lamp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/lamp/Lamp.cpp.obj
+.PHONY : Core/Src/Core/stages/menu/lamp/Lamp.cpp.obj
+
+Core/Src/Core/stages/menu/lamp/Lamp.i: Core/Src/Core/stages/menu/lamp/Lamp.cpp.i
+
+.PHONY : Core/Src/Core/stages/menu/lamp/Lamp.i
+
+# target to preprocess a source file
+Core/Src/Core/stages/menu/lamp/Lamp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/lamp/Lamp.cpp.i
+.PHONY : Core/Src/Core/stages/menu/lamp/Lamp.cpp.i
+
+Core/Src/Core/stages/menu/lamp/Lamp.s: Core/Src/Core/stages/menu/lamp/Lamp.cpp.s
+
+.PHONY : Core/Src/Core/stages/menu/lamp/Lamp.s
+
+# target to generate assembly for a file
+Core/Src/Core/stages/menu/lamp/Lamp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/lamp/Lamp.cpp.s
+.PHONY : Core/Src/Core/stages/menu/lamp/Lamp.cpp.s
+
 Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.obj: Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.cpp.obj
 
 .PHONY : Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.obj
@@ -791,6 +1007,60 @@ Core/Src/Core/stages/menu/play/menu/PlayMenu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/play/menu/PlayMenu.cpp.s
 .PHONY : Core/Src/Core/stages/menu/play/menu/PlayMenu.cpp.s
 
+Core/Src/Core/stages/menu/stats/page-one/PageOne.obj: Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.obj
+
+.PHONY : Core/Src/Core/stages/menu/stats/page-one/PageOne.obj
+
+# target to build an object file
+Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.obj
+.PHONY : Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.obj
+
+Core/Src/Core/stages/menu/stats/page-one/PageOne.i: Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.i
+
+.PHONY : Core/Src/Core/stages/menu/stats/page-one/PageOne.i
+
+# target to preprocess a source file
+Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.i
+.PHONY : Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.i
+
+Core/Src/Core/stages/menu/stats/page-one/PageOne.s: Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.s
+
+.PHONY : Core/Src/Core/stages/menu/stats/page-one/PageOne.s
+
+# target to generate assembly for a file
+Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.s
+.PHONY : Core/Src/Core/stages/menu/stats/page-one/PageOne.cpp.s
+
+Core/Src/Core/stages/menu/stats/page-two/PageTwo.obj: Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.obj
+
+.PHONY : Core/Src/Core/stages/menu/stats/page-two/PageTwo.obj
+
+# target to build an object file
+Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.obj
+.PHONY : Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.obj
+
+Core/Src/Core/stages/menu/stats/page-two/PageTwo.i: Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.i
+
+.PHONY : Core/Src/Core/stages/menu/stats/page-two/PageTwo.i
+
+# target to preprocess a source file
+Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.i
+.PHONY : Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.i
+
+Core/Src/Core/stages/menu/stats/page-two/PageTwo.s: Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.s
+
+.PHONY : Core/Src/Core/stages/menu/stats/page-two/PageTwo.s
+
+# target to generate assembly for a file
+Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.s
+.PHONY : Core/Src/Core/stages/menu/stats/page-two/PageTwo.cpp.s
+
 Core/Src/Core/stages/menu/wash/Wash.obj: Core/Src/Core/stages/menu/wash/Wash.cpp.obj
 
 .PHONY : Core/Src/Core/stages/menu/wash/Wash.obj
@@ -844,6 +1114,33 @@ Core/Src/Core/stages/name-selection/NameSelection.s: Core/Src/Core/stages/name-s
 Core/Src/Core/stages/name-selection/NameSelection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/name-selection/NameSelection.cpp.s
 .PHONY : Core/Src/Core/stages/name-selection/NameSelection.cpp.s
+
+Core/Src/Core/stages/time/TimeView.obj: Core/Src/Core/stages/time/TimeView.cpp.obj
+
+.PHONY : Core/Src/Core/stages/time/TimeView.obj
+
+# target to build an object file
+Core/Src/Core/stages/time/TimeView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/time/TimeView.cpp.obj
+.PHONY : Core/Src/Core/stages/time/TimeView.cpp.obj
+
+Core/Src/Core/stages/time/TimeView.i: Core/Src/Core/stages/time/TimeView.cpp.i
+
+.PHONY : Core/Src/Core/stages/time/TimeView.i
+
+# target to preprocess a source file
+Core/Src/Core/stages/time/TimeView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/time/TimeView.cpp.i
+.PHONY : Core/Src/Core/stages/time/TimeView.cpp.i
+
+Core/Src/Core/stages/time/TimeView.s: Core/Src/Core/stages/time/TimeView.cpp.s
+
+.PHONY : Core/Src/Core/stages/time/TimeView.s
+
+# target to generate assembly for a file
+Core/Src/Core/stages/time/TimeView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/stages/time/TimeView.cpp.s
+.PHONY : Core/Src/Core/stages/time/TimeView.cpp.s
 
 Core/Src/Core/store/services-store/ServicesStore.obj: Core/Src/Core/store/services-store/ServicesStore.cpp.obj
 
@@ -952,6 +1249,33 @@ Core/Src/Core/ui/common-components/action-icons/ActionIcons.s: Core/Src/Core/ui/
 Core/Src/Core/ui/common-components/action-icons/ActionIcons.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/common-components/action-icons/ActionIcons.cpp.s
 .PHONY : Core/Src/Core/ui/common-components/action-icons/ActionIcons.cpp.s
+
+Core/Src/Core/ui/common-components/happy-jump/HappyJump.obj: Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.obj
+
+.PHONY : Core/Src/Core/ui/common-components/happy-jump/HappyJump.obj
+
+# target to build an object file
+Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.obj
+.PHONY : Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.obj
+
+Core/Src/Core/ui/common-components/happy-jump/HappyJump.i: Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.i
+
+.PHONY : Core/Src/Core/ui/common-components/happy-jump/HappyJump.i
+
+# target to preprocess a source file
+Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.i
+.PHONY : Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.i
+
+Core/Src/Core/ui/common-components/happy-jump/HappyJump.s: Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.s
+
+.PHONY : Core/Src/Core/ui/common-components/happy-jump/HappyJump.s
+
+# target to generate assembly for a file
+Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vpet.elf.dir/build.make CMakeFiles/vpet.elf.dir/Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.s
+.PHONY : Core/Src/Core/ui/common-components/happy-jump/HappyJump.cpp.s
 
 Core/Src/Core/ui/common-components/menu/Menu.obj: Core/Src/Core/ui/common-components/menu/Menu.cpp.obj
 
@@ -2495,12 +2819,21 @@ help:
 	@echo "... Core/Src/Core/assets/menu-cursor.texture.obj"
 	@echo "... Core/Src/Core/assets/menu-cursor.texture.i"
 	@echo "... Core/Src/Core/assets/menu-cursor.texture.s"
+	@echo "... Core/Src/Core/assets/menu/eat/meal/meal.texture.obj"
+	@echo "... Core/Src/Core/assets/menu/eat/meal/meal.texture.i"
+	@echo "... Core/Src/Core/assets/menu/eat/meal/meal.texture.s"
+	@echo "... Core/Src/Core/assets/menu/heal/heal.texture.obj"
+	@echo "... Core/Src/Core/assets/menu/heal/heal.texture.i"
+	@echo "... Core/Src/Core/assets/menu/heal/heal.texture.s"
 	@echo "... Core/Src/Core/assets/menu/wash/wash.texture.obj"
 	@echo "... Core/Src/Core/assets/menu/wash/wash.texture.i"
 	@echo "... Core/Src/Core/assets/menu/wash/wash.texture.s"
 	@echo "... Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.obj"
 	@echo "... Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.i"
 	@echo "... Core/Src/Core/assets/pet/first-male/baby/first-male-baby.texture.s"
+	@echo "... Core/Src/Core/assets/pet/misc/misc.texture.obj"
+	@echo "... Core/Src/Core/assets/pet/misc/misc.texture.i"
+	@echo "... Core/Src/Core/assets/pet/misc/misc.texture.s"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.obj"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.i"
 	@echo "... Core/Src/Core/common/Vec2d/Vec2d.s"
@@ -2522,9 +2855,15 @@ help:
 	@echo "... Core/Src/Core/game/model/pet-data/PetData.obj"
 	@echo "... Core/Src/Core/game/model/pet-data/PetData.i"
 	@echo "... Core/Src/Core/game/model/pet-data/PetData.s"
+	@echo "... Core/Src/Core/game/model/pet-texture/PetTexture.obj"
+	@echo "... Core/Src/Core/game/model/pet-texture/PetTexture.i"
+	@echo "... Core/Src/Core/game/model/pet-texture/PetTexture.s"
 	@echo "... Core/Src/Core/game/pet-db/PetDb.obj"
 	@echo "... Core/Src/Core/game/pet-db/PetDb.i"
 	@echo "... Core/Src/Core/game/pet-db/PetDb.s"
+	@echo "... Core/Src/Core/game/random-events-generator/RandomEventsGenerator.obj"
+	@echo "... Core/Src/Core/game/random-events-generator/RandomEventsGenerator.i"
+	@echo "... Core/Src/Core/game/random-events-generator/RandomEventsGenerator.s"
 	@echo "... Core/Src/Core/input/Input.obj"
 	@echo "... Core/Src/Core/input/Input.i"
 	@echo "... Core/Src/Core/input/Input.s"
@@ -2549,18 +2888,36 @@ help:
 	@echo "... Core/Src/Core/stages/menu/eat/Eat.obj"
 	@echo "... Core/Src/Core/stages/menu/eat/Eat.i"
 	@echo "... Core/Src/Core/stages/menu/eat/Eat.s"
+	@echo "... Core/Src/Core/stages/menu/eat/pick-food/PickFood.obj"
+	@echo "... Core/Src/Core/stages/menu/eat/pick-food/PickFood.i"
+	@echo "... Core/Src/Core/stages/menu/eat/pick-food/PickFood.s"
+	@echo "... Core/Src/Core/stages/menu/heal/Heal.obj"
+	@echo "... Core/Src/Core/stages/menu/heal/Heal.i"
+	@echo "... Core/Src/Core/stages/menu/heal/Heal.s"
+	@echo "... Core/Src/Core/stages/menu/lamp/Lamp.obj"
+	@echo "... Core/Src/Core/stages/menu/lamp/Lamp.i"
+	@echo "... Core/Src/Core/stages/menu/lamp/Lamp.s"
 	@echo "... Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.obj"
 	@echo "... Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.i"
 	@echo "... Core/Src/Core/stages/menu/play/jumping-game/JumpingGame.s"
 	@echo "... Core/Src/Core/stages/menu/play/menu/PlayMenu.obj"
 	@echo "... Core/Src/Core/stages/menu/play/menu/PlayMenu.i"
 	@echo "... Core/Src/Core/stages/menu/play/menu/PlayMenu.s"
+	@echo "... Core/Src/Core/stages/menu/stats/page-one/PageOne.obj"
+	@echo "... Core/Src/Core/stages/menu/stats/page-one/PageOne.i"
+	@echo "... Core/Src/Core/stages/menu/stats/page-one/PageOne.s"
+	@echo "... Core/Src/Core/stages/menu/stats/page-two/PageTwo.obj"
+	@echo "... Core/Src/Core/stages/menu/stats/page-two/PageTwo.i"
+	@echo "... Core/Src/Core/stages/menu/stats/page-two/PageTwo.s"
 	@echo "... Core/Src/Core/stages/menu/wash/Wash.obj"
 	@echo "... Core/Src/Core/stages/menu/wash/Wash.i"
 	@echo "... Core/Src/Core/stages/menu/wash/Wash.s"
 	@echo "... Core/Src/Core/stages/name-selection/NameSelection.obj"
 	@echo "... Core/Src/Core/stages/name-selection/NameSelection.i"
 	@echo "... Core/Src/Core/stages/name-selection/NameSelection.s"
+	@echo "... Core/Src/Core/stages/time/TimeView.obj"
+	@echo "... Core/Src/Core/stages/time/TimeView.i"
+	@echo "... Core/Src/Core/stages/time/TimeView.s"
 	@echo "... Core/Src/Core/store/services-store/ServicesStore.obj"
 	@echo "... Core/Src/Core/store/services-store/ServicesStore.i"
 	@echo "... Core/Src/Core/store/services-store/ServicesStore.s"
@@ -2573,6 +2930,9 @@ help:
 	@echo "... Core/Src/Core/ui/common-components/action-icons/ActionIcons.obj"
 	@echo "... Core/Src/Core/ui/common-components/action-icons/ActionIcons.i"
 	@echo "... Core/Src/Core/ui/common-components/action-icons/ActionIcons.s"
+	@echo "... Core/Src/Core/ui/common-components/happy-jump/HappyJump.obj"
+	@echo "... Core/Src/Core/ui/common-components/happy-jump/HappyJump.i"
+	@echo "... Core/Src/Core/ui/common-components/happy-jump/HappyJump.s"
 	@echo "... Core/Src/Core/ui/common-components/menu/Menu.obj"
 	@echo "... Core/Src/Core/ui/common-components/menu/Menu.i"
 	@echo "... Core/Src/Core/ui/common-components/menu/Menu.s"

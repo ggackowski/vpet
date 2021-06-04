@@ -1,0 +1,203 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+shared_ptr_base.h:302:5:void std::_Sp_counted_base<_Lp>::_M_add_ref_copy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:307:5:void std::_Sp_counted_base<_Lp>::_M_release() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Texture; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Texture>::~shared_ptr()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::ChangeObserver; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::ChangeObserver>::~shared_ptr()	16	static
+Sprite.h:13:11:tama::Sprite::~Sprite()	16	static
+shared_ptr_base.h:1121:7:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(const std::__shared_ptr<_Tp, _Lp>&) [with _Tp = tama::Scene; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Scene; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:119:7:std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = tama::Scene]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Scene>::~shared_ptr()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Context>::~shared_ptr()	16	static
+Stage.h:18:7:tama::Stage::~Stage()	16	static
+Lamp.cpp:8:1:tama::Lamp::Lamp(const std::shared_ptr<tama::Context>&)	56	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Home; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Home>::~shared_ptr()	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Stage>::~shared_ptr()	16	static
+Lamp.cpp:16:6:virtual void tama::Lamp::onInput(tama::Button)	64	static
+Lamp.cpp:42:6:virtual void tama::Lamp::onInit()	16	static
+Lamp.cpp:47:6:virtual void tama::Lamp::onFrame()	16	static
+shared_ptr_base.h:130:7:void std::_Sp_counted_base<_Lp>::_M_destroy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+stl_algobase.h:219:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
+shared_ptr_base.h:966:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::operator->() const [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+shared_ptr_base.h:681:7:std::__shared_count<_Lp>::~__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:687:7:std::__shared_count<_Lp>::__shared_count(const std::__shared_count<_Lp>&) [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_vector.h:259:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const char (&)[3]]	16	static
+vector.tcc:95:7:) [with _Args = {const char (&)[3]}; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const char (&)[4]]	16	static
+vector.tcc:95:7:) [with _Args = {const char (&)[4]}; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_vector.h:326:7:std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	40	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = std::shared_ptr<tama::Context>&]	16	static
+shared_ptr.h:703:5:) [with _Tp = tama::Home; _Args = {std::shared_ptr<tama::Context>&}]	24	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::shared_ptr<tama::Home>&]	16	static
+shared_ptr.h:253:2:std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&) [with _Yp = tama::Home; <template-parameter-2-2> = void; _Tp = tama::Stage]	24	static
+shared_ptr_base.h:120:7:std::_Sp_counted_base<_Lp>::~_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:120:7:std::_Sp_counted_base<_Lp>::~_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:974:7:std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::element_type* std::__shared_ptr_access<_Tp, _Lp, <anonymous>, <anonymous> >::_M_get() const [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0; bool <anonymous> = false; bool <anonymous> = false]	16	static
+stl_vector.h:81:14:std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = std::__cxx11::basic_string<char>*; _Tp = std::__cxx11::basic_string<char>]	24	static
+stl_vector.h:126:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+alloc_traits.h:474:2:) [with _Up = std::__cxx11::basic_string<char>; _Args = {const char (&)[3]}; _Tp = std::__cxx11::basic_string<char>]	24	static
+stl_vector.h:581:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+vector.tcc:394:7:) [with _Args = {const char (&)[3]}; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	56	static
+alloc_traits.h:474:2:) [with _Up = std::__cxx11::basic_string<char>; _Args = {const char (&)[4]}; _Tp = std::__cxx11::basic_string<char>]	24	static
+vector.tcc:394:7:) [with _Args = {const char (&)[4]}; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	56	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+alloc_traits.h:94:19:static _Alloc __gnu_cxx::__alloc_traits<_Alloc>::_S_select_on_copy(const _Alloc&) [with _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+stl_vector.h:119:7:const _Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_vector.h:136:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_vector.h:572:7:std::vector<_Tp, _Alloc>::const_iterator std::vector<_Tp, _Alloc>::begin() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_vector.h:590:7:std::vector<_Tp, _Alloc>::const_iterator std::vector<_Tp, _Alloc>::end() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _ForwardIterator = std::__cxx11::basic_string<char>*; _Tp = std::__cxx11::basic_string<char>]	24	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = tama::Home]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = tama::Home]	16	static
+shared_ptr.h:688:5:) [with _Tp = tama::Home; _Alloc = std::allocator<tama::Home>; _Args = {std::shared_ptr<tama::Context>&}]	40	static
+shared_ptr_base.h:1138:2:std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::__shared_ptr<_Yp, _Lp>&&) [with _Yp = tama::Home; <template-parameter-2-2> = void; _Tp = tama::Stage; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:1257:7:std::__shared_ptr<_Tp, _Lp>::element_type* std::__shared_ptr<_Tp, _Lp>::get() const [with _Tp = tama::Context; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:575:17:constexpr std::__shared_count<_Lp>::__shared_count() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:710:7:void std::__shared_count<_Lp>::_M_swap(std::__shared_count<_Lp>&) [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	24	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::__cxx11::basic_string<char>*]	16	static
+stl_vector.h:88:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+new_allocator.h:135:2:) [with _Up = std::__cxx11::basic_string<char>; _Args = {const char (&)[3]}; _Tp = std::__cxx11::basic_string<char>]	40	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	16	static
+stl_vector.h:1497:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(std::vector<_Tp, _Alloc>::size_type, const char*) const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	40	static
+stl_vector.h:563:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	24	static
+stl_iterator.h:962:5:typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	24	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	16	static
+stl_uninitialized.h:305:5:_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = std::__cxx11::basic_string<char>*; _ForwardIterator = std::__cxx11::basic_string<char>*; _Allocator = std::allocator<std::__cxx11::basic_string<char> >]	32	static
+new_allocator.h:135:2:) [with _Up = std::__cxx11::basic_string<char>; _Args = {const char (&)[4]}; _Tp = std::__cxx11::basic_string<char>]	40	static
+alloc_traits.h:504:7:static std::allocator_traits<std::allocator<_Tp1> >::allocator_type std::allocator_traits<std::allocator<_Tp1> >::select_on_container_copy_construction(const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_vector.h:92:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const _Tp_alloc_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+stl_vector.h:185:7:void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = const std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _ForwardIterator = std::__cxx11::basic_string<char>*]	32	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = tama::Home]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = tama::Home]	16	static
+shared_ptr.h:342:2:) [with _Alloc = std::allocator<tama::Home>; _Args = {std::shared_ptr<tama::Context>&}; _Tp = tama::Home]	32	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::__cxx11::basic_string<char>]	24	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_construct.h:105:9:static void std::_Destroy_aux<<anonymous> >::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::__cxx11::basic_string<char>*; bool <anonymous> = false]	16	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_Tp1> >::allocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_iterator.h:1221:5:_ReturnType std::__make_move_if_noexcept_iterator(_Tp*) [with _Tp = std::__cxx11::basic_string<char>; _ReturnType = std::move_iterator<std::__cxx11::basic_string<char>*>]	24	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<std::__cxx11::basic_string<char>*>; _ForwardIterator = std::__cxx11::basic_string<char>*; _Tp = std::__cxx11::basic_string<char>]	24	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_uninitialized.h:76:9:static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _ForwardIterator = std::__cxx11::basic_string<char>*; bool _TrivialValueTypes = false]	40	static
+shared_ptr_base.h:1305:16:std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >::~_Deleter()	16	static
+shared_ptr_base.h:1305:16:std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >::_Deleter(const std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >&)	16	static
+shared_ptr_base.h:1316:2:) [with _Alloc = std::allocator<tama::Home>; _Args = {std::shared_ptr<tama::Context>&}; _Tp = tama::Home; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	56	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = std::__cxx11::basic_string<char>]	24	static
+stl_construct.h:97:5:void std::_Destroy(_Tp*) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = std::__cxx11::basic_string<char>]	16	static
+alloc_traits.h:495:7:static std::allocator_traits<std::allocator<_Tp1> >::size_type std::allocator_traits<std::allocator<_Tp1> >::max_size(const allocator_type&) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = std::__cxx11::basic_string<char>]	24	static
+stl_iterator.h:1036:7:std::move_iterator<_Iterator>::move_iterator(std::move_iterator<_Iterator>::iterator_type) [with _Iterator = std::__cxx11::basic_string<char>*]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<std::__cxx11::basic_string<char>*>; _ForwardIterator = std::__cxx11::basic_string<char>*]	32	static
+stl_iterator.h:880:5:bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = const std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	24	static
+stl_iterator.h:800:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>& __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator++() [with _Iterator = const std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	16	static
+stl_iterator.h:792:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::reference __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator*() const [with _Iterator = const std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const std::__cxx11::basic_string<char>&]	16	static
+stl_construct.h:74:5:) [with _T1 = std::__cxx11::basic_string<char>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]	24	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = tama::Home]	16	static
+allocated_ptr.h:102:5:std::__allocated_ptr<_Alloc> std::__allocate_guarded(_Alloc&) [with _Alloc = std::allocator<tama::Home>]	16	static
+allocated_ptr.h:70:7:std::__allocated_ptr<_Alloc>::~__allocated_ptr() [with _Alloc = std::allocator<tama::Home>]	16	static
+allocated_ptr.h:85:19:std::__allocated_ptr<_Alloc>::value_type* std::__allocated_ptr<_Alloc>::get() [with _Alloc = std::allocator<tama::Home>]	16	static
+alloc_traits.h:474:2:) [with _Up = tama::Home; _Args = {std::shared_ptr<tama::Context>&}; _Tp = tama::Home]	24	static
+allocated_ptr.h:78:7:std::__allocated_ptr<_Alloc>& std::__allocated_ptr<_Alloc>::operator=(std::nullptr_t) [with _Alloc = std::allocator<tama::Home>]	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >&]	16	static
+shared_ptr_base.h:1305:16:std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >::_Deleter(std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >&&)	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::allocator<tama::Home>&]	16	static
+shared_ptr_base.h:609:2:std::__shared_count<_Lp>::__shared_count(_Ptr, _Deleter, _Alloc) [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	56	static
+shared_ptr_base.h:1378:2:typename std::enable_if<(! std::__shared_ptr<_Tp, _Lp>::__has_esft_base<_Yp2>::value)>::type std::__shared_ptr<_Tp, _Lp>::_M_enable_shared_from_this_with(_Yp*) [with _Yp = tama::Home; _Yp2 = tama::Home; _Tp = tama::Home; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_uninitialized.h:76:9:static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<std::__cxx11::basic_string<char>*>; _ForwardIterator = std::__cxx11::basic_string<char>*; bool _TrivialValueTypes = false]	40	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = const std::__cxx11::basic_string<char>*; _Container = std::vector<std::__cxx11::basic_string<char> >]	16	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = tama::Home]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_Tp1> >::allocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = tama::Home]	16	static
+allocated_ptr.h:52:7:std::__allocated_ptr<_Alloc>::__allocated_ptr(_Alloc&, std::__allocated_ptr<_Alloc>::pointer) [with _Alloc = std::allocator<tama::Home>]	24	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = tama::Home]	24	static
+allocated_ptr.h:88:26:static std::__allocated_ptr<_Alloc>::value_type* std::__allocated_ptr<_Alloc>::_S_raw_ptr(std::__allocated_ptr<_Alloc>::value_type*) [with _Alloc = std::allocator<tama::Home>]	16	static
+new_allocator.h:135:2:) [with _Up = tama::Home; _Args = {std::shared_ptr<tama::Context>&}; _Tp = tama::Home]	32	static
+allocator.h:137:2:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator<_Tp1>&) [with _Tp1 = tama::Home; _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	16	static
+allocated_ptr.h:102:5:std::__allocated_ptr<_Alloc> std::__allocate_guarded(_Alloc&) [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	16	static
+allocated_ptr.h:70:7:std::__allocated_ptr<_Alloc>::~__allocated_ptr() [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	16	static
+allocated_ptr.h:85:19:std::__allocated_ptr<_Alloc>::value_type* std::__allocated_ptr<_Alloc>::get() [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	16	static
+shared_ptr_base.h:422:12:std::_Sp_ebo_helper<0, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, false>::~_Sp_ebo_helper()	16	static
+shared_ptr_base.h:411:12:std::_Sp_ebo_helper<1, std::allocator<tama::Home>, true>::~_Sp_ebo_helper()	16	static
+shared_ptr_base.h:439:13:std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>::_Impl::~_Impl()	16	static
+shared_ptr_base.h:463:7:std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_Sp_counted_deleter(_Ptr, _Deleter, const _Alloc&) [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	40	static
+allocated_ptr.h:78:7:std::__allocated_ptr<_Alloc>& std::__allocated_ptr<_Alloc>::operator=(std::nullptr_t) [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	16	static
+shared_ptr_base.h:1307:16:void std::__shared_ptr<_Tp, _Lp>::_Deleter<_Alloc>::operator()(typename _Alloc::value_type*) [with _Alloc = std::allocator<tama::Home>; _Tp = tama::Home; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	32	static
+stl_iterator.h:1136:5:bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&) [with _Iterator = std::__cxx11::basic_string<char>*]	16	static
+stl_iterator.h:1057:7:std::move_iterator<_Iterator>& std::move_iterator<_Iterator>::operator++() [with _Iterator = std::__cxx11::basic_string<char>*]	16	static
+stl_iterator.h:1049:7:std::move_iterator<_Iterator>::reference std::move_iterator<_Iterator>::operator*() const [with _Iterator = std::__cxx11::basic_string<char>*]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = std::__cxx11::basic_string<char>]	16	static
+stl_construct.h:74:5:) [with _T1 = std::__cxx11::basic_string<char>; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >}]	24	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = tama::Home]	24	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = std::allocator<tama::Home>]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = tama::Home]	24	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_Tp1> >::allocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	16	static
+allocated_ptr.h:52:7:std::__allocated_ptr<_Alloc>::__allocated_ptr(_Alloc&, std::__allocated_ptr<_Alloc>::pointer) [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	24	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	24	static
+allocated_ptr.h:88:26:static std::__allocated_ptr<_Alloc>::value_type* std::__allocated_ptr<_Alloc>::_S_raw_ptr(std::__allocated_ptr<_Alloc>::value_type*) [with _Alloc = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	16	static
+shared_ptr_base.h:116:7:std::_Sp_counted_base<_Lp>::_Sp_counted_base() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:445:2:std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_Impl::_Impl(_Ptr, _Deleter, const _Alloc&) [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	32	static
+alloc_traits.h:486:2:static void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = tama::Home; _Tp = tama::Home]	16	static
+stl_iterator.h:1124:5:bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&) [with _Iterator = std::__cxx11::basic_string<char>*]	24	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = tama::Home]	16	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	24	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = std::allocator<std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0> >]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	24	static
+shared_ptr_base.h:425:16:std::_Sp_ebo_helper<_Nm, _Tp, false>::_Sp_ebo_helper(_Tp&&) [with int _Nm = 0; _Tp = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >]	24	static
+shared_ptr_base.h:413:16:std::_Sp_ebo_helper<_Nm, _Tp, true>::_Sp_ebo_helper(const _Tp&) [with int _Nm = 1; _Tp = std::allocator<tama::Home>]	16	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::TimeMonitor; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::TimeMonitor>::~shared_ptr()	16	static
+array:94:12:std::array<tama::Sprite, 9>::~array()	24	static
+ActionIcons.h:16:11:tama::ActionIcons::~ActionIcons()	16	static
+Home.h:19:11:tama::Home::~Home()	16	static
+new_allocator.h:140:2:void __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = tama::Home; _Tp = tama::Home]	16	static
+stl_iterator.h:1045:7:std::move_iterator<_Iterator>::iterator_type std::move_iterator<_Iterator>::base() const [with _Iterator = std::__cxx11::basic_string<char>*]	16	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = std::_Sp_counted_deleter<tama::Home*, std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >, std::allocator<tama::Home>, (__gnu_cxx::_Lock_policy)0>]	16	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::shared_ptr<tama::Sprite>; _Alloc = std::allocator<std::shared_ptr<tama::Sprite> >]	24	static
+stl_vector.h:81:14:std::_Vector_base<std::shared_ptr<tama::Sprite>, std::allocator<std::shared_ptr<tama::Sprite> > >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::shared_ptr<tama::Sprite>; _Alloc = std::allocator<std::shared_ptr<tama::Sprite> >]	16	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = std::shared_ptr<tama::Sprite>; _Alloc = std::allocator<std::shared_ptr<tama::Sprite> >]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = std::shared_ptr<tama::Sprite>*; _Tp = std::shared_ptr<tama::Sprite>]	24	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = std::shared_ptr<tama::Sprite>]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = std::shared_ptr<tama::Sprite>; _Alloc = std::allocator<std::shared_ptr<tama::Sprite> >]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::shared_ptr<tama::Sprite>*]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = std::shared_ptr<tama::Sprite>]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::shared_ptr<tama::Sprite>]	24	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = std::shared_ptr<tama::Sprite>]	16	static
+stl_construct.h:105:9:static void std::_Destroy_aux<<anonymous> >::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::shared_ptr<tama::Sprite>*; bool <anonymous> = false]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = std::shared_ptr<tama::Sprite>]	24	static
+shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp = tama::Sprite; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr.h:93:11:std::shared_ptr<tama::Sprite>::~shared_ptr()	16	static
+stl_construct.h:97:5:void std::_Destroy(_Tp*) [with _Tp = std::shared_ptr<tama::Sprite>]	16	static
+shared_ptr_base.h:466:7:std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::~_Sp_counted_deleter() [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:466:7:std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::~_Sp_counted_deleter() [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:469:7:void std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_M_dispose() [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:473:7:void std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_M_destroy() [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	32	static
+shared_ptr_base.h:481:7:void* std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_M_get_deleter(const std::type_info&) [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:449:12:_Deleter& std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_Impl::_M_del() [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:450:10:_Alloc& std::_Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp>::_Impl::_M_alloc() [with _Ptr = tama::Home*; _Deleter = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >; _Alloc = std::allocator<tama::Home>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
+shared_ptr_base.h:428:7:static _Tp& std::_Sp_ebo_helper<_Nm, _Tp, false>::_S_get(std::_Sp_ebo_helper<_Nm, _Tp, false>&) [with int _Nm = 0; _Tp = std::__shared_ptr<tama::Home, (__gnu_cxx::_Lock_policy)0>::_Deleter<std::allocator<tama::Home> >]	16	static
+shared_ptr_base.h:417:7:static _Tp& std::_Sp_ebo_helper<_Nm, _Tp, true>::_S_get(std::_Sp_ebo_helper<_Nm, _Tp, true>&) [with int _Nm = 1; _Tp = std::allocator<tama::Home>]	16	static

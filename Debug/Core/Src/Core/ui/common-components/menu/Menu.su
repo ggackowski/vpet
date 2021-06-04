@@ -23,7 +23,7 @@ shared_ptr_base.h:1123:7:std::__shared_ptr<_Tp, _Lp>::~__shared_ptr() [with _Tp 
 shared_ptr.h:93:11:std::shared_ptr<tama::Sprite>::~shared_ptr()	16	static
 Menu.cpp:21:6:void tama::Menu::initMenu()	96	static
 Menu.cpp:34:5:int tama::Menu::getSelectedItem()	16	static
-Menu.cpp:39:6:void tama::Menu::moveToNextItem()	32	static
+Menu.cpp:39:6:void tama::Menu::moveToNextItem()	40	static
 shared_ptr_base.h:130:7:void std::_Sp_counted_base<_Lp>::_M_destroy() [with __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)0]	16	static
 alloc_traits.h:100:27:static constexpr bool __gnu_cxx::__alloc_traits<_Alloc>::_S_propagate_on_copy_assign() [with _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	4	static
 alloc_traits.h:109:27:static constexpr bool __gnu_cxx::__alloc_traits<_Alloc>::_S_always_equal() [with _Alloc = std::allocator<std::__cxx11::basic_string<char> >]	4	static

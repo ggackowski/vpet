@@ -26,12 +26,12 @@ namespace tama
     private:
         Text obstacle = Text(std::string("H"), tama::util::fromBottomRight(Vec2d(-6, -6)));
         Text pointsText = Text(std::string("0"), Vec2d(20, 5));
-        std::shared_ptr<Texture> petFrontPosOne = context->getTextureLoader()->load(
-                *context->getGameState()
-                    .getPetDb()
-                    .getPetTextures({first, BABY, MASCULINE})
-                    .frontStandard
-                );
+//        std::shared_ptr<Texture> petFrontPosOne = context->getTextureLoader()->load(
+//                *context->getGameState()
+//                    .getPetDb()
+//                    .getPetTextures({first, BABY, MASCULINE})
+//                    .frontStandard);
+        std::shared_ptr<Texture> petFrontPosOne = context->getPetTexture(frontStandard);
         std::shared_ptr<Texture> petFrontPosTwo = context->getTextureLoader()->load(firstMale::baby::frontTwo);
         Sprite pet = Sprite(petFrontPosOne, Vec2d(tama::util::fromBottomLeft(Vec2d(5, -petFrontPosOne->height + 1))));
         std::shared_ptr<TimeMonitor> oneFrameTimer;

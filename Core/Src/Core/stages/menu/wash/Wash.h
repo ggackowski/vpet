@@ -10,6 +10,7 @@
 #include "../../../assets/menu/wash/wash.texture.h"
 #include "../../../common/util/displayPlacementUtils.h"
 #include "../../initial-loading/InitialLoading.h"
+#include "../../../ui/common-components/happy-jump/HappyJump.h"
 
 namespace tama
 {
@@ -29,6 +30,8 @@ namespace tama
         const int animationLength = 6;
         int animationStep = 1;
         Sprite washElements[washElementsCount];
+        HappyJump happyJump = HappyJump(*scene, *context);
+        bool isHappyJump = false;
     };
 }
 
