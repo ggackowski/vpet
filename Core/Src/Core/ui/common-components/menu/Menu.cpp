@@ -3,7 +3,8 @@
 //
 
 #include "Menu.h"
-
+#include "../../../common/util/loadIcons.h"
+#include "../../../common/util/displayPlacementUtils.h"
 
 
 void tama::Menu::setOptions(std::vector<std::string> options)
@@ -20,13 +21,14 @@ tama::Menu::Menu(std::shared_ptr<Scene> scene, const std::shared_ptr<Context> &c
 
 void tama::Menu::initMenu()
 {
+    tama::util::loadIcons(scene, context);
     for (int i = 0; i < options.size(); ++i)
     {
-        auto text = std::make_shared<Text>(options[i], Vec2d(10, i * 8));
+        auto text = std::make_shared<Text>(options[i], tama::util::toContentArea(Vec2d(10, i * 8)));
         //optionTexts.emplace_back(text);
         scene->addDrawable(text);
     }
-    cursor.setPosition(Vec2d(0, 0));
+    cursor.setPosition(util::toContentArea(Vec2d(0, 0)));
     cursor.setTexture(context->getTextureLoader()->load(tama::asset::menuCursor));
     scene->addDrawable(std::shared_ptr<Sprite>(&cursor));
 }
@@ -42,7 +44,7 @@ void tama::Menu::moveToNextItem()
     cursor.move(Vec2d(0, 8));
     if (selectedItem == options.size())
     {
-        cursor.setPosition(Vec2d(0, 0));
+        cursor.setPosition(util::toContentArea((Vec2d(0, 0))));
         selectedItem = 0;
     }
 }

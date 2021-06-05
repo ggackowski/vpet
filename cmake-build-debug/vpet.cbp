@@ -216,6 +216,9 @@
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/util/displayPlacementUtils.h">
 			<Option target="vpet.elf"/>
 		</Unit>
+		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/common/util/loadIcons.h">
+			<Option target="vpet.elf"/>
+		</Unit>
 		<Unit filename="/home/grzegorz/STM32CubeIDE/workspace_1.4.0/vpet/Core/Src/Core/game/model/datetime/Datetime.cpp">
 			<Option target="vpet.elf"/>
 		</Unit>

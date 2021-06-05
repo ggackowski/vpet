@@ -53,7 +53,22 @@ Core/Src/Core/stages/time/TimeView.o: \
  ../Core/Src/Core/stages/time/../../ui/display/drawable/text/../Drawable.h \
  ../Core/Src/Core/stages/time/../../ui/display/drawable/text/../texture-loader/TextureLoader.h \
  ../Core/Src/Core/stages/time/../../common/util/displayPlacementUtils.h \
- ../Core/Src/Core/stages/time/../../common/util/../Vec2d/Vec2d.h
+ ../Core/Src/Core/stages/time/../../common/util/../Vec2d/Vec2d.h \
+ ../Core/Src/Core/stages/time/../main/Home.h \
+ ../Core/Src/Core/stages/time/../main/../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/time/../main/../../ui/display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/time/../main/../../ui/display/drawable/sprite/../Drawable.h \
+ ../Core/Src/Core/stages/time/../main/../name-selection/NameSelection.h \
+ ../Core/Src/Core/stages/time/../main/../name-selection/../../runtime/stage/Stage.h \
+ ../Core/Src/Core/stages/time/../main/../name-selection/../../ui/display/drawable/text/Text.h \
+ ../Core/Src/Core/stages/time/../main/../name-selection/../../common/util/displayPlacementUtils.h \
+ ../Core/Src/Core/stages/time/../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h \
+ ../Core/Src/Core/stages/time/../main/../../assets/pet/misc/misc.texture.h \
+ ../Core/Src/Core/stages/time/../main/../../assets/pet/misc/../../texture-asset.h \
+ ../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/ActionIcons.h \
+ ../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h \
+ ../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/../../display/scene/Scene.h \
+ ../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/../../../runtime/context/Context.h
 
 ../Core/Src/Core/stages/time/TimeView.h:
 
@@ -162,3 +177,33 @@ Core/Src/Core/stages/time/TimeView.o: \
 ../Core/Src/Core/stages/time/../../common/util/displayPlacementUtils.h:
 
 ../Core/Src/Core/stages/time/../../common/util/../Vec2d/Vec2d.h:
+
+../Core/Src/Core/stages/time/../main/Home.h:
+
+../Core/Src/Core/stages/time/../main/../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/time/../main/../../ui/display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/time/../main/../../ui/display/drawable/sprite/../Drawable.h:
+
+../Core/Src/Core/stages/time/../main/../name-selection/NameSelection.h:
+
+../Core/Src/Core/stages/time/../main/../name-selection/../../runtime/stage/Stage.h:
+
+../Core/Src/Core/stages/time/../main/../name-selection/../../ui/display/drawable/text/Text.h:
+
+../Core/Src/Core/stages/time/../main/../name-selection/../../common/util/displayPlacementUtils.h:
+
+../Core/Src/Core/stages/time/../main/../../assets/pet/first-male/baby/fir.st-male-baby.texture.h:
+
+../Core/Src/Core/stages/time/../main/../../assets/pet/misc/misc.texture.h:
+
+../Core/Src/Core/stages/time/../main/../../assets/pet/misc/../../texture-asset.h:
+
+../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/ActionIcons.h:
+
+../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/../../display/drawable/sprite/Sprite.h:
+
+../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/../../display/scene/Scene.h:
+
+../Core/Src/Core/stages/time/../main/../../ui/common-components/action-icons/../../../runtime/context/Context.h:
